@@ -1,5 +1,5 @@
 var maat = ["pata", "ruutu", "risti", "hertta"];
-var arvot = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
+var arvot = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
 let pakka = new Array();
 let kortti;
 let juoksut = 0;
