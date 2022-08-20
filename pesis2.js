@@ -76,23 +76,23 @@ function nostettuKortti(kortti) { //kortti grafiikat
     if (kortti.Maa === "hertta") {
         document.getElementById("nosto").innerHTML = "♥" + " " + grafiikkaArvo;
         document.getElementById("nosto").style.color = 'red';
-        document.getElementById("nosto").style.fontSize = "48px";
+        document.getElementById("nosto").style.fontSize = "42px";
     } else if (kortti.Maa === "ruutu") {
         document.getElementById("nosto").innerHTML = "♦" + " " + grafiikkaArvo;
         document.getElementById("nosto").style.color = 'red';
-        document.getElementById("nosto").style.fontSize = "48px";
+        document.getElementById("nosto").style.fontSize = "42px";
     } else if (kortti.Maa === "pata") {
         document.getElementById("nosto").innerHTML = "♠" + " " + grafiikkaArvo;
         document.getElementById("nosto").style.color = 'black';
-        document.getElementById("nosto").style.fontSize = "48px";
+        document.getElementById("nosto").style.fontSize = "42px";
     } else if (kortti.Maa === "risti") {
         document.getElementById("nosto").innerHTML = "♣" + " " + grafiikkaArvo;
         document.getElementById("nosto").style.color = 'black';
-        document.getElementById("nosto").style.fontSize = "48px";
+        document.getElementById("nosto").style.fontSize = "42px";
     } else {
         document.getElementById("nosto").innerHTML = "*Joker*";
         document.getElementById("nosto").style.color = 'black';
-        document.getElementById("nosto").style.fontSize = "30px";
+        document.getElementById("nosto").style.fontSize = "26px";
     }
 }
 
