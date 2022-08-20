@@ -19,11 +19,11 @@ function vastustaja() {
     vierasjoukkue = getRandomInt(2);
     if (vierasjoukkue === 0) {
         document.getElementById("vierastulos").innerHTML = "3";
-        document.getElementById("vieraslogo").src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/JymyJussit-STAMP.png";
+        document.getElementById("vieraslogo").src="JymyJussit-STAMP.png";
         vierastulos = 3;
     } else {
         document.getElementById("vierastulos").innerHTML = "7";
-        document.getElementById("vieraslogo").src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/sojy_merkki_w.png";
+        document.getElementById("vieraslogo").src="sojy_merkki_w.png";
         vierastulos = 7;
     }
 }
