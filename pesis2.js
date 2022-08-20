@@ -211,7 +211,6 @@ let joukkue = { //joukkueen pelaajat ja statsit
 function lyö1() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
-   
     if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 9) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
