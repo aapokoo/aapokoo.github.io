@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mikon pesispeli</title>
+        <link rel="stylesheet" href="/users/Aapi/Documents/Pesis/Pesis2/pesis2.css" type="text/css">
+        <script type="text/javascript" src="/users/Aapi/Documents/Pesis/Pesis2/pesis2.js"></script>
+    </head>
+    <body>
+        <header>
+            <input id="pakanRakennus" type="button" value="Rakenna pakka" onclick="rakennaPakka();"></input>
+            <input id="pakanSekoitus" type="button" value="Sekoita pakka" onclick="sekoita(pakka);"></input>
+            <input id="vastustaja" type="button" value="Arvo vastustaja" onclick="vastustaja();"></input>
+            <br>
+            <p id="maanValinta">Valitse maa:</p>
+            <input id="herttaValinta" type="button" value="♥" onclick="maaHertta();"></input>
+            <input id="ruutuValinta" type="button" value="♦" onclick="maaRuutu();"></input>
+            <input id="ristiValinta" type="button" value="♣" onclick="maaRisti();"></input>
+            <input id="pataValinta" type="button" value="♠" onclick="maaPata();"></input>
+        </header>
+        <main class="container">
+            <h2 class="lopputulos" id="lopputulos"></h2>
+                <img class="kotiLogo" src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/ViVe-logo.png" height="80">
+                <p class="kotitulos" id="kotitulos">0</p>
+                <!-- <p class="viiva">-</p> -->
+                <p class="vierastulos" id="vierastulos">0</p>
+                <img class="vieraslogo" id="vieraslogo" src="#" height="80">
+
+                <ul class="kortti1" id="0">
+                    <li>KINNUNEN</li>
+                    <li>Lukkari</li>
+                    <li>Lyö: 2 - 9</li>
+                </ul>
+                <!--lista muodossa? sitten helppo säätää js?-->
+                <ul class="kortti2" id="1">
+                    <li>RINTA-AHO</li>
+                    <li>Sieppari</li>
+                    <li>Lyö: Väri, 2 - 10, A</li>
+                </ul>
+                <ul class="kortti3" id="2">
+                    <li>A. LASSILA</li>
+                    <li>Ykkösvahti</li>
+                    <li>Lyö: 2 - 10, A</li>
+                </ul>
+                <ul class="kortti4" id="3">
+                    <li>SAUKKO</li>
+                    <li>Kakkosvahti</li>
+                    <li>Lyö: 2 - 10</li>
+                </ul>
+                <ul class="kortti5" id="4">
+                    <li>S. LASSILA</li>
+                    <li>Kakkospolttaja</li>
+                    <li>Lyö: 2 - 10, A</li>
+                </ul>
+                <ul class="kortti6" id="5">
+                    <li>HEIKKALA</li>
+                    <li>Kolmospolttaja</li>
+                    <li>Lyö: 2 - 9</li>
+                </ul>
+                <ul class="kortti7" id="6">
+                    <li>L. VIHRIÄLÄ</li>
+                    <li>Kolmosvahti</li>
+                    <li>Lyö: 2 - 10</li>
+                </ul>
+                <ul class="kortti8" id="7">
+                    <li>ANTTILA</li>
+                    <li>Kakkoskoppari</li>
+                    <li>Lyö: Väri, 2 - 10, A</li>
+                </ul>
+                <ul class="kortti9" id="8">
+                    <li>M. VIHRIÄLÄ</li>
+                    <li>Kolmoskoppari</li>
+                    <li>Lyö: 2 - 10</li>
+                </ul>
+                <ul class="kortti10" id="9">
+                    <li>VAINIONPÄÄ</li>
+                    <li>Jokeri</li>
+                    <li>Lyö: Väri, 2 - 10, A, Jokeri</li>
+                </ul>
+                <img id="pakka1" class="pakka" value="lyö" onclick="lyö1();" src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/lataus.jpg">
+                <img id="pakka2" class="pakka" value="lyö" onclick="lyö2();" src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/lataus.jpg">
+                <img id="pakka3" class="pakka" value="lyö" onclick="lyö3();" src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/lataus.jpg">
+                <img id="pakka4" class="pakka" value="lyö" onclick="lyö4();" src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/lataus.jpg">
+                <img id="pakka5" class="pakka" value="lyö" onclick="lyö5();" src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/lataus.jpg">
+                <img id="pakka6" class="pakka" value="lyö" onclick="lyö6();" src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/lataus.jpg">
+                <img id="pakka7" class="pakka" value="lyö" onclick="lyö7();" src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/lataus.jpg">
+                <img id="pakka8" class="pakka" value="lyö" onclick="lyö8();" src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/lataus.jpg">
+                <img id="pakka9" class="pakka" value="lyö" onclick="lyö9();" src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/lataus.jpg">
+                <img id="pakka10" class="pakka" value="lyö" onclick="lyö10();" src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/lataus.jpg">
+                <img id="pakka11" class="pakka" src="/users/Aapi/Documents/Pesis/Pesis2/kuvat2/lataus.jpg">
+                <!-- <button type="button" value="lyö" onclick="lyö(kortti);" class="pakka">Pakka</button> -->
+                <div class="nosto" id="nosto"></div>
+        </main>
+        <footer>
+        </footer>
+        </main>
+    </body>
+</html>
