@@ -1,0 +1,312 @@
+/*.tulostaulu {
+    display: grid;
+    border: 2px solid black;
+    width: 500px;
+    grid-column-start: 3;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}*/
+
+/* 
+https://support.kioskgroup.com/article/660-determining-screen-dimensions-for-content
+CSS pixels = 1024 x 768 varmaan tää? onko joku tapa tunnistaa mikä ipad?
+TO DO: keskitä asiat myös pituuden osalta
+*/
+
+ul {
+    list-style-type: none;
+    align-items: center;
+    justify-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 100 px);
+    grid-template-rows: repeat(5, 140 px);
+    width: 1024 px;
+    height: 768px;
+    column-gap: 8px;
+    row-gap: 12px;
+}
+
+.lopputulos {
+    display: grid;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+}
+
+.kotiLogo {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+}
+
+.kotitulos {
+    display: grid;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+}
+
+.viiva {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+}
+
+.vierastulos {
+    display: grid;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+.vieraslogo {
+    display: grid;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+}
+
+.kortti1{
+    display: grid;
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 140px;
+    width: 100px;
+}
+
+.kortti2{
+    display: grid;
+    background-color: red;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 140px;
+    width: 100px;
+}
+
+.kortti3{
+    display: grid;
+    background-color: red;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 140px;
+    width: 100px;
+}
+
+.kortti4{
+    display: grid;
+    background-color: red;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 140px;
+    width: 100px;
+}
+
+.kortti5{
+    display: grid;
+    background-color: red;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 140px;
+    width: 100px;
+}
+
+.kortti6{
+    display: grid;
+    background-color: red;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 140px;
+    width: 100px;
+}
+
+.kortti7{
+    display: grid;
+    background-color: red;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 140px;
+    width: 100px;
+}
+
+.kortti8{
+    display: grid;
+    background-color: red;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 140px;
+    width: 100px;
+}
+
+.kortti9{
+    display: grid;
+    background-color: red;
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 140px;
+    width: 100px;
+}
+
+.kortti10{
+    display: grid;
+    background-color: red;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 140px;
+    width: 100px;
+}
+
+.pakka {
+    display: grid;
+    background-color: grey;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    height: 140px;
+    width: 100px;
+    justify-self: center;
+    box-shadow: 5px 5px 5px gray;
+    cursor: pointer;
+}
+
+#pakka1 {
+    visibility: visible;
+}
+#pakka2 {
+    visibility: hidden;
+}
+#pakka3 {
+    visibility: hidden;
+}
+#pakka4 {
+    visibility: hidden;
+}
+#pakka5 {
+    visibility: hidden;
+}
+#pakka6 {
+    visibility: hidden;
+}
+#pakka7 {
+    visibility: hidden;
+}
+#pakka8 {
+    visibility: hidden;
+}
+#pakka9 {
+    visibility: hidden;
+}
+#pakka10 {
+    visibility: hidden;
+}
+#pakka11 {
+    visibility: hidden;
+    opacity: 0.3;
+}
+
+
+.nosto {
+    display: grid;
+    background-color: white;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    height: 140px;
+    width: 100px;
+    justify-self: center;
+    font-size: 40px;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.card {  
+    position: relative;
+    width: 105px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  }
+
+.card-value-suit {
+    display: inline-block;
+    position: absolute;
+  }
+
+.card-value-suit.top {
+    top: 5px;
+    left: 5px;
+  }
+
+.card-value-suit.bot {
+    transform: rotate(180deg);
+    bottom: 5px;
+    right: 5px;
+  }
+
+.card-suit {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 25%;
+  }
+
+.card.spades,
+.card.clubs {
+  color: black;
+}
+
+.card.hearts,
+.card.diamonds {
+  color: red;
+}
