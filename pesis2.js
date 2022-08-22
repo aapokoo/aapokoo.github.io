@@ -16,7 +16,7 @@ function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
 
 function vastustaja() {
     document.getElementById("vastustaja").style.display = "none";
-    vierasjoukkue = getRandomInt(5);
+    vierasjoukkue = getRandomInt(6);
     if (vierasjoukkue === 0) {
         document.getElementById("vierastulos").innerHTML = "3";
         document.getElementById("vieraslogo").src="./JymyJussit-STAMP.png";
@@ -33,9 +33,13 @@ function vastustaja() {
 	document.getElementById("vierastulos").innerHTML = "7";
         document.getElementById("vieraslogo").src="1200px-KPL_logo.png";
         vierastulos = 7;
-    } else {
+    } else if (vierasjoukkue === 4) {
 	document.getElementById("vierastulos").innerHTML = "6";
         document.getElementById("vieraslogo").src="Tahko_kiille_png.png";
+        vierastulos = 6;
+    } else {
+	document.getElementById("vierastulos").innerHTML = "6";
+        document.getElementById("vieraslogo").src="logoleft.png";
         vierastulos = 6;
     }
 }
