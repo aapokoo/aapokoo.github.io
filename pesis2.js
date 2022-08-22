@@ -29,7 +29,7 @@ function vastustaja() {
 	document.getElementById("vierastulos").innerHTML = "8";
         document.getElementById("vieraslogo").src="Manse_PP_2015_logo.png";
         vierastulos = 7;
-    } else if (vierasjoukkue === 3 {
+    } else if (vierasjoukkue === 3) {
 	document.getElementById("vierastulos").innerHTML = "7";
         document.getElementById("vieraslogo").src="1200px-KPL_logo.png";
         vierastulos = 7;
