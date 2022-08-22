@@ -16,14 +16,18 @@ function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
 
 function vastustaja() {
     document.getElementById("vastustaja").style.display = "none";
-    vierasjoukkue = getRandomInt(2);
+    vierasjoukkue = getRandomInt(3);
     if (vierasjoukkue === 0) {
         document.getElementById("vierastulos").innerHTML = "3";
         document.getElementById("vieraslogo").src="./JymyJussit-STAMP.png";
         vierastulos = 3;
-    } else {
+    } else if (vierasjoukkue === 1) {
         document.getElementById("vierastulos").innerHTML = "7";
         document.getElementById("vieraslogo").src="sojy_merkki_w.png";
+        vierastulos = 7;
+    } else {
+	document.getElementById("vierastulos").innerHTML = "8";
+        document.getElementById("vieraslogo").src="Manse_PP_2015_logo.png";
         vierastulos = 7;
     }
 }
