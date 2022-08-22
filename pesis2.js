@@ -1,5 +1,5 @@
 var maat = ["pata", "ruutu", "risti", "hertta"];
-var arvot = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
+var arvot = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"];
 let pakka = new Array();
 let kortti;
 let juoksut = 0;
@@ -73,6 +73,15 @@ function nostettuKortti(kortti) { //kortti grafiikat
     if (grafiikkaArvo === "1") {
         grafiikkaArvo = "A";
     }
+	if (grafiikkaArvo === "11") {
+        	grafiikkaArvo = "J";
+    	}
+	if (grafiikkaArvo === "12") {
+        	grafiikkaArvo = "Q";
+    	}
+	if (grafiikkaArvo === "13") {
+        	grafiikkaArvo = "K";
+    	}
     if (kortti.Maa === "hertta") {
         document.getElementById("nosto").innerHTML = "♥" + " " + grafiikkaArvo;
         document.getElementById("nosto").style.color = 'red';
@@ -138,70 +147,70 @@ let joukkue = { //joukkueen pelaajat ja statsit
         lukkari: {
             nimi: 'Kinnunen',
             lyöMin: 2,
-            lyöMax: 9,
+            lyöMax: 12,
             lyöKahdesti: false,
             lyöJokereita: false,
         },
         sieppari: {
             nimi: 'Rinta-aho',
             lyöMin: 1,
-            lyöMax: 10,
+            lyöMax: 13,
             lyöKahdesti: false,
             lyöJokereita: false,
         },
         ykkösvahti: {
             nimi: 'A. Lassila',
             lyöMin: 1,
-            lyöMax: 10,
+            lyöMax: 13,
             lyöKahdesti: false,
             lyöJokereita: false,
         },
         kakkosvahti: {
             nimi: 'Saukko',
             lyöMin: 2,
-            lyöMax: 10,
+            lyöMax: 13,
             lyöKahdesti: false,
             lyöJokereita: false,
         },
         kakkospolttaja: {
             nimi: 'S. Lassila',
             lyöMin: 1,
-            lyöMax: 10,
+            lyöMax: 13,
             lyöKahdesti: false,
             lyöJokereita: false,
         },
         kolmospolttaja: {
             nimi: 'Heikkala',
             lyöMin: 2,
-            lyöMax: 9,
+            lyöMax: 12,
             lyöKahdesti: false,
             lyöJokereita: false,
         },
         kolmosvahti: {
             nimi: 'L. Vihriälä',
             lyöMin: 2,
-            lyöMax: 10,
+            lyöMax: 13,
             lyöKahdesti: false,
             lyöJokereita: false,
         },
         kakkoskoppari: {
             nimi: 'Anttila',
             lyöMin: 1,
-            lyöMax: 10,
+            lyöMax: 13,
             lyöKahdesti: false,
             lyöJokereita: false,
         },
         kolmoskoppari: {
             nimi: 'M. Vihriälä',
             lyöMin: 2,
-            lyöMax: 10,
+            lyöMax: 13,
             lyöKahdesti: false,
             lyöJokereita: false,
         },
         jokeri: {
             nimi: 'Vainionpää',
             lyöMin: 1,
-            lyöMax: 10,
+            lyöMax: 13,
             lyöKahdesti: true,
             lyöJokereita: true,
         }
@@ -211,7 +220,7 @@ let joukkue = { //joukkueen pelaajat ja statsit
 function lyö1() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 9) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 12) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -232,10 +241,10 @@ function lyö2() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
    
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 1 && kortti.Arvo <= 10) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= 1 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
-    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 1 && kortti.Arvo <= 10) {
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 1 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
@@ -255,7 +264,7 @@ function lyö3() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
    
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 1 && kortti.Arvo <= 10) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= 1 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -276,7 +285,7 @@ function lyö4() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
    
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 10) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -297,7 +306,7 @@ function lyö5() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
    
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 1 && kortti.Arvo <= 10) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= 1 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -318,7 +327,7 @@ function lyö6() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
    
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 9) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 12) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -339,7 +348,7 @@ function lyö7() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
    
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 10) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -360,11 +369,11 @@ function lyö8() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
    
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 1 && kortti.Arvo <= 10) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= 1 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
-    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 1 && kortti.Arvo <= 10) {
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 1 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
@@ -384,7 +393,7 @@ function lyö9() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
    
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 10) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -408,10 +417,10 @@ function lyö10() {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     }
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 1 && kortti.Arvo <= 10) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= 1 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
-    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 1 && kortti.Arvo <= 10) {
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 1 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
