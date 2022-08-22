@@ -217,6 +217,81 @@ let joukkue = { //joukkueen pelaajat ja statsit
     } 
 }
 
+let JymyJussit = { //joukkueen pelaajat ja statsit
+    pelaajat: {
+        lukkari: {
+            nimi: 'Lehtinen',
+            lyöMin: 2,
+            lyöMax: 7,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+        },
+        sieppari: {
+            nimi: 'J. Kettunen',
+            lyöMin: 2,
+            lyöMax: 8,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+        },
+        ykkösvahti: {
+            nimi: 'Marjamäki',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: true,
+            lyöJokereita: false,
+        },
+        kakkosvahti: {
+            nimi: 'Salmela',
+            lyöMin: 2,
+            lyöMax: 11,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+        },
+        kakkospolttaja: {
+            nimi: 'Tyynelä',
+            lyöMin: 2,
+            lyöMax: 12,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+        },
+        kolmospolttaja: {
+            nimi: 'V. Kettunen',
+            lyöMin: 2,
+            lyöMax: 10,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+        },
+        kolmosvahti: {
+            nimi: 'Kontio',
+            lyöMin: 2,
+            lyöMax: 8,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+        },
+        kakkoskoppari: {
+            nimi: 'Raunio',
+            lyöMin: 2,
+            lyöMax: 10,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+        },
+        kolmoskoppari: {
+            nimi: 'Sillanpää',
+            lyöMin: 2,
+            lyöMax: 9,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+        },
+        jokeri: {
+            nimi: 'Hallasuo',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: true,
+            lyöJokereita: true,
+        }
+    } 
+}
+
 function lyö1() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
