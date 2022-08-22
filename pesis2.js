@@ -312,7 +312,8 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
     } 
 }
 
-function lyö1() {
+//Kinnunen
+function lyö1() { 
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
     if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 12) {
@@ -331,6 +332,7 @@ function lyö1() {
     }
 }
 
+//Rinta-aho
 function lyö2() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -357,6 +359,7 @@ function lyö2() {
     }
 }
 
+//A. Lassila
 function lyö3() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -381,6 +384,7 @@ function lyö3() {
     }
 }
 
+//Saukko
 function lyö4() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -402,6 +406,7 @@ function lyö4() {
     }
 }
 
+//S. Lassila
 function lyö5() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -426,6 +431,7 @@ function lyö5() {
     }
 }
 
+//Heikkala
 function lyö6() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -447,6 +453,7 @@ function lyö6() {
     }
 }
 
+//L. Vihriälä
 function lyö7() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -468,6 +475,7 @@ function lyö7() {
     }
 }
 
+//Anttila
 function lyö8() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -495,6 +503,7 @@ function lyö8() {
     }
 }
 
+//M. Vihriälä
 function lyö9() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -516,6 +525,7 @@ function lyö9() {
     }
 }
 
+//Vainionpää
 function lyö10() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
