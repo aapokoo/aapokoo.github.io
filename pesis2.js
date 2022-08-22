@@ -47,7 +47,7 @@ function vastustaja() {
         vierastulos = 5;
     } else {
 	document.getElementById("vierastulos").innerHTML = "4";
-        document.getElementById("vieraslogo").src="logo_f5419292.png";
+        document.getElementById("vieraslogo").src="logo_f5419293.png";
         vierastulos = 4;
     }
 }
