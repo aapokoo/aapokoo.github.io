@@ -347,7 +347,7 @@ function lyö2() {
     if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
-    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 1 && kortti.Arvo <= 13) {
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
@@ -491,7 +491,7 @@ function lyö8() {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
-    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 1 && kortti.Arvo <= 13) {
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
