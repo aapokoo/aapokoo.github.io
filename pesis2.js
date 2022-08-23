@@ -16,7 +16,7 @@ function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
 
 function vastustaja() {
     document.getElementById("vastustaja").style.display = "none";
-    vierasjoukkue = getRandomInt(11);
+    vierasjoukkue = getRandomInt(12);
     if (vierasjoukkue === 0) { //JymyJussit
         document.getElementById("vierastulos").innerHTML = "3";
         document.getElementById("vieraslogo").src="./JymyJussit-STAMP.png";
@@ -57,10 +57,14 @@ function vastustaja() {
 	document.getElementById("vierastulos").innerHTML = "3";
         document.getElementById("vieraslogo").src="pattu.png";
         vierastulos = 3;
-    } else { //Kossu
+    } else if (vierasjoukkue === 10) { //Kossu
 	document.getElementById("vierastulos").innerHTML = "2";
         document.getElementById("vieraslogo").src="logo.png";
         vierastulos = 2;
+    } else {
+	document.getElementById("vierastulos").innerHTML = "1";
+        document.getElementById("vieraslogo").src="1200px-KaMa_logo_2016.png";
+        vierastulos = 1;
     }
 }
 
