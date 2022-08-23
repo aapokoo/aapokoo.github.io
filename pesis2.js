@@ -352,11 +352,11 @@ function lyö1() {
 function lyö2() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
-   	if (kortti.Arvo === 1) {
+    if (kortti.Arvo === 1) {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
-	}
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+	
+    } else if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
@@ -383,7 +383,7 @@ function lyö3() {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    else if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -430,7 +430,7 @@ function lyö5() {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    else if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -499,7 +499,7 @@ function lyö8() {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    else if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -549,11 +549,11 @@ function lyö10() {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     }
-	if (kortti.Arvo === 1) {
+	else if (kortti.Arvo === 1) {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    else if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
