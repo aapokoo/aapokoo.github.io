@@ -18,6 +18,7 @@ function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
 
 function vastustaja() {
     document.getElementById("vastustaja").style.display = "none";
+	document.getElementById("testi").innerHTML = vastustajat;
     vierasjoukkue = getRandomInt(12);
     if (vierasjoukkue === 0) { //JymyJussit
         document.getElementById("vierastulos").innerHTML = "3";
@@ -131,8 +132,6 @@ function nostaVastustaja(vastustajat) //nostaa päällimmäisen vastustajan
 {
 	return vastustajat.pop();
 } 
-	
-//document.getElementById("testi").innerHTML = vastustajat;
 
 function nostettuKortti(kortti) { //kortti grafiikat
     let grafiikkaArvo = kortti.Arvo;
