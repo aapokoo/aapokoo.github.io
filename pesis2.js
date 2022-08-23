@@ -19,6 +19,62 @@ function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
 function vastustaja() {
     document.getElementById("vastustaja").style.display = "none";
 	document.getElementById("testi").innerHTML = vastustaja_arvottu;
+    //vierasjoukkue = getRandomInt(12);
+    if (vastustaja_arvottu === "JymyJussit") { //JymyJussit
+        document.getElementById("vierastulos").innerHTML = "3";
+        document.getElementById("vieraslogo").src="./JymyJussit-STAMP.png";
+        vierastulos = 3;
+    } else if (vastustaja_arvottu === "Sotkamo") { //Jymy
+        document.getElementById("vierastulos").innerHTML = "7";
+        document.getElementById("vieraslogo").src="sojy_merkki_w.png";
+        vierastulos = 7;
+    } else if (vastustaja_arvottu === "Manse") { //Manse
+	document.getElementById("vierastulos").innerHTML = "8";
+        document.getElementById("vieraslogo").src="Manse_PP_2015_logo.png";
+        vierastulos = 7;
+    } else if (vastustaja_arvottu === "KPL") { //KPL
+	document.getElementById("vierastulos").innerHTML = "7";
+        document.getElementById("vieraslogo").src="1200px-KPL_logo.png";
+        vierastulos = 7;
+    } else if (vastustaja_arvottu === "Tahko") { //Tahko
+	document.getElementById("vierastulos").innerHTML = "6";
+        document.getElementById("vieraslogo").src="Tahko_kiille_png.png";
+        vierastulos = 6;
+    } else if (vastustaja_arvottu === "Joma") { //Joma
+	document.getElementById("vierastulos").innerHTML = "6";
+        document.getElementById("vieraslogo").src="logoleft.png";
+        vierastulos = 6;
+    } else if (vastustaja_arvottu === "Kempele") { //Kempeleen Kiri
+	document.getElementById("vierastulos").innerHTML = "5";
+        document.getElementById("vieraslogo").src="KeKi-logo_kulta.png";
+        vierastulos = 5;
+    } else if (vastustaja_arvottu === "Kipa") { //Kipa
+	document.getElementById("vierastulos").innerHTML = "4";
+        document.getElementById("vieraslogo").src="logo_f5419293.png";
+        vierastulos = 4;
+    } else if (vastustaja_arvottu === "IPV") { //IPV
+	document.getElementById("vierastulos").innerHTML = "3";
+        document.getElementById("vieraslogo").src="ipv-logo-web.png";
+        vierastulos = 3;
+    } else if (vastustaja_arvottu === "PattU") { //PattU
+	document.getElementById("vierastulos").innerHTML = "3";
+        document.getElementById("vieraslogo").src="pattu.png";
+        vierastulos = 3;
+    } else if (vastustaja_arvottu === "Kossu") { //Kossu
+	document.getElementById("vierastulos").innerHTML = "2";
+        document.getElementById("vieraslogo").src="logo.png";
+        vierastulos = 2;
+    } else {
+	document.getElementById("vierastulos").innerHTML = "1";
+        document.getElementById("vieraslogo").src="1200px-KaMa_logo_2016.png";
+        vierastulos = 1;
+    }
+}
+
+/*
+function vastustaja() {
+    document.getElementById("vastustaja").style.display = "none";
+	document.getElementById("testi").innerHTML = vastustaja_arvottu;
     vierasjoukkue = getRandomInt(12);
     if (vierasjoukkue === 0) { //JymyJussit
         document.getElementById("vierastulos").innerHTML = "3";
@@ -70,6 +126,7 @@ function vastustaja() {
         vierastulos = 1;
     }
 }
+*/
 
 function rakennaPakka() //rakentaa pakan
 {
