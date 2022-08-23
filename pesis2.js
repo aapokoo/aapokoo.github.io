@@ -17,35 +17,35 @@ function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
 function vastustaja() {
     document.getElementById("vastustaja").style.display = "none";
     vierasjoukkue = getRandomInt(8);
-    if (vierasjoukkue === 0) {
+    if (vierasjoukkue === 0) { //JymyJussit
         document.getElementById("vierastulos").innerHTML = "3";
         document.getElementById("vieraslogo").src="./JymyJussit-STAMP.png";
         vierastulos = 3;
-    } else if (vierasjoukkue === 1) {
+    } else if (vierasjoukkue === 1) { //Jymy
         document.getElementById("vierastulos").innerHTML = "7";
         document.getElementById("vieraslogo").src="sojy_merkki_w.png";
         vierastulos = 7;
-    } else if (vierasjoukkue === 2) {
+    } else if (vierasjoukkue === 2) { //Manse
 	document.getElementById("vierastulos").innerHTML = "8";
         document.getElementById("vieraslogo").src="Manse_PP_2015_logo.png";
         vierastulos = 7;
-    } else if (vierasjoukkue === 3) {
+    } else if (vierasjoukkue === 3) { //KPL
 	document.getElementById("vierastulos").innerHTML = "7";
         document.getElementById("vieraslogo").src="1200px-KPL_logo.png";
         vierastulos = 7;
-    } else if (vierasjoukkue === 4) {
+    } else if (vierasjoukkue === 4) { //Tahko
 	document.getElementById("vierastulos").innerHTML = "6";
         document.getElementById("vieraslogo").src="Tahko_kiille_png.png";
         vierastulos = 6;
-    } else if (vierasjoukkue === 5) {
+    } else if (vierasjoukkue === 5) { //Joma
 	document.getElementById("vierastulos").innerHTML = "6";
         document.getElementById("vieraslogo").src="logoleft.png";
         vierastulos = 6;
-    } else if (vierasjoukkue === 6) {
+    } else if (vierasjoukkue === 6) { //Kempeleen Kiri
 	document.getElementById("vierastulos").innerHTML = "5";
         document.getElementById("vieraslogo").src="KeKi-logo_kulta.png";
         vierastulos = 5;
-    } else {
+    } else { //Kipa
 	document.getElementById("vierastulos").innerHTML = "4";
         document.getElementById("vieraslogo").src="logo_f5419293.png";
         vierastulos = 4;
