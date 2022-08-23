@@ -10,7 +10,7 @@ let vierasjoukkue;
 let valittuMaa;
 let valittuMaa2;
 let grafiikkaArvo;
-let vastustaja;
+let vastustaja_arvottu;
 
 function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
     return Math.floor(Math.random() * max);
@@ -105,7 +105,7 @@ function sekoita(pakka) //sekoittaa pakan
 	}
 }
 
-function sekoita2(vastustajat) //sekoittaa vastustajat
+/*function sekoita2(vastustajat) //sekoittaa vastustajat
 {
     	document.getElementById("vastustajienSekoitus").style.display = "none";
 	// for 1000 turns
@@ -119,17 +119,19 @@ function sekoita2(vastustajat) //sekoittaa vastustajat
 		vastustajat[location1] = vastustajat[location2];
 		vastustajat[location2] = tmp;
 	}
-}
+}*/
 
 function nostaKortti(pakka) //nostaa päällimmäisen kortin
 {
     return pakka.pop();
 }
 
+/*
 function nostaVastustaja(vastustajat) //nostaa päällimmäisen vastustajan
 {
 	return vastustajat.pop();
-}
+} 
+*/
 	
 //document.getElementById("testi").innerHTML = vastustajat;
 
