@@ -105,9 +105,9 @@ function sekoita(pakka) //sekoittaa pakan
 	}
 }
 
-/*function sekoita2(vastustajat) //sekoittaa vastustajat
+function sekoita2(vastustajat) //sekoittaa vastustajat
 {
-    	document.getElementById("vastustajienSekoitus").style.display = "none";
+    	document.getElementById("vastustajanSekoitus").style.display = "none";
 	// for 1000 turns
 	// switch the values of two random cards
 	for (let i = 0; i < 1000; i++)
@@ -119,7 +119,7 @@ function sekoita(pakka) //sekoittaa pakan
 		vastustajat[location1] = vastustajat[location2];
 		vastustajat[location2] = tmp;
 	}
-}*/
+}
 
 function nostaKortti(pakka) //nostaa päällimmäisen kortin
 {
