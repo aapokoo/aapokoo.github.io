@@ -126,12 +126,11 @@ function nostaKortti(pakka) //nostaa päällimmäisen kortin
     return pakka.pop();
 }
 
-/*
+
 function nostaVastustaja(vastustajat) //nostaa päällimmäisen vastustajan
 {
 	return vastustajat.pop();
 } 
-*/
 	
 //document.getElementById("testi").innerHTML = vastustajat;
 
