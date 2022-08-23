@@ -10,6 +10,7 @@ let vierasjoukkue;
 let valittuMaa;
 let valittuMaa2;
 let grafiikkaArvo;
+let vastustaja;
 
 function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
     return Math.floor(Math.random() * max);
@@ -90,7 +91,7 @@ function rakennaPakka() //rakentaa pakan
 
 function sekoita(pakka) //sekoittaa pakan
 {
-   // document.getElementById("vastustajienSekoitus").style.display = "none";
+	document.getElementById("pakanSekoitus").style.display = "none";
 	// for 1000 turns
 	// switch the values of two random cards
 	for (let i = 0; i < 1000; i++)
@@ -106,7 +107,7 @@ function sekoita(pakka) //sekoittaa pakan
 
 function sekoita2(vastustajat) //sekoittaa vastustajat
 {
-    document.getElementById("pakanSekoitus").style.display = "none";
+    	document.getElementById("vastustajienSekoitus").style.display = "none";
 	// for 1000 turns
 	// switch the values of two random cards
 	for (let i = 0; i < 1000; i++)
@@ -124,6 +125,13 @@ function nostaKortti(pakka) //nostaa päällimmäisen kortin
 {
     return pakka.pop();
 }
+
+function nostaVastustaja(vastustajat) //nostaa päällimmäisen vastustajan
+{
+	return vastustajat.pop();
+}
+	
+//document.getElementById("testi").innerHTML = vastustajat;
 
 function nostettuKortti(kortti) { //kortti grafiikat
     let grafiikkaArvo = kortti.Arvo;
