@@ -1,5 +1,6 @@
 var maat = ["pata", "ruutu", "risti", "hertta"];
 var arvot = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"];
+var vastustajat = ["Manse", "Sotkamo", "KPL", "Tahko", "Joma", "Kempele", "Kipa", "JymyJussit", "IPV", "PattU", "Kossu", "Kankaanpää"];
 let pakka = new Array();
 let kortti;
 let juoksut = 0;
@@ -89,7 +90,7 @@ function rakennaPakka() //rakentaa pakan
 
 function sekoita(pakka) //sekoittaa pakan
 {
-    document.getElementById("pakanSekoitus").style.display = "none";
+   // document.getElementById("vastustajienSekoitus").style.display = "none";
 	// for 1000 turns
 	// switch the values of two random cards
 	for (let i = 0; i < 1000; i++)
@@ -100,6 +101,22 @@ function sekoita(pakka) //sekoittaa pakan
 
 		pakka[location1] = pakka[location2];
 		pakka[location2] = tmp;
+	}
+}
+
+function sekoita2(vastustajat) //sekoittaa vastustajat
+{
+    document.getElementById("pakanSekoitus").style.display = "none";
+	// for 1000 turns
+	// switch the values of two random cards
+	for (let i = 0; i < 1000; i++)
+	{
+		let location1 = Math.floor((Math.random() * vastustajat.length));
+		let location2 = Math.floor((Math.random() * vastustajat.length));
+		let tmp = vastustajat[location1];
+
+		vastustajat[location1] = vastustajat[location2];
+		vastustajat[location2] = tmp;
 	}
 }
 
