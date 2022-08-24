@@ -12,6 +12,7 @@ let valittuMaa2;
 let grafiikkaArvo;
 let vastustaja_arvottu;
 let pisteet = 0;
+let sijoitus;
 
 function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
     return Math.floor(Math.random() * max);
@@ -70,7 +71,34 @@ function vastustaja() {
         document.getElementById("vieraslogo").src="1200px-KaMa_logo_2016.png";
         vierastulos = 1;
     } else {
-	    window.alert("Kausi loppu!");
+	    if (pisteet >= 20) {
+		    sijoitus = "Sijoituksesi: 1.";
+	    } else if (pisteet >= 19) {
+		    sijoitus = "Sijoituksesi: 2.";
+	    } else if (pisteet >= 18) {
+		    sijoitus = "Sijoituksesi: 3.";
+	    } else if (pisteet >= 17) {
+		    sijoitus = "Sijoituksesi: 4.";
+	    } else if (pisteet >= 15) {
+		    sijoitus = "Sijoituksesi: 5.";
+	    } else if (pisteet >= 14) {
+		    sijoitus = "Sijoituksesi: 6.";
+	    } else if (pisteet >= 11) {
+		    sijoitus = "Sijoituksesi: 7.";
+	    } else if (pisteet >= 10) {
+		    sijoitus = "Sijoituksesi: 8.";
+	    } else if (pisteet >= 8) {
+		    sijoitus = "Sijoituksesi: 9.";
+	    } else if (pisteet >= 7) {
+		    sijoitus = "Sijoituksesi: 10.";
+	    } else if (pisteet >= 6) {
+		    sijoitus = "Sijoituksesi: 11.";
+	    } else if (pisteet >= 5) {
+		    sijoitus = "Sijoituksesi: 12.";
+	    } else {
+		    sijoitus = "Sijoituksesi: 13.";
+	    }
+	    window.alert("Kausi loppu! " + sijoitus);
         document.getElementById("vieraslogo").src="#";
     }
 }
