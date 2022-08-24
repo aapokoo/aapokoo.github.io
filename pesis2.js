@@ -676,9 +676,11 @@ function lyö10() {
         if (juoksut > vierastulos) {
             document.getElementById("lopputulos").innerHTML = "Voitto!";
 		pisteet = pisteet + 2;
+		document.getElementById("pisteet").innerHTML = "Pisteet: " + pisteet;
         } else if (juoksut === vierastulos) {
             document.getElementById("lopputulos").innerHTML = "Tasapeli!";
 		pisteet = pisteet + 1;
+		document.getElementById("pisteet").innerHTML = "Pisteet: " + pisteet;
         } else {
             document.getElementById("lopputulos").innerHTML = "Tappio!";
         }
