@@ -450,7 +450,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
 function lyö1() { 
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 12) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
