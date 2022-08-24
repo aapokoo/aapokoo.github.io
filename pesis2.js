@@ -428,7 +428,8 @@ function lyö1() {
         hide1();
         document.getElementById("0").style.backgroundColor = "gray";
         function show1() {
-            document.getElementById("pakka2").style.visibility = "visible";
+		document.getElementById("pakka2").style.display = "grid";
+            	document.getElementById("pakka2").style.visibility = "visible";	
         }
         show1();
     }
@@ -670,6 +671,7 @@ function lyö10() {
 }
 
 function uusiPeli() {
+	juoksut = 0;
 	document.getElementById("0").style.backgroundColor = "red";
 	document.getElementById("1").style.backgroundColor = "red";
 	document.getElementById("2").style.backgroundColor = "red";
