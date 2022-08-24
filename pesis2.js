@@ -72,6 +72,7 @@ function vastustaja() {
     } else {
 	    window.alert("Kausi loppu!");
         document.getElementById("vieraslogo").src="#";
+    }
 }
 
 /*
