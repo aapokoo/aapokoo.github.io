@@ -669,7 +669,7 @@ function lyö10() {
     }
 }
 
-function uusiPeli() { /*
+function uusiPeli() {
 	document.getElementById("0").style.backgroundColor = "red";
 	document.getElementById("1").style.backgroundColor = "red";
 	document.getElementById("2").style.backgroundColor = "red;
@@ -680,15 +680,16 @@ function uusiPeli() { /*
 	document.getElementById("7").style.backgroundColor = "red";
 	document.getElementById("8").style.backgroundColor = "red";
 	document.getElementById("9").style.backgroundColor = "red";
+	function hide0() {
+        document.getElementById("uusiPeli").style.display = "none";
+	document.getElementById("pakka11").style.display = "none";
+        }
+        hide0();
 	function show0() {
             document.getElementById("pakka1").style.visibility = "visible";
         }
-        show0();
-	function hide0() {
-        document.getElementById("uusiPeli").style.display = "none";
-        }
-        hide0();
-*/}
+        show0();	
+}
 
 //rakennaPakka(); //pakan rakennus
 //sekoita(pakka); //pakan sekoitus
