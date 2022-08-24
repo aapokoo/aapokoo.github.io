@@ -446,7 +446,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
     } 
 }
 
-//Kinnunen
+//lukkari
 function lyö1() { 
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -467,7 +467,7 @@ function lyö1() {
     }
 }
 
-//Rinta-aho
+//sieppari
 function lyö2() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -475,10 +475,10 @@ function lyö2() {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	
-    } else if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    } else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.sieppari.lyöMin && kortti.Arvo <= joukkue.pelaajat.sieppari.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
-    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.sieppari.lyöMin && kortti.Arvo <= joukkue.pelaajat.sieppari.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
@@ -495,7 +495,7 @@ function lyö2() {
     }
 }
 
-//A. Lassila
+//ykkösvahti
 function lyö3() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -503,7 +503,7 @@ function lyö3() {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
-    else if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.ykkösvahti.lyöMin && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -521,12 +521,12 @@ function lyö3() {
     }
 }
 
-//Saukko
+//kakkosvahti
 function lyö4() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
    
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kakkosvahti.lyöMin && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -544,7 +544,7 @@ function lyö4() {
     }
 }
 
-//S. Lassila
+//kakkospolttaja
 function lyö5() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -552,7 +552,7 @@ function lyö5() {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
-    else if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kakkospolttaja.lyöMin && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -570,12 +570,12 @@ function lyö5() {
     }
 }
 
-//Heikkala
+//kolmospolttaja
 function lyö6() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
    
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 12) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kolmospolttaja.lyöMin && kortti.Arvo <= 12) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -593,12 +593,12 @@ function lyö6() {
     }
 }
 
-//L. Vihriälä
+//kolmosvahti
 function lyö7() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
    
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kolmosvahti.lyöMin && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -616,7 +616,7 @@ function lyö7() {
     }
 }
 
-//Anttila
+//kakkoskoppari
 function lyö8() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -624,11 +624,11 @@ function lyö8() {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
-    else if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kakkoskoppari.lyöMin && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
-    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.kakkoskoppari.lyöMin && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
@@ -645,12 +645,12 @@ function lyö8() {
     }
 }
 
-//M. Vihriälä
+//kolmoskoppari
 function lyö9() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
    
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kolmoskoppari.lyöMin && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -668,7 +668,7 @@ function lyö9() {
     }
 }
 
-//Vainionpää
+//jokeri
 function lyö10() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
@@ -680,10 +680,10 @@ function lyö10() {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
-    else if (kortti.Maa === valittuMaa && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.jokeri.lyöMin && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
-    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= 2 && kortti.Arvo <= 13) {
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.jokeri.lyöMin && kortti.Arvo <= 13) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
