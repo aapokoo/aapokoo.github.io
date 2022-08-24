@@ -655,6 +655,10 @@ function lyö10() {
             document.getElementById("pakka11").style.visibility = "visible";
         }
         show10();
+	function showUp() {
+		document.getElementById("uusiPeli").style.visibility = "visible";
+	}
+	showUp();
         if (juoksut > vierastulos) {
             document.getElementById("lopputulos").innerHTML = "Voitto!";
         } else if (juoksut === vierastulos) {
@@ -663,6 +667,10 @@ function lyö10() {
             document.getElementById("lopputulos").innerHTML = "Tappio!";
         }
     }
+}
+
+function uusiPeli() {
+	
 }
 
 //rakennaPakka(); //pakan rakennus
