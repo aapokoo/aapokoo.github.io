@@ -456,6 +456,7 @@ function lyö2() {
         hide2();
         document.getElementById("1").style.backgroundColor = "gray";
         function show2() {
+		document.getElementById("pakka3").style.display = "grid";
             document.getElementById("pakka3").style.visibility = "visible";
         }
         show2();
@@ -481,6 +482,7 @@ function lyö3() {
         hide3();
         document.getElementById("2").style.backgroundColor = "gray";
         function show3() {
+		document.getElementById("pakka4").style.display = "grid";
             document.getElementById("pakka4").style.visibility = "visible";
         }
         show3();
@@ -503,6 +505,7 @@ function lyö4() {
         hide4();
         document.getElementById("3").style.backgroundColor = "gray";
         function show4() {
+		document.getElementById("pakka5").style.display = "grid";
             document.getElementById("pakka5").style.visibility = "visible";
         }
         show4();
@@ -528,6 +531,7 @@ function lyö5() {
         hide5();
         document.getElementById("4").style.backgroundColor = "gray";
         function show5() {
+		document.getElementById("pakka6").style.display = "grid";
             document.getElementById("pakka6").style.visibility = "visible";
         }
         show5();
@@ -550,6 +554,7 @@ function lyö6() {
         hide6();
         document.getElementById("5").style.backgroundColor = "gray";
         function show6() {
+		document.getElementById("pakka7").style.display = "grid";
             document.getElementById("pakka7").style.visibility = "visible";
         }
         show6();
@@ -572,6 +577,7 @@ function lyö7() {
         hide7();
         document.getElementById("6").style.backgroundColor = "gray";
         function show7() {
+		document.getElementById("pakka8").style.display = "grid";
             document.getElementById("pakka8").style.visibility = "visible";
         }
         show7();
@@ -600,6 +606,7 @@ function lyö8() {
         hide8();
         document.getElementById("7").style.backgroundColor = "gray";
         function show8() {
+		document.getElementById("pakka9").style.display = "grid";
             document.getElementById("pakka9").style.visibility = "visible";
         }
         show8();
@@ -622,6 +629,7 @@ function lyö9() {
         hide9();
         document.getElementById("8").style.backgroundColor = "gray";
         function show9() {
+		document.getElementById("pakka10").style.display = "grid";
             document.getElementById("pakka10").style.visibility = "visible";
         }
         show9();
@@ -653,7 +661,8 @@ function lyö10() {
         hide10();
         document.getElementById("9").style.backgroundColor = "gray";
         function show10() {
-            document.getElementById("pakka11").style.visibility = "visible";
+		document.getElementById("pakka11").style.display = "grid";
+            document.getElementById("pakka11").style.visibility = "visible";	
         }
         show10();
 	function showUp() {
@@ -672,6 +681,7 @@ function lyö10() {
 
 function uusiPeli() {
 	juoksut = 0;
+	document.getElementById("kotitulos").innerHTML = juoksut;
 	document.getElementById("0").style.backgroundColor = "red";
 	document.getElementById("1").style.backgroundColor = "red";
 	document.getElementById("2").style.backgroundColor = "red";
