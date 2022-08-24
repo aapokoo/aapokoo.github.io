@@ -303,6 +303,7 @@ function joukkueVimpeli() {
 
 function joukkueSeinäjoki() {
 	joukkue = JymyJussit;
+	document.getElementById("lukkariNimi").innerHTML = joukkue.pelaajat.lukkari.nimi;
 }
 
 let vimpeli = { //joukkueen pelaajat ja statsit
