@@ -11,6 +11,7 @@ let valittuMaa;
 let valittuMaa2;
 let grafiikkaArvo;
 let vastustaja_arvottu;
+let pisteet = 0;
 
 function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
     return Math.floor(Math.random() * max);
@@ -64,11 +65,13 @@ function vastustaja() {
 	document.getElementById("vierastulos").innerHTML = "2";
         document.getElementById("vieraslogo").src="logo.png";
         vierastulos = 2;
-    } else {
+    } else if (vastustaja_arvottu === "Kankaanpää") { //Kankaanpää
 	document.getElementById("vierastulos").innerHTML = "1";
         document.getElementById("vieraslogo").src="1200px-KaMa_logo_2016.png";
         vierastulos = 1;
-    }
+    } else {
+	    window.alert("Kausi loppu!");
+        document.getElementById("vieraslogo").src="#";
 }
 
 /*
@@ -672,8 +675,10 @@ function lyö10() {
 	showUp();
         if (juoksut > vierastulos) {
             document.getElementById("lopputulos").innerHTML = "Voitto!";
+		pisteet = pisteet + 2;
         } else if (juoksut === vierastulos) {
             document.getElementById("lopputulos").innerHTML = "Tasapeli!";
+		pisteet = pisteet + 1;
         } else {
             document.getElementById("lopputulos").innerHTML = "Tappio!";
         }
