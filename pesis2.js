@@ -13,6 +13,7 @@ let grafiikkaArvo;
 let vastustaja_arvottu;
 let pisteet = 0;
 let sijoitus;
+let joukkue;
 
 function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
     return Math.floor(Math.random() * max);
@@ -296,7 +297,7 @@ function maaPata() {
     document.getElementById("maanValinta").style.display = "none";
 }
 
-let joukkue = { //joukkueen pelaajat ja statsit
+let vimpeli = { //joukkueen pelaajat ja statsit
     pelaajat: {
         lukkari: {
             nimi: 'Kinnunen',
@@ -445,6 +446,8 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
         }
     } 
 }
+
+joukkue = vimpeli;
 
 //lukkari
 function lyö1() { 
