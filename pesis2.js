@@ -666,7 +666,7 @@ function lyö10() {
         }
         show10();
 	function showUp() {
-		document.getElementById("pakka11").style.display = "inline";
+		document.getElementById("uusiPeli").style.display = "inline";
 		document.getElementById("uusiPeli").style.visibility = "visible";
 	}
 	showUp();
