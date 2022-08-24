@@ -670,7 +670,24 @@ function lyö10() {
 }
 
 function uusiPeli() {
-	
+	document.getElementById("0").style.backgroundColor = "red";
+	document.getElementById("1").style.backgroundColor = "red";
+	document.getElementById("2").style.backgroundColor = "red;
+	document.getElementById("3").style.backgroundColor = "red";
+	document.getElementById("4").style.backgroundColor = "red";
+	document.getElementById("5").style.backgroundColor = "red";
+	document.getElementById("6").style.backgroundColor = "red";
+	document.getElementById("7").style.backgroundColor = "red";
+	document.getElementById("8").style.backgroundColor = "red";
+	document.getElementById("9").style.backgroundColor = "red";
+	function show0() {
+            document.getElementById("pakka1").style.visibility = "visible";
+        }
+        show0();
+	function hide0() {
+        document.getElementById("uusiPeli").style.display = "none";
+        }
+        hide0();
 }
 
 //rakennaPakka(); //pakan rakennus
