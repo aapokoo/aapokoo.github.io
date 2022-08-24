@@ -297,6 +297,14 @@ function maaPata() {
     document.getElementById("maanValinta").style.display = "none";
 }
 
+function joukkueVimpeli() {
+	joukkue = vimpeli;
+}
+
+function joukkueSeinäjoki() {
+	joukkue = JymyJussit;
+}
+
 let vimpeli = { //joukkueen pelaajat ja statsit
     pelaajat: {
         lukkari: {
@@ -446,8 +454,6 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
         }
     } 
 }
-
-joukkue = vimpeli;
 
 //lukkari
 function lyö1() { 
