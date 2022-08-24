@@ -269,6 +269,10 @@ ul {
     box-shadow: 1px 1px 1px gray;
 }
 
+#uusiPeli {
+    visibility: hidden;
+}
+
 .card {  
     position: relative;
     width: 105px;
