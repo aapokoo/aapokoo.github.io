@@ -666,6 +666,7 @@ function lyö10() {
         }
         show10();
 	function showUp() {
+		document.getElementById("pakka11").style.display = "inline";
 		document.getElementById("uusiPeli").style.visibility = "visible";
 	}
 	showUp();
@@ -703,6 +704,7 @@ function uusiPeli() {
     		document.getElementById("ristiValinta").style.display = "inline";
     		document.getElementById("pataValinta").style.display = "inline";
     		document.getElementById("maanValinta").style.display = "inline";
+		document.getElementById("lopputulos").innerHTML = " ";
         }
         hide0();
 	function show0() {
