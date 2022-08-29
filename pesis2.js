@@ -304,15 +304,25 @@ function joukkueVimpeli() {
 function joukkueSeinäjoki() {
 	joukkue = JymyJussit;
 	document.getElementById("lukkariNimi").innerHTML = "LEHTINEN";
+	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 7";
 	document.getElementById("sieppariNimi").innerHTML = "J. KETTUNEN";
+	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 8";
 	document.getElementById("ykkösvahtiNimi").innerHTML = "MARJAMÄKI";
+	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Väri 2 - 13, A";
 	document.getElementById("kakkosvahtiNimi").innerHTML = "SALMELA";
+	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Maa 2 - 11";
 	document.getElementById("kakkospolttajaNimi").innerHTML = "TYYNELÄ";
+	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 12";
 	document.getElementById("kolmospolttajaNimi").innerHTML = "V. KETTUNEN";
+	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Maa 2 - 10";
 	document.getElementById("kolmosvahtiNimi").innerHTML = "KONTIO";
+	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa 2 - 8";
 	document.getElementById("kakkoskoppariNimi").innerHTML = "RAUNIO";
+	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 10";
 	document.getElementById("kolmoskoppariNimi").innerHTML = "SILLANPÄÄ";
+	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
 	document.getElementById("jokeriNimi").innerHTML = "HALLASUO";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
 }
 
 let vimpeli = { //joukkueen pelaajat ja statsit
