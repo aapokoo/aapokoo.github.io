@@ -303,11 +303,16 @@ function joukkueVimpeli() {
 
 function joukkueSeinäjoki() {
 	joukkue = JymyJussit;
-	document.getElementById("lukkariNimi").innerHTML = "Lehtinen";
-	document.getElementById("sieppariNimi").innerHTML = "J. Kettunen";
-	document.getElementById("ykkösvahtiNimi").innerHTML = "Marjamäki";
-	document.getElementById("kakkosvahtiNimi").innerHTML = "Salmela";
-	document.getElementById("kakkospolttajaNimi").innerHTML = "Tyynelä";
+	document.getElementById("lukkariNimi").innerHTML = "LEHTINEN";
+	document.getElementById("sieppariNimi").innerHTML = "J. KETTUNEN";
+	document.getElementById("ykkösvahtiNimi").innerHTML = "MARJAMÄKI";
+	document.getElementById("kakkosvahtiNimi").innerHTML = "SALMELA";
+	document.getElementById("kakkospolttajaNimi").innerHTML = "TYYNELÄ";
+	document.getElementById("kolmospolttajaNimi").innerHTML = "V. KETTUNEN";
+	document.getElementById("kolmosvahtiNimi").innerHTML = "KONTIO";
+	document.getElementById("kakkoskoppariNimi").innerHTML = "RAUNIO";
+	document.getElementById("kolmoskoppariNimi").innerHTML = "SILLANPÄÄ";
+	document.getElementById("jokeriNimi").innerHTML = "HALLASUO";
 }
 
 let vimpeli = { //joukkueen pelaajat ja statsit
