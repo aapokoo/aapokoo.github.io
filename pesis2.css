@@ -42,7 +42,7 @@ ul {
     justify-self: center;
 }
 
-.kotiLogo {
+#kotiLogo {
     display: grid;
     grid-column-start: 4;
     grid-column-end: 5;
