@@ -303,6 +303,7 @@ function joukkueVimpeli() {
 
 function joukkueSeinäjoki() {
 	joukkue = JymyJussit;
+	document.getElementById("kotiLogo").src="./ViVe-logo.png";
 	document.getElementById("lukkariNimi").innerHTML = "LEHTINEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 7";
 	document.getElementById("sieppariNimi").innerHTML = "J. KETTUNEN";
