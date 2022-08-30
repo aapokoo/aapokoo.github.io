@@ -334,6 +334,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöMax: 12,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöVäriä: false,
         },
         sieppari: {
             nimi: 'Rinta-aho',
@@ -341,55 +342,63 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöMax: 13,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöVäriä: true,
         },
         ykkösvahti: {
-            nimi: 'A. Lassila',
-            lyöMin: 1,
-            lyöMax: 13,
-            lyöKahdesti: false,
-            lyöJokereita: false,
-        },
-        kakkosvahti: {
-            nimi: 'Saukko',
-            lyöMin: 2,
-            lyöMax: 13,
-            lyöKahdesti: false,
-            lyöJokereita: false,
-        },
-        kakkospolttaja: {
             nimi: 'S. Lassila',
             lyöMin: 1,
             lyöMax: 13,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöVäriä: false,
         },
-        kolmospolttaja: {
-            nimi: 'Heikkala',
-            lyöMin: 2,
-            lyöMax: 12,
-            lyöKahdesti: false,
-            lyöJokereita: false,
-        },
-        kolmosvahti: {
+        kakkosvahti: {
             nimi: 'L. Vihriälä',
             lyöMin: 2,
             lyöMax: 13,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöVäriä: false,
         },
-        kakkoskoppari: {
-            nimi: 'Anttila',
+        kakkospolttaja: {
+            nimi: 'J. Heikkala',
+            lyöMin: 2,
+            lyöMax: 12,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöVäriä: false,
+        },
+        kolmospolttaja: {
+            nimi: 'O. Heikkala',
+            lyöMin: 2,
+            lyöMax: 12,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöVäriä: false,
+        },
+        kolmosvahti: {
+            nimi: 'A. Lassila',
             lyöMin: 1,
             lyöMax: 13,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöVäriä: false,
         },
-        kolmoskoppari: {
+        kakkoskoppari: {
             nimi: 'M. Vihriälä',
             lyöMin: 2,
             lyöMax: 13,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöVäriä: false,
+        },
+        kolmoskoppari: {
+            nimi: 'Anttila',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöVäriä: true,
         },
         jokeri: {
             nimi: 'Vainionpää',
@@ -397,6 +406,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöMax: 13,
             lyöKahdesti: true,
             lyöJokereita: true,
+		lyöVäriä: true,
         }
     } 
 }
@@ -482,6 +492,9 @@ function lyö1() {
     nostettuKortti(kortti);
     if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax) {
         juoksut++;
+        document.getElementById("kotitulos").innerHTML = juoksut;    
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax && joukkue.pelaajat.lukkari.lyöVäriä === true) {
+        juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
         function hide1() {
@@ -508,7 +521,7 @@ function lyö2() {
     } else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.sieppari.lyöMin && kortti.Arvo <= joukkue.pelaajat.sieppari.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
-    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.sieppari.lyöMin && kortti.Arvo <= joukkue.pelaajat.sieppari.lyöMax) {
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.sieppari.lyöMin && kortti.Arvo <= joukkue.pelaajat.sieppari.lyöMax && joukkue.pelaajat.sieppari.lyöVäriä === true) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
