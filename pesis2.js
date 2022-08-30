@@ -334,7 +334,6 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöMax: 12,
             lyöKahdesti: false,
             lyöJokereita: false,
-		lyöVäriä: false,
         },
         sieppari: {
             nimi: 'Rinta-aho',
@@ -493,7 +492,7 @@ function lyö1() {
     if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;    
-    } else if (joukkue.pelaajat.lukkari.lyöVäriä === true && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax && kortti.Maa === valittuMaa2) {
+    } else if (joukkue.pelaajat.lukkari.lyöVäriä && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax && kortti.Maa === valittuMaa2) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
