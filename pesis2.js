@@ -334,6 +334,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöMax: 12,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöÄssiä: false,
         },
         sieppari: {
             nimi: 'Rinta-aho',
@@ -342,6 +343,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöKahdesti: false,
             lyöJokereita: false,
 		lyöVäriä: true,
+		lyöÄssiä: true,
         },
         ykkösvahti: {
             nimi: 'S. Lassila',
@@ -350,6 +352,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöKahdesti: false,
             lyöJokereita: false,
 		lyöVäriä: false,
+		lyöÄssiä: true,
         },
         kakkosvahti: {
             nimi: 'L. Vihriälä',
@@ -358,6 +361,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöKahdesti: false,
             lyöJokereita: false,
 		lyöVäriä: false,
+		lyöÄssiä: false,
         },
         kakkospolttaja: {
             nimi: 'J. Heikkala',
@@ -366,6 +370,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöKahdesti: false,
             lyöJokereita: false,
 		lyöVäriä: false,
+		lyöÄssiä: false,
         },
         kolmospolttaja: {
             nimi: 'O. Heikkala',
@@ -374,6 +379,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöKahdesti: false,
             lyöJokereita: false,
 		lyöVäriä: false,
+		lyöÄssiä: false,
         },
         kolmosvahti: {
             nimi: 'A. Lassila',
@@ -382,6 +388,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöKahdesti: false,
             lyöJokereita: false,
 		lyöVäriä: false,
+		lyöÄssiä: true,
         },
         kakkoskoppari: {
             nimi: 'M. Vihriälä',
@@ -390,6 +397,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöKahdesti: false,
             lyöJokereita: false,
 		lyöVäriä: false,
+		lyöÄssiä: false,
         },
         kolmoskoppari: {
             nimi: 'Anttila',
@@ -398,6 +406,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöKahdesti: false,
             lyöJokereita: false,
 		lyöVäriä: true,
+		lyöÄssiä: true,
         },
         jokeri: {
             nimi: 'Vainionpää',
@@ -406,6 +415,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöKahdesti: true,
             lyöJokereita: true,
 		lyöVäriä: true,
+		lyöÄssiä: true,
         }
     } 
 }
@@ -418,6 +428,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
             lyöMax: 7,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöÄssiä: false,
         },
         sieppari: {
             nimi: 'J. Kettunen',
@@ -425,6 +436,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
             lyöMax: 8,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöÄssiä: false,
         },
         ykkösvahti: {
             nimi: 'Marjamäki',
@@ -433,6 +445,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
             lyöKahdesti: true,
             lyöJokereita: false,
 		lyöVäriä: true,
+		lyöÄssiä: true,
         },
         kakkosvahti: {
             nimi: 'Salmela',
@@ -440,6 +453,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
             lyöMax: 11,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöÄssiä: false,
         },
         kakkospolttaja: {
             nimi: 'Tyynelä',
@@ -447,6 +461,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
             lyöMax: 12,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöÄssiä: false,
         },
         kolmospolttaja: {
             nimi: 'V. Kettunen',
@@ -454,6 +469,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
             lyöMax: 10,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöÄssiä: false,
         },
         kolmosvahti: {
             nimi: 'Kontio',
@@ -461,6 +477,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
             lyöMax: 8,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöÄssiä: false,
         },
         kakkoskoppari: {
             nimi: 'Raunio',
@@ -468,6 +485,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
             lyöMax: 10,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöÄssiä: false,
         },
         kolmoskoppari: {
             nimi: 'Sillanpää',
@@ -475,6 +493,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
             lyöMax: 9,
             lyöKahdesti: false,
             lyöJokereita: false,
+		lyöÄssiä: false,
         },
         jokeri: {
             nimi: 'Hallasuo',
@@ -483,6 +502,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
             lyöKahdesti: true,
             lyöJokereita: true,
 		lyöVäriä: true,
+		lyöÄssiä: true,
         }
     } 
 }
