@@ -511,7 +511,10 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
 function lyö1() { 
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax) {
+	if (kortti.Arvo === "1" && joukkue.pelaajat.lukkari.lyöÄssiä === true) {
+		juoksut++;
+		document.getElementById("kotitulos").innerHTML = juoksut;
+    } else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;    
     } else if (joukkue.pelaajat.lukkari.lyöVäriä === true && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax && kortti.Maa === valittuMaa2) {
@@ -591,8 +594,11 @@ function lyö3() {
 function lyö4() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
-   
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kakkosvahti.lyöMin && kortti.Arvo <= joukkue.pelaajat.kakkosvahti.lyöMax) {
+   if (kortti.Arvo === "1" && joukkue.pelaajat.kakkosvahti.lyöÄssiä === true) {
+		juoksut++;
+		document.getElementById("kotitulos").innerHTML = juoksut;
+	
+    } else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kakkosvahti.lyöMin && kortti.Arvo <= joukkue.pelaajat.kakkosvahti.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut; 
     } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.kakkosvahti.lyöMin && kortti.Arvo <= joukkue.pelaajat.kakkosvahti.lyöMax && joukkue.pelaajat.kakkosvahti.lyöVäriä === true) {
@@ -645,8 +651,11 @@ function lyö5() {
 function lyö6() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
-   
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kolmospolttaja.lyöMin && kortti.Arvo <= joukkue.pelaajat.kolmospolttaja.lyöMax) {
+   if (kortti.Arvo === "1" && joukkue.pelaajat.kolmospolttaja.lyöÄssiä === true) {
+		juoksut++;
+		document.getElementById("kotitulos").innerHTML = juoksut;
+	
+    } else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kolmospolttaja.lyöMin && kortti.Arvo <= joukkue.pelaajat.kolmospolttaja.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -671,8 +680,11 @@ function lyö6() {
 function lyö7() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
-   
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kolmosvahti.lyöMin && kortti.Arvo <= joukkue.pelaajat.kolmosvahti.lyöMax) {
+	if (kortti.Arvo === "1" && joukkue.pelaajat.kolmosvahti.lyöÄssiä === true) {
+		juoksut++;
+		document.getElementById("kotitulos").innerHTML = juoksut;
+	
+    } else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kolmosvahti.lyöMin && kortti.Arvo <= joukkue.pelaajat.kolmosvahti.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
@@ -726,8 +738,11 @@ function lyö8() {
 function lyö9() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
-   
-    if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kolmoskoppari.lyöMin && kortti.Arvo <= joukkue.pelaajat.kolmoskoppari.lyöMax) {
+   if (kortti.Arvo === "1" && joukkue.pelaajat.kolmoskoppari.lyöÄssiä === true) {
+		juoksut++;
+		document.getElementById("kotitulos").innerHTML = juoksut;
+	
+    } else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kolmoskoppari.lyöMin && kortti.Arvo <= joukkue.pelaajat.kolmoskoppari.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
