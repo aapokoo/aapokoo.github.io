@@ -420,6 +420,93 @@ let vimpeli = { //joukkueen pelaajat ja statsit
     } 
 }
 
+let Sotkamo = { //joukkueen pelaajat ja statsit
+    pelaajat: {
+        lukkari: {
+            nimi: 'Komulainen',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: true,
+        },
+        sieppari: {
+            nimi: 'Huotari',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: true,
+        },
+        ykkösvahti: {
+            nimi: 'Kuosmanen',
+            lyöMin: 2,
+            lyöMax: 11,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöVäriä: false,
+		lyöÄssiä: false,
+        },
+        kakkosvahti: {
+            nimi: 'N. Korhonen',
+            lyöMin: 2,
+            lyöMax: 12,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kakkospolttaja: {
+            nimi: 'Kotro',
+            lyöMin: 2,
+            lyöMax: 12,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kolmospolttaja: {
+            nimi: 'Keinänen',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: true,
+        },
+        kolmosvahti: {
+            nimi: 'Kiiskinen',
+            lyöMin: 2,
+            lyöMax: 11,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kakkoskoppari: {
+            nimi: 'Piiponniemi',
+            lyöMin: 2,
+            lyöMax: 11,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kolmoskoppari: {
+            nimi: 'J. Korhonen',
+            lyöMin: 2,
+            lyöMax: 9,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        jokeri: {
+            nimi: 'R. Korhonen',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: true,
+            lyöJokereita: true,
+		lyöVäriä: true,
+		lyöÄssiä: true,
+        }
+    } 
+}
+
 let JymyJussit = { //joukkueen pelaajat ja statsit
     pelaajat: {
         lukkari: {
