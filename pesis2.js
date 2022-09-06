@@ -573,8 +573,10 @@ function lyö4() {
    
     if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.kakkosvahti.lyöMin && kortti.Arvo <= joukkue.pelaajat.kakkosvahti.lyöMax) {
         juoksut++;
+        document.getElementById("kotitulos").innerHTML = juoksut; 
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.kakkosvahti.lyöMin && kortti.Arvo <= joukkue.pelaajat.kakkosvahti.lyöMax && joukkue.pelaajat.kakkosvahti.lyöVäriä === true) {
+        juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
-    
     } else {
         function hide4() {
         document.getElementById("pakka4").style.display = "none";
@@ -601,6 +603,9 @@ function lyö5() {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.kakkospolttaja.lyöMin && kortti.Arvo <= joukkue.pelaajat.kakkospolttaja.lyöMax && joukkue.pelaajat.kakkospolttaja.lyöVäriä === true) {
+        juoksut++;
+        document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
         function hide5() {
         document.getElementById("pakka5").style.display = "none";
@@ -624,6 +629,9 @@ function lyö6() {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.kolmospolttaja.lyöMin && kortti.Arvo <= joukkue.pelaajat.kolmospolttaja.lyöMax && joukkue.pelaajat.kolmospolttaja.lyöVäriä === true) {
+        juoksut++;
+        document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
         function hide6() {
         document.getElementById("pakka6").style.display = "none";
@@ -647,6 +655,9 @@ function lyö7() {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.kolmosvahti.lyöMin && kortti.Arvo <= joukkue.pelaajat.kolmosvahti.lyöMax && joukkue.pelaajat.kolmosvahti.lyöVäriä === true) {
+        juoksut++;
+        document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
         function hide7() {
         document.getElementById("pakka7").style.display = "none";
@@ -699,6 +710,9 @@ function lyö9() {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.kolmoskoppari.lyöMin && kortti.Arvo <= joukkue.pelaajat.kolmoskoppari.lyöMax && joukkue.pelaajat.kolmoskoppari.lyöVäriä === true) {
+        juoksut++;
+        document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
         function hide9() {
         document.getElementById("pakka9").style.display = "none";
