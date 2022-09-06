@@ -482,6 +482,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
             lyöMax: 13,
             lyöKahdesti: true,
             lyöJokereita: true,
+		lyöVäriä: true,
         }
     } 
 }
