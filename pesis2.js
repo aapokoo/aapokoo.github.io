@@ -756,7 +756,7 @@ function lyö10() {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     }
-	else if (kortti.Arvo === "1" && joukkue.pelaajat.sieppari.lyöÄssiä === true) {
+	else if (kortti.Arvo === "1" && joukkue.pelaajat.jokeri.lyöÄssiä === true) {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
