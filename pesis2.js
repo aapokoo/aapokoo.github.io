@@ -717,7 +717,7 @@ function lyö8() {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     
-    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.kakkoskoppari.lyöMin && kortti.Arvo <= joukkue.pelaajat.kakkoskoppari.lyöMax) {
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.kakkoskoppari.lyöMin && kortti.Arvo <= joukkue.pelaajat.kakkoskoppari.lyöMax && joukkue.pelaajat.kakkoskoppari.lyöVäriä === true) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
@@ -778,7 +778,7 @@ function lyö10() {
     else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.jokeri.lyöMin && kortti.Arvo <= joukkue.pelaajat.jokeri.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
-    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.jokeri.lyöMin && kortti.Arvo <= joukkue.pelaajat.jokeri.lyöMax) {
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.jokeri.lyöMin && kortti.Arvo <= joukkue.pelaajat.jokeri.lyöMax && joukkue.pelaajat.jokeri.lyöVäriä === true) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
