@@ -514,7 +514,7 @@ function lyö1() {
     if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;    
-    } else if (joukkue.pelaajat.lukkari.lyöVäriä && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax && kortti.Maa === valittuMaa2) {
+    } else if (joukkue.pelaajat.lukkari.lyöVäriä === true && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax && kortti.Maa === valittuMaa2) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
@@ -535,7 +535,7 @@ function lyö1() {
 function lyö2() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
-    if (kortti.Arvo === "1") {
+    if (kortti.Arvo === "1" && joukkue.pelaajat.sieppari.lyöÄssiä === true) {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	
@@ -563,7 +563,7 @@ function lyö2() {
 function lyö3() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
-   	if (kortti.Arvo === "1") {
+   	if (kortti.Arvo === "1" && joukkue.pelaajat.ykkösvahti.lyöÄssiä === true) {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
@@ -616,7 +616,7 @@ function lyö4() {
 function lyö5() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
-   	if (kortti.Arvo === "1") {
+   	if (kortti.Arvo === "1" && joukkue.pelaajat.kakkospolttaja.lyöÄssiä === true) {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
@@ -697,7 +697,7 @@ function lyö7() {
 function lyö8() {
     kortti = nostaKortti(pakka);
     nostettuKortti(kortti);
-   	if (kortti.Arvo === "1") {
+   	if (kortti.Arvo === "1" && joukkue.pelaajat.kakkoskoppari.lyöÄssiä === true) {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
@@ -756,7 +756,7 @@ function lyö10() {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
     }
-	else if (kortti.Arvo === "1") {
+	else if (kortti.Arvo === "1" && joukkue.pelaajat.sieppari.lyöÄssiä === true) {
 		juoksut++;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
