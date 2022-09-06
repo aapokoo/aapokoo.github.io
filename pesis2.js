@@ -432,6 +432,7 @@ let JymyJussit = { //joukkueen pelaajat ja statsit
             lyöMax: 13,
             lyöKahdesti: true,
             lyöJokereita: false,
+		lyöVäriä: true,
         },
         kakkosvahti: {
             nimi: 'Salmela',
@@ -548,7 +549,9 @@ function lyö3() {
     else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.ykkösvahti.lyöMin && kortti.Arvo <= joukkue.pelaajat.ykkösvahti.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
-    
+    } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.ykkösvahti.lyöMin && kortti.Arvo <= joukkue.pelaajat.ykkösvahti.lyöMax && joukkue.pelaajat.ykkösvahti.lyöVäriä === true) {
+        juoksut++;
+        document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
         function hide3() {
         document.getElementById("pakka3").style.display = "none";
