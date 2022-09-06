@@ -492,10 +492,10 @@ function lyö1() {
     if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;    
-    }/* else if (joukkue.pelaajat.lukkari.lyöVäriä && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax && kortti.Maa === valittuMaa2) {
+    } else if (joukkue.pelaajat.lukkari.lyöVäriä && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax && kortti.Maa === valittuMaa2) {
         juoksut++;
         document.getElementById("kotitulos").innerHTML = juoksut;
-    }*/ else {
+    } else {
         function hide1() {
         document.getElementById("pakka1").style.display = "none";
         }
