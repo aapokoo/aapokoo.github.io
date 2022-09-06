@@ -299,10 +299,14 @@ function maaPata() {
 
 function joukkueVimpeli() {
 	joukkue = vimpeli;
+	document.getElementById("joukkueVimpeli").style.display = "none";
+	document.getElementById("joukkueSeinäjoki").style.display = "none";
 }
 
 function joukkueSeinäjoki() {
 	joukkue = JymyJussit;
+	document.getElementById("joukkueVimpeli").style.display = "none";
+	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("kotiLogo").src="./JymyJussit-STAMP.png";
 	document.getElementById("lukkariNimi").innerHTML = "LEHTINEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 7";
