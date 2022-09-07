@@ -304,6 +304,38 @@ function joukkueVimpeli() {
 	document.getElementById("joukkueSotkamo").style.display = "none";
 	document.getElementById("joukkueKouvola").style.display = "none";
 	document.getElementById("joukkueHyvinkää").style.display = "none";
+	document.getElementById("joukkueTampere").style.display = "none";
+}
+
+function joukkueTampere() {
+	joukkue = Tampere;
+	document.getElementById("joukkueVimpeli").style.display = "none";
+	document.getElementById("joukkueSeinäjoki").style.display = "none";
+	document.getElementById("joukkueSotkamo").style.display = "none";
+	document.getElementById("joukkueKouvola").style.display = "none";
+	document.getElementById("joukkueHyvinkää").style.display = "none";
+	document.getElementById("joukkueTampere").style.display = "none";
+	document.getElementById("kotiLogo").src="./Manse_PP_2015_logo.png";
+	document.getElementById("lukkariNimi").innerHTML = "PUHTIMÄKI";
+	document.getElementById("lukkariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("sieppariNimi").innerHTML = "LEHTONEN";
+	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 11";
+	document.getElementById("ykkösvahtiNimi").innerHTML = "KETTUNEN";
+	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa 2 - 11";
+	document.getElementById("kakkosvahtiNimi").innerHTML = "MYLLYNIEMI";
+	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Maa 2 - 11";
+	document.getElementById("kakkospolttajaNimi").innerHTML = "JUSSILA";
+	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 13";
+	document.getElementById("kolmospolttajaNimi").innerHTML = "HOKKANEN";
+	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Maa 2 - 8";
+	document.getElementById("kolmosvahtiNimi").innerHTML = "LEHTO";
+	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa 2 - 10";
+	document.getElementById("kakkoskoppariNimi").innerHTML = "LILJA";
+	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 13";
+	document.getElementById("kolmoskoppariNimi").innerHTML = "PUPUTTI";
+	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("jokeriNimi").innerHTML = "RUUSKA";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
 }
 
 function joukkueSeinäjoki() {
@@ -313,6 +345,7 @@ function joukkueSeinäjoki() {
 	document.getElementById("joukkueSotkamo").style.display = "none";
 	document.getElementById("joukkueKouvola").style.display = "none";
 	document.getElementById("joukkueHyvinkää").style.display = "none";
+	document.getElementById("joukkueTampere").style.display = "none";
 	document.getElementById("kotiLogo").src="./JymyJussit-STAMP.png";
 	document.getElementById("lukkariNimi").innerHTML = "LEHTINEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 7";
@@ -343,6 +376,7 @@ function joukkueSotkamo() {
 	document.getElementById("joukkueSotkamo").style.display = "none";
 	document.getElementById("joukkueKouvola").style.display = "none";
 	document.getElementById("joukkueHyvinkää").style.display = "none";
+	document.getElementById("joukkueTampere").style.display = "none";
 	document.getElementById("kotiLogo").src="./sojy_merkki_w.png";
 	document.getElementById("lukkariNimi").innerHTML = "KOMULAINEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
@@ -373,6 +407,7 @@ function joukkueHyvinkää() {
 	document.getElementById("joukkueSotkamo").style.display = "none";
 	document.getElementById("joukkueKouvola").style.display = "none";
 	document.getElementById("joukkueHyvinkää").style.display = "none";
+	document.getElementById("joukkueTampere").style.display = "none";
 	document.getElementById("kotiLogo").src="./Tahko_kiille_png.png";
 	document.getElementById("lukkariNimi").innerHTML = "ALANEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 8";
@@ -403,6 +438,7 @@ function joukkueKouvola() {
 	document.getElementById("joukkueSotkamo").style.display = "none";
 	document.getElementById("joukkueKouvola").style.display = "none";
 	document.getElementById("joukkueHyvinkää").style.display = "none";
+	document.getElementById("joukkueTampere").style.display = "none";
 	document.getElementById("kotiLogo").src="./1200px-KPL_logo.png";
 	document.getElementById("lukkariNimi").innerHTML = "KIVIPELTO";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
