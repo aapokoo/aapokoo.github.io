@@ -520,6 +520,97 @@ let vimpeli = { //joukkueen pelaajat ja statsit
     } 
 }
 
+let Tampere = { //joukkueen pelaajat ja statsit
+    pelaajat: {
+        lukkari: {
+            nimi: 'Puhtimäki',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: true,
+		lyöVäriä: true,
+        },
+        sieppari: {
+            nimi: 'Lehtonen',
+            lyöMin: 2,
+            lyöMax: 11,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        ykkösvahti: {
+            nimi: 'Kettunen',
+            lyöMin: 2,
+            lyöMax: 11,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöVäriä: false,
+		lyöÄssiä: false,
+        },
+        kakkosvahti: {
+            nimi: 'Myllyniemi',
+            lyöMin: 2,
+            lyöMax: 11,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöVäriä: false,
+		lyöÄssiä: false,
+        },
+        kakkospolttaja: {
+            nimi: 'Jussila',
+            lyöMin: 2,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kolmospolttaja: {
+            nimi: 'Hokkanen',
+            lyöMin: 2,
+            lyöMax: 8,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+		lyöVäriä: false,
+        },
+        kolmosvahti: {
+            nimi: 'Lehto',
+            lyöMin: 2,
+            lyöMax: 10,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kakkoskoppari: {
+            nimi: 'Lilja',
+            lyöMin: 2,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kolmoskoppari: {
+            nimi: 'Puputti',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: true,
+		lyöVäriä: true,
+        },
+        jokeri: {
+            nimi: 'Ruuska',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: true,
+		lyöVäriä: true,
+		lyöÄssiä: true,
+        }
+    } 
+}
+
 let Sotkamo = { //joukkueen pelaajat ja statsit
     pelaajat: {
         lukkari: {
