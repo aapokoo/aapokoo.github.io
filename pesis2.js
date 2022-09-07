@@ -338,6 +338,26 @@ function joukkueSotkamo() {
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
 	document.getElementById("kotiLogo").src="./sojy_merkki_w.png";
+	document.getElementById("lukkariNimi").innerHTML = "KOMULAINEN";
+	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("sieppariNimi").innerHTML = "HUOTARI";
+	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("ykkösvahtiNimi").innerHTML = "KUOSMANEN";
+	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa 2 - 11";
+	document.getElementById("kakkosvahtiNimi").innerHTML = "N. KORHONEN";
+	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Maa 2 - 12";
+	document.getElementById("kakkospolttajaNimi").innerHTML = "KOTRO";
+	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 12";
+	document.getElementById("kolmospolttajaNimi").innerHTML = "KEINÄNEN";
+	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kolmosvahtiNimi").innerHTML = "KIISKINEN";
+	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa 2 - 11";
+	document.getElementById("kakkoskoppariNimi").innerHTML = "PIIPONNIEMI";
+	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 11";
+	document.getElementById("kolmoskoppariNimi").innerHTML = "J. KORHONEN";
+	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
+	document.getElementById("jokeriNimi").innerHTML = "R. KORHONEN";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
 }
 
 let vimpeli = { //joukkueen pelaajat ja statsit
