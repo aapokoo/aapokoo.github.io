@@ -468,6 +468,39 @@ function joukkueKempele() {
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
 }
 
+function joukkueKitee() {
+	joukkue = Kitee;
+	document.getElementById("joukkueVimpeli").style.display = "none";
+	document.getElementById("joukkueSeinäjoki").style.display = "none";
+	document.getElementById("joukkueSotkamo").style.display = "none";
+	document.getElementById("joukkueKouvola").style.display = "none";
+	document.getElementById("joukkueHyvinkää").style.display = "none";
+	document.getElementById("joukkueTampere").style.display = "none";
+	document.getElementById("joukkueKempele").style.display = "none";
+	document.getElementById("joukkueKitee").style.display = "none";
+	document.getElementById("kotiLogo").src="./logo_f5419293.png";
+	document.getElementById("lukkariNimi").innerHTML = "ESKELINEN";
+	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 11";
+	document.getElementById("sieppariNimi").innerHTML = "PURMONEN";
+	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 9";
+	document.getElementById("ykkösvahtiNimi").innerHTML = "LEHIKOINEN";
+	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa 2 - 9";
+	document.getElementById("kakkosvahtiNimi").innerHTML = "MÄKELÄ";
+	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Maa 2 - 13";
+	document.getElementById("kakkospolttajaNimi").innerHTML = "PEKKINEN";
+	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kolmospolttajaNimi").innerHTML = "VAINIKAINEN";
+	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kolmosvahtiNimi").innerHTML = "PARTANEN";
+	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa 2 - 10";
+	document.getElementById("kakkoskoppariNimi").innerHTML = "VASARAINEN";
+	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 13";
+	document.getElementById("kolmoskoppariNimi").innerHTML = "VARONEN";
+	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("jokeriNimi").innerHTML = "PIPPOLA";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+}
+
 function joukkueKouvola() {
 	joukkue = Kouvola;
 	document.getElementById("joukkueVimpeli").style.display = "none";
@@ -1029,6 +1062,96 @@ let Kempele = { //joukkueen pelaajat ja statsit
         },
         jokeri: {
             nimi: 'M. Korhonen',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: true,
+		lyöVäriä: true,
+		lyöÄssiä: true,
+        }
+    } 
+}
+
+let Kitee = { //joukkueen pelaajat ja statsit
+    pelaajat: {
+        lukkari: {
+            nimi: 'Eskelinen',
+            lyöMin: 2,
+            lyöMax: 11,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        sieppari: {
+            nimi: 'Purmonen',
+            lyöMin: 2,
+            lyöMax: 9,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+		lyöVäriä: false,
+        },
+        ykkösvahti: {
+            nimi: 'Lehikoinen',
+            lyöMin: 2,
+            lyöMax: 9,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöVäriä: false,
+		lyöÄssiä: false,
+        },
+        kakkosvahti: {
+            nimi: 'Mäkelä',
+            lyöMin: 2,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöVäriä: false,
+		lyöÄssiä: false,
+        },
+        kakkospolttaja: {
+            nimi: 'Pekkinen',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: true,
+        },
+        kolmospolttaja: {
+            nimi: 'Vainikainen',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: true,
+		lyöVäriä: false,
+        },
+        kolmosvahti: {
+            nimi: 'Partanen',
+            lyöMin: 2,
+            lyöMax: 10,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kakkoskoppari: {
+            nimi: 'Vasarainen',
+            lyöMin: 2,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kolmoskoppari: {
+            nimi: 'Varonen',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: true,
+        },
+        jokeri: {
+            nimi: 'Pippola',
             lyöMin: 1,
             lyöMax: 13,
             lyöKahdesti: false,
