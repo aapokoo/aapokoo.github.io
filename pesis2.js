@@ -366,8 +366,8 @@ function joukkueSotkamo() {
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
 }
 
-function joukkueKouvola() {
-	joukkue = Kouvola;
+function joukkueHyvinkää() {
+	joukkue = Hyvinkää;
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -396,8 +396,8 @@ function joukkueKouvola() {
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
 }
 
-function joukkueHyvinkää() {
-	joukkue = Hyvinkää;
+function joukkueKouvola() {
+	joukkue = Kouvola;
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
