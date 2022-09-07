@@ -301,12 +301,14 @@ function joukkueVimpeli() {
 	joukkue = vimpeli;
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
+	document.getElementById("joukkueSotkamo").style.display = "none";
 }
 
 function joukkueSeinäjoki() {
 	joukkue = JymyJussit;
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
+	document.getElementById("joukkueSotkamo").style.display = "none";
 	document.getElementById("kotiLogo").src="./JymyJussit-STAMP.png";
 	document.getElementById("lukkariNimi").innerHTML = "LEHTINEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 7";
@@ -328,6 +330,14 @@ function joukkueSeinäjoki() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
 	document.getElementById("jokeriNimi").innerHTML = "HALLASUO";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+}
+
+function joukkueSotkamo() {
+	joukkue = Sotkamo;
+	document.getElementById("joukkueVimpeli").style.display = "none";
+	document.getElementById("joukkueSeinäjoki").style.display = "none";
+	document.getElementById("joukkueSotkamo").style.display = "none";
+	document.getElementById("kotiLogo").src="./sojy_merkki_w.png";
 }
 
 let vimpeli = { //joukkueen pelaajat ja statsit
