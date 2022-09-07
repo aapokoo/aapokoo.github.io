@@ -397,7 +397,7 @@ function joukkueKouvola() {
 }
 
 function joukkueHyvinkää() {
-	joukkue = Hyvinlkää;
+	joukkue = Hyvinkää;
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
