@@ -309,6 +309,7 @@ function joukkueVimpeli() {
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
 	document.getElementById("joukkueRaahe").style.display = "none";
+	document.getElementById("joukkueKoskenkorva").style.display = "none";
 }
 
 function joukkueTampere() {
@@ -323,6 +324,7 @@ function joukkueTampere() {
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
 	document.getElementById("joukkueRaahe").style.display = "none";
+	document.getElementById("joukkueKoskenkorva").style.display = "none";
 	document.getElementById("kotiLogo").src="./Manse_PP_2015_logo.png";
 	document.getElementById("lukkariNimi").innerHTML = "PUHTIMÄKI";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
@@ -358,6 +360,7 @@ function joukkueSeinäjoki() {
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
 	document.getElementById("joukkueRaahe").style.display = "none";
+	document.getElementById("joukkueKoskenkorva").style.display = "none";
 	document.getElementById("kotiLogo").src="./JymyJussit-STAMP.png";
 	document.getElementById("lukkariNimi").innerHTML = "LEHTINEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 7";
@@ -393,6 +396,7 @@ function joukkueSotkamo() {
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
 	document.getElementById("joukkueRaahe").style.display = "none";
+	document.getElementById("joukkueKoskenkorva").style.display = "none";
 	document.getElementById("kotiLogo").src="./sojy_merkki_w.png";
 	document.getElementById("lukkariNimi").innerHTML = "KOMULAINEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
@@ -428,6 +432,7 @@ function joukkueHyvinkää() {
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
 	document.getElementById("joukkueRaahe").style.display = "none";
+	document.getElementById("joukkueKoskenkorva").style.display = "none";
 	document.getElementById("kotiLogo").src="./Tahko_kiille_png.png";
 	document.getElementById("lukkariNimi").innerHTML = "ALANEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 8";
@@ -463,6 +468,7 @@ function joukkueKempele() {
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
 	document.getElementById("joukkueRaahe").style.display = "none";
+	document.getElementById("joukkueKoskenkorva").style.display = "none";
 	document.getElementById("kotiLogo").src="./KeKi-logo_kulta.png";
 	document.getElementById("lukkariNimi").innerHTML = "LASSILA";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 13";
@@ -498,6 +504,7 @@ function joukkueKitee() {
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
 	document.getElementById("joukkueRaahe").style.display = "none";
+	document.getElementById("joukkueKoskenkorva").style.display = "none";
 	document.getElementById("kotiLogo").src="./logo_f5419293.png";
 	document.getElementById("lukkariNimi").innerHTML = "ESKELINEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 11";
@@ -533,6 +540,7 @@ function joukkueImatra() {
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
 	document.getElementById("joukkueRaahe").style.display = "none";
+	document.getElementById("joukkueKoskenkorva").style.display = "none";
 	document.getElementById("kotiLogo").src="./ipv-logo-web.png";
 	document.getElementById("lukkariNimi").innerHTML = "SURAKKA";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 8";
@@ -568,6 +576,7 @@ function joukkueRaahe() {
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
 	document.getElementById("joukkueRaahe").style.display = "none";
+	document.getElementById("joukkueKoskenkorva").style.display = "none";
 	document.getElementById("kotiLogo").src="./pattu.png";
 	document.getElementById("lukkariNimi").innerHTML = "STILL";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 10";
@@ -591,6 +600,42 @@ function joukkueRaahe() {
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
 }
 
+function joukkueKoskenkorva() {
+	joukkue = Koskenkorva;
+	document.getElementById("joukkueVimpeli").style.display = "none";
+	document.getElementById("joukkueSeinäjoki").style.display = "none";
+	document.getElementById("joukkueSotkamo").style.display = "none";
+	document.getElementById("joukkueKouvola").style.display = "none";
+	document.getElementById("joukkueHyvinkää").style.display = "none";
+	document.getElementById("joukkueTampere").style.display = "none";
+	document.getElementById("joukkueKempele").style.display = "none";
+	document.getElementById("joukkueKitee").style.display = "none";
+	document.getElementById("joukkueImatra").style.display = "none";
+	document.getElementById("joukkueRaahe").style.display = "none";
+	document.getElementById("joukkueKoskenkorva").style.display = "none";
+	document.getElementById("kotiLogo").src="./logo.png";
+	document.getElementById("lukkariNimi").innerHTML = "Vuollo";
+	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 8";
+	document.getElementById("sieppariNimi").innerHTML = "VEITTIKOSKI";
+	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 13";
+	document.getElementById("ykkösvahtiNimi").innerHTML = "SUVISALMI";
+	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa 2 - 10";
+	document.getElementById("kakkosvahtiNimi").innerHTML = "HAKOMÄKI";
+	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Maa 2 - 6";
+	document.getElementById("kakkospolttajaNimi").innerHTML = "JAKOBSSON";
+	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 8";
+	document.getElementById("kolmospolttajaNimi").innerHTML = "TUOHISAARI";
+	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Maa 2 - 10";
+	document.getElementById("kolmosvahtiNimi").innerHTML = "LATVALA";
+	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa 2 - 8";
+	document.getElementById("kakkoskoppariNimi").innerHTML = "RANTAMÄKI";
+	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 10";
+	document.getElementById("kolmoskoppariNimi").innerHTML = "KAUPPINEN";
+	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 10";
+	document.getElementById("jokeriNimi").innerHTML = "OLLI";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+}
+
 function joukkueKouvola() {
 	joukkue = Kouvola;
 	document.getElementById("joukkueVimpeli").style.display = "none";
@@ -603,6 +648,7 @@ function joukkueKouvola() {
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
 	document.getElementById("joukkueRaahe").style.display = "none";
+	document.getElementById("joukkueKoskenkorva").style.display = "none";
 	document.getElementById("kotiLogo").src="./1200px-KPL_logo.png";
 	document.getElementById("lukkariNimi").innerHTML = "KIVIPELTO";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
@@ -1425,6 +1471,96 @@ let Kitee = { //joukkueen pelaajat ja statsit
         },
         jokeri: {
             nimi: 'Keski-Koukkari',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: true,
+		lyöVäriä: true,
+		lyöÄssiä: true,
+        }
+    } 
+}
+ 
+ let Koskenkorva = { //joukkueen pelaajat ja statsit
+    pelaajat: {
+        lukkari: {
+            nimi: 'Vuollo',
+            lyöMin: 2,
+            lyöMax: 8,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        sieppari: {
+            nimi: 'Veittikoski',
+            lyöMin: 2,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+		lyöVäriä: false,
+        },
+        ykkösvahti: {
+            nimi: 'Suvisalmi',
+            lyöMin: 2,
+            lyöMax: 10,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöVäriä: false,
+		lyöÄssiä: false,
+        },
+        kakkosvahti: {
+            nimi: 'Hakomäki',
+            lyöMin: 2,
+            lyöMax: 6,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöVäriä: false,
+		lyöÄssiä: false,
+        },
+        kakkospolttaja: {
+            nimi: 'Jakobsson',
+            lyöMin: 2,
+            lyöMax: 8,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kolmospolttaja: {
+            nimi: 'Tuohisaari',
+            lyöMin: 2,
+            lyöMax: 10,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+		lyöVäriä: false,
+        },
+        kolmosvahti: {
+            nimi: 'Latvala',
+            lyöMin: 2,
+            lyöMax: 8,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kakkoskoppari: {
+            nimi: 'Rantamäki',
+            lyöMin: 2,
+            lyöMax: 10,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kolmoskoppari: {
+            nimi: 'Kauppinen',
+            lyöMin: 2,
+            lyöMax: 9,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        jokeri: {
+            nimi: 'Olli',
             lyöMin: 1,
             lyöMax: 13,
             lyöKahdesti: false,
