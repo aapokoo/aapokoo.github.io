@@ -525,7 +525,7 @@ function joukkueImatra() {
 	document.getElementById("joukkueKempele").style.display = "none";
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
-	document.getElementById("kotiLogo").src="./ipv-logo-web.png";
+	/*document.getElementById("kotiLogo").src="./ipv-logo-web.png";*/
 	document.getElementById("lukkariNimi").innerHTML = "SURAKKA";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 8";
 	document.getElementById("sieppariNimi").innerHTML = "TOIKKA";
