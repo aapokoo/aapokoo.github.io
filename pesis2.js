@@ -1570,6 +1570,96 @@ let Kitee = { //joukkueen pelaajat ja statsit
         }
     } 
 }
+ 
+ let Kankaanpää = { //joukkueen pelaajat ja statsit
+    pelaajat: {
+        lukkari: {
+            nimi: 'Itävalo',
+            lyöMin: 2,
+            lyöMax: 7,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        sieppari: {
+            nimi: 'Korvola',
+            lyöMin: 2,
+            lyöMax: 10,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+		lyöVäriä: false,
+        },
+        ykkösvahti: {
+            nimi: 'Olli',
+            lyöMin: 2,
+            lyöMax: 6,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöVäriä: false,
+		lyöÄssiä: false,
+        },
+        kakkosvahti: {
+            nimi: 'Utunen',
+            lyöMin: 2,
+            lyöMax: 6,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöVäriä: false,
+		lyöÄssiä: false,
+        },
+        kakkospolttaja: {
+            nimi: 'Piispanen',
+            lyöMin: 2,
+            lyöMax: 6,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kolmospolttaja: {
+            nimi: 'Kortteenperä',
+            lyöMin: 2,
+            lyöMax: 12,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+		lyöVäriä: false,
+        },
+        kolmosvahti: {
+            nimi: 'Peltomäki',
+            lyöMin: 2,
+            lyöMax: 8,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kakkoskoppari: {
+            nimi: 'Vuorenmäki',
+            lyöMin: 2,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        kolmoskoppari: {
+            nimi: 'Vilander',
+            lyöMin: 2,
+            lyöMax: 12,
+            lyöKahdesti: false,
+            lyöJokereita: false,
+		lyöÄssiä: false,
+        },
+        jokeri: {
+            nimi: 'Mikkolanaho',
+            lyöMin: 1,
+            lyöMax: 13,
+            lyöKahdesti: false,
+            lyöJokereita: true,
+		lyöVäriä: false,
+		lyöÄssiä: true,
+        }
+    } 
+}
 
 let JymyJussit = { //joukkueen pelaajat ja statsit
     pelaajat: {
