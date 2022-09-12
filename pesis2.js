@@ -568,7 +568,7 @@ function joukkueRaahe() {
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
 	document.getElementById("joukkueRaahe").style.display = "none";
-	document.getElementById("kotiLogo").src="./ipv-logo-web.png";
+	document.getElementById("kotiLogo").src="./pattu.png";
 	document.getElementById("lukkariNimi").innerHTML = "STILL";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 10";
 	document.getElementById("sieppariNimi").innerHTML = "HANHISALO";
@@ -588,7 +588,7 @@ function joukkueRaahe() {
 	document.getElementById("kolmoskoppariNimi").innerHTML = "LUKKARI";
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
 	document.getElementById("jokeriNimi").innerHTML = "KESKI-KOUKKARI";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: väri 2 - 13, A, Jokeri";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
 }
 
 function joukkueKouvola() {
