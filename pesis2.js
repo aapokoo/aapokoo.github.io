@@ -526,7 +526,7 @@ function joukkueImatra() {
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
 	document.getElementById("kotiLogo").src="./ipv-logo-web.png";
-	/*document.getElementById("lukkariNimi").innerHTML = "SURAKKA";
+	document.getElementById("lukkariNimi").innerHTML = "SURAKKA";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 8";
 	document.getElementById("sieppariNimi").innerHTML = "TOIKKA";
 	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
@@ -545,7 +545,7 @@ function joukkueImatra() {
 	document.getElementById("kolmoskoppariNimi").innerHTML = "HAUKKA";
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 10";
 	document.getElementById("jokeriNimi").innerHTML = "SIKIÖ";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: Maa 2 - 10, Jokeri";*/
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Maa 2 - 10, Jokeri";
 }
 
 function joukkueKouvola() {
