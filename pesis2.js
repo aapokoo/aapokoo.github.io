@@ -306,6 +306,7 @@ function joukkueVimpeli() {
 	document.getElementById("joukkueHyvinkää").style.display = "none";
 	document.getElementById("joukkueTampere").style.display = "none";
 	document.getElementById("joukkueKempele").style.display = "none";
+	document.getElementById("joukkueKitee").style.display = "none";
 	/*document.getElementById("joukkueImatra").style.display = "none";*/
 }
 
@@ -318,6 +319,7 @@ function joukkueTampere() {
 	document.getElementById("joukkueHyvinkää").style.display = "none";
 	document.getElementById("joukkueTampere").style.display = "none";
 	document.getElementById("joukkueKempele").style.display = "none";
+	document.getElementById("joukkueKitee").style.display = "none";
 	/*document.getElementById("joukkueImatra").style.display = "none";*/
 	document.getElementById("kotiLogo").src="./Manse_PP_2015_logo.png";
 	document.getElementById("lukkariNimi").innerHTML = "PUHTIMÄKI";
@@ -351,6 +353,7 @@ function joukkueSeinäjoki() {
 	document.getElementById("joukkueHyvinkää").style.display = "none";
 	document.getElementById("joukkueTampere").style.display = "none";
 	document.getElementById("joukkueKempele").style.display = "none";
+	document.getElementById("joukkueKitee").style.display = "none";
 	/*document.getElementById("joukkueImatra").style.display = "none";*/
 	document.getElementById("kotiLogo").src="./JymyJussit-STAMP.png";
 	document.getElementById("lukkariNimi").innerHTML = "LEHTINEN";
@@ -384,6 +387,7 @@ function joukkueSotkamo() {
 	document.getElementById("joukkueHyvinkää").style.display = "none";
 	document.getElementById("joukkueTampere").style.display = "none";
 	document.getElementById("joukkueKempele").style.display = "none";
+	document.getElementById("joukkueKitee").style.display = "none";
 	/*document.getElementById("joukkueImatra").style.display = "none";*/
 	document.getElementById("kotiLogo").src="./sojy_merkki_w.png";
 	document.getElementById("lukkariNimi").innerHTML = "KOMULAINEN";
@@ -417,6 +421,7 @@ function joukkueHyvinkää() {
 	document.getElementById("joukkueHyvinkää").style.display = "none";
 	document.getElementById("joukkueTampere").style.display = "none";
 	document.getElementById("joukkueKempele").style.display = "none";
+	document.getElementById("joukkueKitee").style.display = "none";
 	/*document.getElementById("joukkueImatra").style.display = "none";*/
 	document.getElementById("kotiLogo").src="./Tahko_kiille_png.png";
 	document.getElementById("lukkariNimi").innerHTML = "ALANEN";
@@ -450,6 +455,7 @@ function joukkueKempele() {
 	document.getElementById("joukkueHyvinkää").style.display = "none";
 	document.getElementById("joukkueTampere").style.display = "none";
 	document.getElementById("joukkueKempele").style.display = "none";
+	document.getElementById("joukkueKitee").style.display = "none";
 	/*document.getElementById("joukkueImatra").style.display = "none";*/
 	document.getElementById("kotiLogo").src="./KeKi-logo_kulta.png";
 	document.getElementById("lukkariNimi").innerHTML = "LASSILA";
@@ -551,6 +557,7 @@ function joukkueKouvola() {
 	document.getElementById("joukkueHyvinkää").style.display = "none";
 	document.getElementById("joukkueTampere").style.display = "none";
 	document.getElementById("joukkueKempele").style.display = "none";
+	document.getElementById("joukkueKitee").style.display = "none";
 	/*document.getElementById("joukkueImatra").style.display = "none";*/
 	document.getElementById("kotiLogo").src="./1200px-KPL_logo.png";
 	document.getElementById("lukkariNimi").innerHTML = "KIVIPELTO";
