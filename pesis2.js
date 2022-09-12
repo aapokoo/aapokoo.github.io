@@ -614,7 +614,7 @@ function joukkueKoskenkorva() {
 	document.getElementById("joukkueRaahe").style.display = "none";
 	document.getElementById("joukkueKoskenkorva").style.display = "none";
 	document.getElementById("kotiLogo").src="./logo.png";
-	document.getElementById("lukkariNimi").innerHTML = "Vuollo";
+	document.getElementById("lukkariNimi").innerHTML = "VUOLLO";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 8";
 	document.getElementById("sieppariNimi").innerHTML = "VEITTIKOSKI";
 	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 13";
