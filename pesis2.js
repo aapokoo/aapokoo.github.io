@@ -508,7 +508,7 @@ function joukkueKitee() {
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
 }
 
-function joukkueImatra() {
+/*function joukkueImatra() {
 	joukkue = Imatra;
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
@@ -540,7 +540,7 @@ function joukkueImatra() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 10";
 	document.getElementById("jokeriNimi").innerHTML = "SIKIÖ";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Maa 2 - 10, Jokeri";
-}
+}*/
 
 function joukkueKouvola() {
 	joukkue = Kouvola;
@@ -1204,7 +1204,7 @@ let Kitee = { //joukkueen pelaajat ja statsit
     } 
 }
 
-let Imatra = { //joukkueen pelaajat ja statsit
+/* let Imatra = { //joukkueen pelaajat ja statsit
     pelaajat: {
         lukkari: {
             nimi: 'Surakka',
@@ -1292,7 +1292,7 @@ let Imatra = { //joukkueen pelaajat ja statsit
 		lyöÄssiä: false,
         }
     } 
-}
+}*/
 
 let JymyJussit = { //joukkueen pelaajat ja statsit
     pelaajat: {
