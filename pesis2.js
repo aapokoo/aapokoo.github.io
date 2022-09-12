@@ -1211,7 +1211,7 @@ let Kitee = { //joukkueen pelaajat ja statsit
     } 
 }
 
-/* let Imatra = { //joukkueen pelaajat ja statsit
+ let Imatra = { //joukkueen pelaajat ja statsit
     pelaajat: {
         lukkari: {
             nimi: 'Surakka',
@@ -1299,7 +1299,7 @@ let Kitee = { //joukkueen pelaajat ja statsit
 		lyöÄssiä: false,
         }
     } 
-}*/
+}
 
 let JymyJussit = { //joukkueen pelaajat ja statsit
     pelaajat: {
