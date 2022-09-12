@@ -517,7 +517,7 @@ function joukkueKitee() {
 function joukkueImatra() {
 	joukkue = Imatra;
 	document.getElementById("joukkueVimpeli").style.display = "none";
-	document.getElementById("joukkueSeinäjoki").style.display = "none";
+	/*document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
 	document.getElementById("joukkueKouvola").style.display = "none";
 	document.getElementById("joukkueHyvinkää").style.display = "none";
@@ -525,7 +525,7 @@ function joukkueImatra() {
 	document.getElementById("joukkueKempele").style.display = "none";
 	document.getElementById("joukkueKitee").style.display = "none";
 	document.getElementById("joukkueImatra").style.display = "none";
-	/*document.getElementById("kotiLogo").src="./ipv-logo-web.png";*/
+	document.getElementById("kotiLogo").src="./ipv-logo-web.png";
 	document.getElementById("lukkariNimi").innerHTML = "SURAKKA";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 8";
 	document.getElementById("sieppariNimi").innerHTML = "TOIKKA";
@@ -545,7 +545,7 @@ function joukkueImatra() {
 	document.getElementById("kolmoskoppariNimi").innerHTML = "HAUKKA";
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 10";
 	document.getElementById("jokeriNimi").innerHTML = "SIKIÖ";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: Maa 2 - 10, Jokeri";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Maa 2 - 10, Jokeri";*/
 }
 
 function joukkueKouvola() {
