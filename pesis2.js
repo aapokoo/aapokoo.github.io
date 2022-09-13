@@ -204,6 +204,7 @@ function lataus() {
 	rakennaPakka();
 	sekoita(pakka);
 	sekoita2(vastustajat);
+	nostaVastustaja(vastustajat);
 }
 
 function sekoita2(vastustajat) //sekoittaa vastustajat
