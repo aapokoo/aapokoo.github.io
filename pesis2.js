@@ -305,7 +305,7 @@ function joukkueVimpeli() {
 	joukkue = vimpeli;
 	var index = vastustajat.indexOf("Vimpeli");    // <-- Not supported in <IE9
 	if (index !== -1) {
-    		array.splice(index, 1);
+    		vastustajat.splice(index, 1);
 	}
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
