@@ -201,7 +201,7 @@ function sekoita(pakka) //sekoittaa pakan
 }
 
 function lataus() {
-	rakennapakka();
+	rakennaPakka();
 	sekoita(pakka);
 }
 
