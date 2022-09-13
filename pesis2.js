@@ -21,7 +21,6 @@ function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
 
 function vastustaja() {
     document.getElementById("vastustaja").style.display = "none";
-	document.getElementById("testi").innerHTML = vastustaja_arvottu;
     //vierasjoukkue = getRandomInt(12);
     if (vastustaja_arvottu === "JymyJussit") { //JymyJussit
         document.getElementById("vierastulos").innerHTML = "3";
