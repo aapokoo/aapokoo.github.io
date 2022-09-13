@@ -186,7 +186,7 @@ function rakennaPakka() //rakentaa pakan
 
 function sekoita(pakka) //sekoittaa pakan
 {
-	document.getElementById("pakanSekoitus").style.display = "none";
+	//document.getElementById("pakanSekoitus").style.display = "none";
 	// for 1000 turns
 	// switch the values of two random cards
 	for (let i = 0; i < 1000; i++)
@@ -198,6 +198,11 @@ function sekoita(pakka) //sekoittaa pakan
 		pakka[location1] = pakka[location2];
 		pakka[location2] = tmp;
 	}
+}
+
+function lataus() {
+	rakennapakka();
+	sekoita(pakka);
 }
 
 function sekoita2(vastustajat) //sekoittaa vastustajat
@@ -2178,7 +2183,7 @@ function uusiPeli() {
     		document.getElementById("maanValinta").style.display = "inline";
 		document.getElementById("lopputulos").innerHTML = " ";
         }
-	rakennaPakka();
+	lataus();
         hide0();
 	function show0() {
 		document.getElementById("pakka1").style.display = "grid";
