@@ -323,6 +323,10 @@ function joukkueVimpeli() {
 
 function joukkueTampere() {
 	joukkue = Tampere;
+	var index = vastustajat.indexOf("Manse");    // <-- Not supported in <IE9
+	if (index !== -1) {
+    		vastustajat.splice(index, 1);
+	}
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -360,6 +364,10 @@ function joukkueTampere() {
 
 function joukkueSeinäjoki() {
 	joukkue = JymyJussit;
+	var index = vastustajat.indexOf("JymyJussit");    // <-- Not supported in <IE9
+	if (index !== -1) {
+    		vastustajat.splice(index, 1);
+	}
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -397,6 +405,10 @@ function joukkueSeinäjoki() {
 
 function joukkueSotkamo() {
 	joukkue = Sotkamo;
+	var index = vastustajat.indexOf("Sotkamo");    // <-- Not supported in <IE9
+	if (index !== -1) {
+    		vastustajat.splice(index, 1);
+	}
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -434,6 +446,10 @@ function joukkueSotkamo() {
 
 function joukkueHyvinkää() {
 	joukkue = Hyvinkää;
+	var index = vastustajat.indexOf("Tahko");    // <-- Not supported in <IE9
+	if (index !== -1) {
+    		vastustajat.splice(index, 1);
+	}
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -471,6 +487,10 @@ function joukkueHyvinkää() {
 
 function joukkueKempele() {
 	joukkue = Kempele;
+	var index = vastustajat.indexOf("Kempele");    // <-- Not supported in <IE9
+	if (index !== -1) {
+    		vastustajat.splice(index, 1);
+	}
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -508,6 +528,10 @@ function joukkueKempele() {
 
 function joukkueKitee() {
 	joukkue = Kitee;
+	var index = vastustajat.indexOf("Kipa");    // <-- Not supported in <IE9
+	if (index !== -1) {
+    		vastustajat.splice(index, 1);
+	}
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -545,6 +569,10 @@ function joukkueKitee() {
 
 function joukkueImatra() {
 	joukkue = Imatra;
+	var index = vastustajat.indexOf("IPV");    // <-- Not supported in <IE9
+	if (index !== -1) {
+    		vastustajat.splice(index, 1);
+	}
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -582,6 +610,10 @@ function joukkueImatra() {
 
 function joukkueRaahe() {
 	joukkue = Raahe;
+	var index = vastustajat.indexOf("PattU");    // <-- Not supported in <IE9
+	if (index !== -1) {
+    		vastustajat.splice(index, 1);
+	}
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -619,6 +651,10 @@ function joukkueRaahe() {
 
 function joukkueKoskenkorva() {
 	joukkue = Koskenkorva;
+	var index = vastustajat.indexOf("Kossu");    // <-- Not supported in <IE9
+	if (index !== -1) {
+    		vastustajat.splice(index, 1);
+	}
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -656,6 +692,10 @@ function joukkueKoskenkorva() {
 
 function joukkueKankaanpää() {
 	joukkue = Kankaanpää;
+	var index = vastustajat.indexOf("Kankaanpää");    // <-- Not supported in <IE9
+	if (index !== -1) {
+    		vastustajat.splice(index, 1);
+	}
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -693,6 +733,10 @@ function joukkueKankaanpää() {
 
 function joukkueKouvola() {
 	joukkue = Kouvola;
+	var index = vastustajat.indexOf("KPL");    // <-- Not supported in <IE9
+	if (index !== -1) {
+    		vastustajat.splice(index, 1);
+	}
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
