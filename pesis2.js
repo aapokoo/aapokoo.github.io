@@ -14,6 +14,7 @@ let vastustaja_arvottu;
 let pisteet = 0;
 let sijoitus;
 let joukkue;
+let juoksuero = 0;
 
 function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
     return Math.floor(Math.random() * max);
@@ -2168,6 +2169,8 @@ function lyö10() {
         	document.getElementById("lopputulos").innerHTML = "Tappio!";
 		document.getElementById("pisteet").innerHTML = "Pisteet: " + pisteet;
         }
+	    juoksuero = juoksuero + juoksut - vierastulos;
+	    document.getElementById("juoksuero").innerHTML = "Juoksuero: " + juoksuero;
     }
 }
 
