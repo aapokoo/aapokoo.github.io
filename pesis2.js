@@ -167,7 +167,7 @@ function vastustaja() {
 
 function rakennaPakka() //rakentaa pakan
 {
-    document.getElementById("rakennaPakka").style.display = "none";
+    //document.getElementById("rakennaPakka").style.display = "none";
 	for(let i = 0; i < maat.length; i++)
 	{
 		for(let x = 0; x < arvot.length; x++)
