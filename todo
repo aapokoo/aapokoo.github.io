@@ -1,4 +1,3 @@
--nappiviidakon selkeyttäminen ja yksinkertaistaminen
 -"animaatio" juoksuille
 -sarjataulukko
 -juoksuero?
@@ -6,4 +5,5 @@
 -ulkopelinopat
 -pelaajien palkat
 -lipputulot
+-peliä ei voi "aloittaa" ennenkuin vastustaja on arvottu, joukkue ja maa valittu
 
