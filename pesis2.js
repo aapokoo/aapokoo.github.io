@@ -314,6 +314,7 @@ function joukkueVimpeli() {
 	if (index !== -1) {
     		vastustajat.splice(index, 1);
 	}
+	document.getElementById("joukkueenValinta").style.display = "none";
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -334,6 +335,7 @@ function joukkueTampere() {
 	if (index !== -1) {
     		vastustajat.splice(index, 1);
 	}
+	document.getElementById("joukkueenValinta").style.display = "none";
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -375,6 +377,7 @@ function joukkueSeinäjoki() {
 	if (index !== -1) {
     		vastustajat.splice(index, 1);
 	}
+	document.getElementById("joukkueenValinta").style.display = "none";
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -416,6 +419,7 @@ function joukkueSotkamo() {
 	if (index !== -1) {
     		vastustajat.splice(index, 1);
 	}
+	document.getElementById("joukkueenValinta").style.display = "none";
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -457,6 +461,7 @@ function joukkueHyvinkää() {
 	if (index !== -1) {
     		vastustajat.splice(index, 1);
 	}
+	document.getElementById("joukkueenValinta").style.display = "none";
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -498,6 +503,7 @@ function joukkueKempele() {
 	if (index !== -1) {
     		vastustajat.splice(index, 1);
 	}
+	document.getElementById("joukkueenValinta").style.display = "none";
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -539,6 +545,7 @@ function joukkueKitee() {
 	if (index !== -1) {
     		vastustajat.splice(index, 1);
 	}
+	document.getElementById("joukkueenValinta").style.display = "none";
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -580,6 +587,7 @@ function joukkueImatra() {
 	if (index !== -1) {
     		vastustajat.splice(index, 1);
 	}
+	document.getElementById("joukkueenValinta").style.display = "none";
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -621,6 +629,7 @@ function joukkueRaahe() {
 	if (index !== -1) {
     		vastustajat.splice(index, 1);
 	}
+	document.getElementById("joukkueenValinta").style.display = "none";
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -662,6 +671,7 @@ function joukkueKoskenkorva() {
 	if (index !== -1) {
     		vastustajat.splice(index, 1);
 	}
+	document.getElementById("joukkueenValinta").style.display = "none";
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -703,6 +713,7 @@ function joukkueKankaanpää() {
 	if (index !== -1) {
     		vastustajat.splice(index, 1);
 	}
+	document.getElementById("joukkueenValinta").style.display = "none";
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
@@ -744,6 +755,7 @@ function joukkueKouvola() {
 	if (index !== -1) {
     		vastustajat.splice(index, 1);
 	}
+	document.getElementById("joukkueenValinta").style.display = "none";
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
