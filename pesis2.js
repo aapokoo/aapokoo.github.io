@@ -203,6 +203,7 @@ function sekoita(pakka) //sekoittaa pakan
 function lataus() {
 	rakennaPakka();
 	sekoita(pakka);
+	sekoita2(vastustajat);
 }
 
 function sekoita2(vastustajat) //sekoittaa vastustajat
