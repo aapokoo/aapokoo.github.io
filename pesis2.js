@@ -1,6 +1,6 @@
 var maat = ["pata", "ruutu", "risti", "hertta"];
 var arvot = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"];
-var vastustajat = ["Manse", "Sotkamo", "KPL", "Tahko", "Joma", "Kempele", "Kipa", "JymyJussit", "IPV", "PattU", "Kossu", "Kankaanpää"];
+var vastustajat = ["Manse", "Sotkamo", "KPL", "Tahko", "Joma", "Kempele", "Kipa", "JymyJussit", "IPV", "PattU", "Kossu", "Kankaanpää", "Vimpeli"];
 let pakka = new Array();
 let kortti;
 let juoksut = 0;
@@ -71,6 +71,10 @@ function vastustaja() {
 	document.getElementById("vierastulos").innerHTML = "1";
         document.getElementById("vieraslogo").src="1200px-KaMa_logo_2016.png";
         vierastulos = 1;
+    } else if (vastustaja_arvottu === "Vimpeli") { //Vimpeli
+	document.getElementById("vierastulos").innerHTML = "8";
+        document.getElementById("vieraslogo").src="ViVe-logo.png";
+        vierastulos = 8;
     } else {
 	    if (pisteet >= 20) {
 		    sijoitus = "Sijoituksesi: 1.";
@@ -299,6 +303,10 @@ function maaPata() {
 
 function joukkueVimpeli() {
 	joukkue = vimpeli;
+	var index = vastustajat.indexOf("Vimpeli");    // <-- Not supported in <IE9
+	if (index !== -1) {
+    		array.splice(index, 1);
+	}
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
 	document.getElementById("joukkueSotkamo").style.display = "none";
