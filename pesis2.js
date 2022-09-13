@@ -2170,7 +2170,6 @@ function uusiPeli() {
         document.getElementById("uusiPeli").style.display = "none";
 	document.getElementById("pakka11").style.display = "none";
 		document.getElementById("vastustaja").style.display = "inline";
-		document.getElementById("pakanRakennus").style.display = "inline";
 		document.getElementById("pakanSekoitus").style.display = "inline";
 		document.getElementById("herttaValinta").style.display = "inline";
     		document.getElementById("ruutuValinta").style.display = "inline";
@@ -2179,6 +2178,7 @@ function uusiPeli() {
     		document.getElementById("maanValinta").style.display = "inline";
 		document.getElementById("lopputulos").innerHTML = " ";
         }
+	rakennaPakka();
         hide0();
 	function show0() {
 		document.getElementById("pakka1").style.display = "grid";
