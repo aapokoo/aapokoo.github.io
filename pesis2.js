@@ -2282,7 +2282,7 @@ function sijoitusKesken() {
 		} else {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 13.";
 		}
-	} else
+	} else {
 		document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: ??.";
 	}
 }
