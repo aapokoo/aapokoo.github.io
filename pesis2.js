@@ -2284,6 +2284,7 @@ function sijoitusKesken() {
 		}
 	} else {
 		document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: ??.";
+		}
 	}
 }
 
