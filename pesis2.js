@@ -35,7 +35,7 @@ function vastustaja() {
     } else if (vastustaja_arvottu === "Manse") { //Manse
 	document.getElementById("vierastulos").innerHTML = "8";
         document.getElementById("vieraslogo").src="Manse_PP_2015_logo.png";
-        vierastulos = 7;
+        vierastulos = 8;
     } else if (vastustaja_arvottu === "KPL") { //KPL
 	document.getElementById("vierastulos").innerHTML = "7";
         document.getElementById("vieraslogo").src="1200px-KPL_logo.png";
