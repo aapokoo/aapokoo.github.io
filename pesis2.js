@@ -2635,3 +2635,51 @@ PattU		3
 Kossu		2
 Kankaanpää	1
 */
+
+/*
+10:
+Vimpeli     17      +68
+Manse       15      +35
+KPL         14      +36
+Sotkamo     14      +34
+Tahko       11      +22
+Joma        11      +12
+Kempele     9       +7
+Kipa        8       -2
+JymyJussit  5       -28
+IPV         5       -32
+PattU       5       -36
+KossU       5       -39
+Kankaanpää  1       -77
+
+11:
+Vimpeli     19      +75
+Manse       17      +39
+KPL         15      +40
+Sotkamo     15      +38
+Tahko       13      +24
+Joma        13      +13
+Kempele     11      +7
+Kipa        9       -2
+JymyJussit  6       -31
+IPV         6       -35
+PattU       5       -40
+KossU       5       -43
+Kankaanpää  2       -86
+
+12:
+Vimpeli     20      +82
+Manse       19      +42
+KPL         17      +43
+Sotkamo     17      +41
+Tahko       14      +26
+Joma        14      +14
+Kempele     11      +8
+Kipa        10      -2
+JymyJussit  7       -34
+IPV         7       -38
+PattU       6       -43
+KossU       6       -47
+Kankaanpää  2       -93
+
+*/
