@@ -2177,6 +2177,7 @@ function lyö10() {
 	    document.getElementById("juoksuero").innerHTML = "Juoksuero: " + juoksuero;
     }
 	sijoitusKesken();
+	document.getElementById("pelatutPelit").innerHTML = "Pelatut pelit: " + pelatutPelit;
 }
 
 function sijoitusKesken() {
