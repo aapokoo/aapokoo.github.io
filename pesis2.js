@@ -2540,7 +2540,7 @@ function sijoitusKesken() {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 8.";
 		} else if (pisteet === 7 && juoksuero < -2) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
-		} else if (pisteet === 5 && >= -26) {
+		} else if (pisteet === 5 && juoksuero >= -26) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
 		} else if (pisteet === 5 && juoksuero < -26 && juoksuero >= -29) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 10.";
