@@ -2177,7 +2177,7 @@ function lyö10() {
 	    document.getElementById("juoksuero").innerHTML = "Juoksuero: " + juoksuero;
     }
 	sijoitusKesken();
-	document.getElementById("pelatutPelit").innerHTML = "Pelatut pelit: " + pelatutPelit + "/12";
+	document.getElementById("pelatutPelit").innerHTML = "Pelatut pelit: " + pelatutPelit;
 }
 
 function sijoitusKesken() {
@@ -2398,7 +2398,7 @@ function sijoitusKesken() {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
 		} else if (pisteet === 4) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
-		} else if (pisteet === 3 &&  juoksuero >= -17) {
+		} else if (pisteet === 3 && juoksuero >= -17) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
 		} else if (pisteet === 3 && juoksuero < -17 && juoksuero >= -19) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 10.";
@@ -2408,7 +2408,9 @@ function sijoitusKesken() {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 12.";
 		} else {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 13.";
-		} else {
+		} 
+		
+	else {
 		document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: ??.";
 		}
 }
