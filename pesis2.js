@@ -2339,7 +2339,7 @@ function sijoitusKesken() {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 4.";
 		} else if (pisteet === 7 && juoksuero < 17) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";
-		} else if (pisteet === 6 && >= 11) {
+		} else if (pisteet === 6 && juoksuero >= 11) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";		
 		} else if (pisteet === 6 && juoksuero < 11 && juoksuero >= 6) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 6.";
