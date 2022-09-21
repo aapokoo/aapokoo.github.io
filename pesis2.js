@@ -395,6 +395,7 @@ function joukkueTampere() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
 	document.getElementById("jokeriNimi").innerHTML = "RUUSKA";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("vastustaja").style.display = "inline";
 }
 
 function joukkueSeinäjoki() {
@@ -437,6 +438,7 @@ function joukkueSeinäjoki() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
 	document.getElementById("jokeriNimi").innerHTML = "HALLASUO";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("vastustaja").style.display = "inline";
 }
 
 function joukkueSotkamo() {
@@ -479,6 +481,7 @@ function joukkueSotkamo() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
 	document.getElementById("jokeriNimi").innerHTML = "R. KORHONEN";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("vastustaja").style.display = "inline";
 }
 
 function joukkueHyvinkää() {
@@ -521,6 +524,7 @@ function joukkueHyvinkää() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 12";
 	document.getElementById("jokeriNimi").innerHTML = "NIEMI";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("vastustaja").style.display = "inline";
 }
 
 function joukkueKempele() {
@@ -563,6 +567,7 @@ function joukkueKempele() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
 	document.getElementById("jokeriNimi").innerHTML = "M. KORHONEN";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("vastustaja").style.display = "inline";
 }
 
 function joukkueKitee() {
@@ -605,6 +610,7 @@ function joukkueKitee() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
 	document.getElementById("jokeriNimi").innerHTML = "PIPPOLA";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("vastustaja").style.display = "inline";
 }
 
 function joukkueImatra() {
@@ -647,6 +653,7 @@ function joukkueImatra() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 10";
 	document.getElementById("jokeriNimi").innerHTML = "SIKIÖ";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Maa 2 - 10, Jokeri";
+	document.getElementById("vastustaja").style.display = "inline";
 }
 
 function joukkueRaahe() {
@@ -689,6 +696,7 @@ function joukkueRaahe() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
 	document.getElementById("jokeriNimi").innerHTML = "KESKI-KOUKKARI";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("vastustaja").style.display = "inline";
 }
 
 function joukkueKoskenkorva() {
@@ -731,6 +739,7 @@ function joukkueKoskenkorva() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 10";
 	document.getElementById("jokeriNimi").innerHTML = "OLLI";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("vastustaja").style.display = "inline";
 }
 
 function joukkueKankaanpää() {
@@ -773,6 +782,7 @@ function joukkueKankaanpää() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 12";
 	document.getElementById("jokeriNimi").innerHTML = "MIKKOLANAHO";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Maa 2 - 13, A, Jokeri";
+	document.getElementById("vastustaja").style.display = "inline";
 }
 
 function joukkueKouvola() {
@@ -815,6 +825,7 @@ function joukkueKouvola() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
 	document.getElementById("jokeriNimi").innerHTML = "MERILÄINEN";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("vastustaja").style.display = "inline";
 }
 
 let vimpeli = { //joukkueen pelaajat ja statsit
