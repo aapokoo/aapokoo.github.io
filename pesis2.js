@@ -2778,11 +2778,11 @@ function uusiPeli() {
         document.getElementById("uusiPeli").style.display = "none";
 	document.getElementById("pakka11").style.display = "none";
 		document.getElementById("vastustaja").style.display = "inline";
-		document.getElementById("herttaValinta").style.display = "inline";
-    		document.getElementById("ruutuValinta").style.display = "inline";
-    		document.getElementById("ristiValinta").style.display = "inline";
-    		document.getElementById("pataValinta").style.display = "inline";
-    		document.getElementById("maanValinta").style.display = "inline";
+		document.getElementById("herttaValinta").style.display = "none";
+    		document.getElementById("ruutuValinta").style.display = "none";
+    		document.getElementById("ristiValinta").style.display = "none";
+    		document.getElementById("pataValinta").style.display = "none";
+    		document.getElementById("maanValinta").style.display = "none";
 		document.getElementById("lopputulos").innerHTML = " ";
         }
 	lataus();
