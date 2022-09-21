@@ -18,6 +18,10 @@ TO DO: keskitä asiat myös pituuden osalta
     display: none;
 }
 
+#maanValinta {
+    display: none;
+}
+
 ul {
     list-style-type: none;
     align-items: center;
