@@ -14,6 +14,10 @@ CSS pixels = 1024 x 768 varmaan tää? onko joku tapa tunnistaa mikä ipad?
 TO DO: keskitä asiat myös pituuden osalta
 */
 
+#vastustaja {
+    display: none;
+}
+
 ul {
     list-style-type: none;
     align-items: center;
