@@ -309,6 +309,7 @@ function maaHertta() {
     document.getElementById("ristiValinta").style.display = "none";
     document.getElementById("pataValinta").style.display = "none";
     document.getElementById("maanValinta").style.display = "none";
+	document.getElementById("pakka1").style.visibility = "visible";
 }
 function maaRuutu() {
     valittuMaa = "ruutu";
@@ -318,6 +319,7 @@ function maaRuutu() {
     document.getElementById("ristiValinta").style.display = "none";
     document.getElementById("pataValinta").style.display = "none";
     document.getElementById("maanValinta").style.display = "none";
+	document.getElementById("pakka1").style.visibility = "visible";
 }
 function maaRisti() {
     valittuMaa = "risti";
@@ -327,6 +329,7 @@ function maaRisti() {
     document.getElementById("ristiValinta").style.display = "none";
     document.getElementById("pataValinta").style.display = "none";
     document.getElementById("maanValinta").style.display = "none";
+	document.getElementById("pakka1").style.visibility = "visible";
 }
 function maaPata() {
     valittuMaa = "pata";
@@ -336,6 +339,7 @@ function maaPata() {
     document.getElementById("ristiValinta").style.display = "none";
     document.getElementById("pataValinta").style.display = "none";
     document.getElementById("maanValinta").style.display = "none";
+	document.getElementById("pakka1").style.visibility = "visible";
 }
 
 function joukkueVimpeli() {
