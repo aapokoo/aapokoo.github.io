@@ -2789,7 +2789,7 @@ function uusiPeli() {
         hide0();
 	function show0() {
 		document.getElementById("pakka1").style.display = "grid";
-            	// document.getElementById("pakka1").style.visibility = "visible";
+            	document.getElementById("pakka1").style.visibility = "hidden";
         }
         show0();	
 }
