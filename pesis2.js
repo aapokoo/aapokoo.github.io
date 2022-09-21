@@ -2694,7 +2694,7 @@ function sijoitusKesken() {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
 		} else if (pisteet === 18) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
-		} else if (pisteet === 17 && >= 43 ) {
+		} else if (pisteet === 17 && juoksuero >= 43 ) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
 		} else if (pisteet === 17 && juoksuero >= 41 && juoksuero < 43 ) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 4.";
@@ -2716,7 +2716,7 @@ function sijoitusKesken() {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 8.";
 		} else if (pisteet === 10 && juoksuero >= -2) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 8.";
-		} else if (pisteet === 10 < -2) {
+		} else if (pisteet === 10 && juoksuero < -2) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
 		} else if (pisteet >= 8 && pisteet < 10) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
