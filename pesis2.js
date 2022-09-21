@@ -135,6 +135,7 @@ function vastustaja() {
 	    }
 	    window.alert("Kausi loppu! " + sijoitus);
         document.getElementById("vieraslogo").src="#";
+	    document.getElementById("vastustaja").style.display = "none";
     }
 }
 
