@@ -18,9 +18,22 @@ TO DO: keskitä asiat myös pituuden osalta
     display: none;
 }
 
-#maanValinta {
+#herttaValinta {
     display: none;
 }
+
+#ruutuValinta {
+    display: none;
+}
+
+#ristiValinta {
+    display: none;
+}
+
+#pataValinta {
+    display: none;
+}
+
 
 ul {
     list-style-type: none;
