@@ -135,7 +135,11 @@ function vastustaja() {
 	    }
 	    window.alert("Kausi loppu! " + sijoitus);
         document.getElementById("vieraslogo").src="#";
-	    document.getElementById("vastustaja").style.display = "none";
+	    document.getElementById("herttaValinta").style.display = "none";
+	document.getElementById("ruutuValinta").style.display = "none";
+	document.getElementById("ristiValinta").style.display = "none";
+	document.getElementById("pataValinta").style.display = "none";
+	    document.getElementById("maanValinta").style.display = "none";
     }
 }
 
