@@ -352,6 +352,7 @@ function joukkueVimpeli() {
 	document.getElementById("joukkueRaahe").style.display = "none";
 	document.getElementById("joukkueKoskenkorva").style.display = "none";
 	document.getElementById("joukkueKankaanpää").style.display = "none";
+	document.getElementById("vastustaja").style.display = "inline";
 }
 
 function joukkueTampere() {
