@@ -313,7 +313,7 @@ function maaHertta() {
     document.getElementById("ruutuValinta").style.display = "none";
     document.getElementById("ristiValinta").style.display = "none";
     document.getElementById("pataValinta").style.display = "none";
-    document.getElementById("maanValinta").style.display = "none";
+    document.getElementById("maanValinta").innerHTML = "♥";
 	document.getElementById("pakka1").style.visibility = "visible";
 }
 function maaRuutu() {
@@ -323,7 +323,7 @@ function maaRuutu() {
     document.getElementById("ruutuValinta").style.display = "none";
     document.getElementById("ristiValinta").style.display = "none";
     document.getElementById("pataValinta").style.display = "none";
-    document.getElementById("maanValinta").style.display = "none";
+    document.getElementById("maanValinta").innerHTML = "♦";
 	document.getElementById("pakka1").style.visibility = "visible";
 }
 function maaRisti() {
@@ -333,7 +333,7 @@ function maaRisti() {
     document.getElementById("ruutuValinta").style.display = "none";
     document.getElementById("ristiValinta").style.display = "none";
     document.getElementById("pataValinta").style.display = "none";
-    document.getElementById("maanValinta").style.display = "none";
+    document.getElementById("maanValinta").innerHTML = "♣";
 	document.getElementById("pakka1").style.visibility = "visible";
 }
 function maaPata() {
@@ -343,7 +343,7 @@ function maaPata() {
     document.getElementById("ruutuValinta").style.display = "none";
     document.getElementById("ristiValinta").style.display = "none";
     document.getElementById("pataValinta").style.display = "none";
-    document.getElementById("maanValinta").style.display = "none";
+    document.getElementById("maanValinta").innerHTML = "♠";
 	document.getElementById("pakka1").style.visibility = "visible";
 }
 
