@@ -154,5 +154,48 @@ Lisenssimaksuissa sekaannusta. Maksa 4.000 mk.
 KAUNIS VÄLILYÖNTI! Saat 1 juoksun? 
 ? (sp-nopat) (kotona onnistut)
 
+VASTUSTAJA YRITTÄÄ VÄLILYÖNTIÄ. Vastustajalle juoksu?
+? (up-nopat)
+
+Jos tämä on kotiottelu, saat ajolähdöstä pajatson tyhjäksi: 4 juoksua! Vastustaja väittää lyöntiä laittomaksi. Tuomari epäröi. Jos vedät PAKAN VÄLISTÄ NYT PADAN, tuomari taipuu vastustajan tahoon ja HYLKÄÄ JUOKSUT.
+
+Saat vapaataivaljuoksun.
+
+Tämä pelaaja loukkaantuu. Jos maksat 5.000 mk, saat hänet kuntoon - muussa tapauksessa hän on seuraavan ottelun sivussa.
+
+Heitä tälle miehelle sekä sisä- että ulkopelinopat.
+?
+
+ONNETON HARHAHEITTO. Vastustajalle yksi juoksu.
+
+POMPULLA JUOKSU? Saat 1 juoksun?
+? (sp-nopat)
+
+Kotikuntasi tekee lahjoituksen. Nosta 6.000 mk.
+
+RÄPYLÄ VUOTAA. Vastustajalle juoksu. (ao-mies torjuu)
+
+Häviöllä oleva saa juoksun. (Jos tilanne on tasan, heitä noppaa sekä sisä- että ulkopelin osalta. ?)
+
+KIRI, KIRI! Jos olet häviöllä, saat juoksun.
+
+AIJAI! Vastustajan väliönti puree; 1 juoksu vastustajalle?
+? (up nopat) (kotona torjut)
+
+Lyö kerran vielä!
+
+TOLPPA EI PYSY LAUTASELLA. Vastustaja pääsee yrittämään 2 juoksua peräkkäin.
+? (lukkarisi up-arvot)
+
+-----
+
+HARJOITUSLEIRI 1 - 15.000 MK
+Koko joukkueesi SP- ja UP-arvot paranevat 2 pykälää. JOKER-kortit ovat juoksuja.
+(ALUSSA tai 6. KIERROKSEN jälk.)
+
+HARJOITUSLEIRI 2 - 10.000 mk
+Koko joukkueesi SP- ja UP-arvot paranevat vielä 1 pykälän. Oikeaa maata oleviin juoksuttomiin kortteihin ei tarvitse pysähtyä.
+(6. ja 10. kierr. jälk.)
+
 
 */
