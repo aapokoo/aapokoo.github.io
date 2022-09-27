@@ -17,6 +17,18 @@ let joukkue;
 let juoksuero = 0;
 let pelatutPelit = 0;
 let joukkueenRahat = 10000;
+let kotiottelu; //parittomat kotiotteluita, parilliset vierasotteluita
+let vierasottelu;
+let lukkariLyödyt;
+let sieppariLyödyt;
+let ykkösvahtiLyödyt;
+let kakkosvahtiLyödyt;
+let kakkospolttajaLyödyt;
+let kolmospolttajaLyödyt;
+let kolmosvahtiLyödyt;
+let kakkoskoppariLyödyt;
+let kolmoskoppariLyödyt;
+let jokeriLyödyt;
 
 function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
     return Math.floor(Math.random() * max);
