@@ -16,6 +16,7 @@ let sijoitus;
 let joukkue;
 let juoksuero = 0;
 let pelatutPelit = 0;
+let joukkueenRahat = 10000;
 
 function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
     return Math.floor(Math.random() * max);
@@ -2710,56 +2711,108 @@ function sijoitusKesken() {
 	} else if (pelatutPelit === 12) {
 		if (pisteet >= 21) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
+			joukkueenRahat = joukkueenRahat + 20000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 20 && juoksuero >= 82) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
+			joukkueenRahat = joukkueenRahat + 20000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 20 && juoksuero < 82) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 2.";
+			joukkueenRahat = joukkueenRahat + 17000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 19 && juoksuero >= 42) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 2.";
+			joukkueenRahat = joukkueenRahat + 17000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 19 && juoksuero < 42) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
+			joukkueenRahat = joukkueenRahat + 14000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 18) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
+			joukkueenRahat = joukkueenRahat + 14000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 17 && juoksuero >= 43 ) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
+			joukkueenRahat = joukkueenRahat + 14000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 17 && juoksuero >= 41 && juoksuero < 43 ) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 4.";
+			joukkueenRahat = joukkueenRahat + 10000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 17 && juoksuero < 41) {
-			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";		
+			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";
+			joukkueenRahat = joukkueenRahat + 8000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet >= 15 && pisteet < 17) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";
+			joukkueenRahat = joukkueenRahat + 8000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 14 && juoksuero >= 26) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";
+			joukkueenRahat = joukkueenRahat + 8000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 14 && juoksuero >= 14 && juoksuero < 26) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 6.";
+			joukkueenRahat = joukkueenRahat + 7000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 14 & juoksuero < 14) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 7.";
+			joukkueenRahat = joukkueenRahat + 6000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet >= 12 && pisteet < 14) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 7.";
+			joukkueenRahat = joukkueenRahat + 6000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 11 && juoksuero >= 8) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 7.";
+			joukkueenRahat = joukkueenRahat + 6000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 11 && juoksuero < 8) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 8.";
+			joukkueenRahat = joukkueenRahat + 5500
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 10 && juoksuero >= -2) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 8.";
+			joukkueenRahat = joukkueenRahat + 5500
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 10 && juoksuero < -2) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
+			joukkueenRahat = joukkueenRahat + 5000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet >= 8 && pisteet < 10) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
+			joukkueenRahat = joukkueenRahat + 5000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 7 && juoksuero >= -34) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
+			joukkueenRahat = joukkueenRahat + 5000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 7 && pisteet < 34 && juoksuero >= -38) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 10.";
+			joukkueenRahat = joukkueenRahat + 4500
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 7 && juoksuero < -38) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 11.";
+			joukkueenRahat = joukkueenRahat + 4000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 6 && juoksuero >= -43) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 11.";
+			joukkueenRahat = joukkueenRahat + 4000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 6 && juoksuero < -43 && juoksuero >= -47) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 12.";
+			joukkueenRahat = joukkueenRahat + 3000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (pisteet === 6 && juoksuero < -47) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 12.";
+			joukkueenRahat = joukkueenRahat + 3000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 13.";
+			joukkueenRahat = joukkueenRahat + 2000
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} 
 	} else {
 		document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: ??.";
