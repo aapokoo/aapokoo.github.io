@@ -76,30 +76,43 @@ function vastustaja() {
         vierastulos = 3;
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 3000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 3000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
 	    }
     } else if (vastustaja_arvottu === "Sotkamo") { //Jymy
         document.getElementById("vierastulos").innerHTML = "7";
