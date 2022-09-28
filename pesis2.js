@@ -30,10 +30,12 @@ let kakkoskoppariLyödyt;
 let kolmoskoppariLyödyt;
 let jokeriLyödyt;
 let vMenot;
+let meno1;
+let meno2
 
 function vierasmenot() {
-	var meno1 = Math.floor(Math.random() * 5) + 1;
-	var meno2 = Math.floor(Math.random() * 5) + 1;
+	meno1 = Math.floor(Math.random() * 5) + 1;
+	meno2 = Math.floor(Math.random() * 5) + 1;
 	vMenot = (meno1 + meno2) * 1000 / 2;
 }
 
@@ -51,7 +53,7 @@ function vastustaja() {
 	if (pelatutPelit % 2 == 0) {
 		vierasmenot();
 		joukkeenRahat = joukkueenRahat - vMenot;
-		document.getElementById("rahat").innerHTML = "Rahaa: testi1" + joukkueenRahat;
+		document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat + " Menot: " + vMenot;
 	}
     //vierasjoukkue = getRandomInt(12);
     if (vastustaja_arvottu === "JymyJussit") { //JymyJussit
