@@ -74,6 +74,7 @@ function vastustaja() {
         document.getElementById("vierastulos").innerHTML = "3";
         document.getElementById("vieraslogo").src="./JymyJussit-STAMP.png";
         vierastulos = 3;
+	    if (
     } else if (vastustaja_arvottu === "Sotkamo") { //Jymy
         document.getElementById("vierastulos").innerHTML = "7";
         document.getElementById("vieraslogo").src="sojy_merkki_w.png";
@@ -2290,192 +2291,281 @@ function sijoitusKesken() {
 	if (pelatutPelit === 1) {
 		if (pisteet === 2 && juoksuero >= 6) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
+			sijoitus = 1;
 		} else if (pisteet === 2 && juoksuero === 5) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 2.";
+			sijoitus = 2;
 		} else if (pisteet === 2 && juoksuero === 4) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
+			sijoitus = 3;
 		} else if (pisteet === 2 && juoksuero === 3) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 4.";
+			sijoitus = 4;
 		} else if (pisteet === 2 && juoksuero === 2) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";
+			sijoitus = 5;
 		} else if (pisteet === 2 && juoksuero === 1) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 6.";
+			sijoitus = 6;
 		} else if (pisteet === 1) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 7.";
+			sijoitus = 7;
 		} else if (pisteet === 0 && juoksuero === -1) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 8.";
+			sijoitus = 8;
 		} else if (pisteet === 0 && juoksuero === -2) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
+			sijoitus = 9;
 		} else if (pisteet === 0 && juoksuero === -3) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 10.";
+			sijoitus = 10;
 		} else if (pisteet === 0 && juoksuero === -4) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 11.";
+			sijoitus = 11;
 		} else if (pisteet === 0 && juoksuero === -5) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 12.";
+			sijoitus = 12;
 		} else if (pisteet === 0 && juoksuero < -5) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 13.";
+			sijoitus = 13;
 		} else {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 13.";
+			sijoitus = 13;
 		}
 	} else if (pelatutPelit === 2) {
 		if (pisteet >= 4) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
+			sijoitus = 1;
 		} else if (pisteet === 3 && juoksuero >= 14) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
+			sijoitus = 1;
 		} else if (pisteet === 3 && juoksuero < 14 && juoksuero >= 8) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 2.";
+			sijoitus = 2;
 		} else if (pisteet === 3 && juoksuero < 8 && juoksuero >= 7) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
+			sijoitus = 3;
 		} else if (pisteet === 3 && juoksuero < 7 && juoksuero >= 6) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 4.";
+			sijoitus = 4;
 		} else if (pisteet === 3 && juoksuero < 6 && juoksuero >= 4) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";
+			sijoitus = 5;
 		} else if (pisteet === 3 && juoksuero < 4 && juoksuero >= 2) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 6.";
+			sijoitus = 6;
 		} else if (pisteet === 3 && juoksuero < 2) {
-			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 7.";		
+			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 7.";
+			sijoitus = 7;
 		} else if (pisteet === 2 && juoksuero >= 1) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 7.";
+			sijoitus = 7;
 		} else if (pisteet === 2 && juoksuero < 1 && juoksuero >= 0) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 8.";
+			sijoitus = 8;
 		} else if (pisteet === 2 && juoksuero < 0) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
+			sijoitus = 9;
 		} else if (pisteet === 1 && juoksuero >= -5) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
+			sijoitus = 9;
 		} else if (pisteet === 1 && juoksuero < -5 && juoksuero >= -6) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 10.";
+			sijoitus = 10;
 		} else if (pisteet === 1 && juoksuero < -6 && juoksuero >= -7) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 11.";
+			sijoitus = 11;
 		} else if (pisteet === 1 && juoksuero < -7 && juoksuero >= -8) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 12.";
+			sijoitus = 12;
 		} else {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 13.";
+			sijoitus = 13;
 		}
 	} else if (pelatutPelit === 3) {
 		if (pisteet >= 6) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
+			sijoitus = 1;
 		} else if (pisteet === 5 && juoksuero >= 21) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
+			sijoitus = 1;
 		} else if (pisteet === 5 && juoksuero < 21 && juoksuero >= 11) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 2.";
+			sijoitus = 2;
 		} else if (pisteet === 5 && juoksuero < 11) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
+			sijoitus = 3;
 		} else if (pisteet === 4 && juoksuero >= 11) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
+			sijoitus = 3;
 		} else if (pisteet === 4 && juoksuero < 11 && juoksuero >= 10) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 4.";
+			sijoitus = 4;
 		} else if (pisteet === 4 && juoksuero < 10) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";
+			sijoitus = 5;
 		} else if (pisteet === 3 && juoksuero >= 7) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";
+			sijoitus = 5;
 		} else if (pisteet === 3 && juoksuero < 7 && juoksuero >= 4) {
-			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 6.";		
+			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 6.";
+			sijoitus = 6;
 		} else if (pisteet === 3 && juoksuero < 4 && juoksuero >= 2) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 7.";
+			sijoitus = 7;
 		} else if (pisteet === 3 && juoksuero < 2 && juoksuero >= -1) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 8.";
+			sijoitus = 8;
 		} else if (pisteet === 3 && juoksuero < -1) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
+			sijoitus = 9;
 		} else if (pisteet === 2 && juoksuero >= -9) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
+			sijoitus = 9;
 		} else if (pisteet === 2 && juoksuero < -9 && juoksuero >= -10) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 10.";
+			sijoitus = 10;
 		} else if (pisteet === 2 && juoksuero < -10) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 11.";
+			sijoitus = 11;
 		} else if (pisteet === 1 && juoksuero >= -11) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 11.";
+			sijoitus = 11;
 		} else if (pisteet === 1 && juoksuero < -11 && juoksuero >= -12) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 12.";
+			sijoitus = 12;
 		} else {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 13.";
+			sijoitus = 13;
 		}
 	} else if (pelatutPelit === 4) {
 		if (pisteet >= 8) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
+			sijoitus = 1;
 		} else if (pisteet === 7 && juoksuero >= 27) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
+			sijoitus = 1;
 		} else if (pisteet === 7 && juoksuero < 27) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 2.";
+			sijoitus = 2;
 		} else if (pisteet === 6 && juoksuero >= 14) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 2.";
+			sijoitus = 2;
 		} else if (pisteet === 6 && juoksuero < 14) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
+			sijoitus = 3;
 		} else if (pisteet === 5 && juoksuero >= 14) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
+			sijoitus = 3;
 		} else if (pisteet === 5 && juoksuero >= 13 && juoksuero < 14) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 4.";
+			sijoitus = 4;
 		} else if (pisteet === 5 && juoksuero >= 9 && juoksuero < 13) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";
+			sijoitus = 5;
 		} else if (pisteet === 5 && juoksuero < 9 && juoksuero >= 5) {
-			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 6.";		
+			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 6.";	
+			sijoitus = 6;
 		} else if (pisteet === 5 && juoksuero < 5) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 7.";
+			sijoitus = 7;
 		} else if (pisteet === 4 && juoksuero >= 3) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 7.";
+			sijoitus = 7;
 		} else if (pisteet === 4 && juoksuero < 3) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 8.";
+			sijoitus = 8;
 		} else if (pisteet === 3 && juoksuero >= -1) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 8.";
+			sijoitus = 8;
 		} else if (pisteet === 3 && juoksuero < -1) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
+			sijoitus = 9;
 		} else if (pisteet === 2 && juoksuero >= -11) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
+			sijoitus = 9;
 		} else if (pisteet === 2 && juoksuero >= -13 && juoksuero < -11) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 10.";
+			sijoitus = 10;
 		} else if (pisteet === 2 && juoksuero < -13 && juoksuero >= -14) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 11.";
+			sijoitus = 11;
 		} else if (pisteet === 2 && juoksuero < -14 && juoksuero >= -16) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 12.";
+			sijoitus = 12;
 		} else {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 13.";
+			sijoitus = 13;
 		}
 	} else if (pelatutPelit === 5) {
 		if (pisteet >= 10) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
+			sijoitus = 1;
 		} else if (pisteet === 9 && juoksuero >= 34) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
+			sijoitus = 1;
 		} else if (pisteet === 9 && juoksuero < 34) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 2.";
+			sijoitus = 2;
 		} else if (pisteet === 8 && juoksuero >= 18) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 2.";
+			sijoitus = 2;
 		} else if (pisteet === 8 && juoksuero < 18) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
+			sijoitus = 3;
 		} else if (pisteet === 7 && juoksuero >= 18) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 3.";
+			sijoitus = 3;
 		} else if (pisteet === 7 && juoksuero >= 17 && juoksuero < 18) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 4.";
+			sijoitus = 4;
 		} else if (pisteet === 7 && juoksuero < 17) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";
+			sijoitus = 5;
 		} else if (pisteet === 6 && juoksuero >= 11) {
-			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";		
+			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 5.";
+			sijoitus = 5;
 		} else if (pisteet === 6 && juoksuero < 11 && juoksuero >= 6) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 6.";
+			sijoitus = 6;
 		} else if (pisteet === 6 && juoksuero < 6) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 7.";
+			sijoitus = 7;
 		} else if (pisteet === 5 && juoksuero >= 3) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 7.";
+			sijoitus = 7;
 		} else if (pisteet === 5 && juoksuero < 3) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 8.";
+			sijoitus = 8;
 		} else if (pisteet === 4 && juoksuero >= -1) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 8.";
+			sijoitus = 8;
 		} else if (pisteet === 4 && juoksuero < -1) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
+			sijoitus = 9;
 		} else if (pisteet === 3 && juoksuero >= -14) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 9.";
+			sijoitus = 9;
 		} else if (pisteet === 3 && juoksuero < -14 && juoksuero >= -16) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 10.";
+			sijoitus = 10;
 		} else if (pisteet === 3 && juoksuero < -16 && juoksuero >= -18) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 11.";
+			sijoitus = 11;
 		} else if (pisteet === 3 && juoksuero < -18 && juoksuero >= -20) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 12.";
+			sijoitus = 12;
 		} else {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 13.";
+			sijoitus = 13;
 		}
 	} else if (pelatutPelit === 6) {
 		if (pisteet >= 11) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
+			sijoitus = 1;
 		} else if (pisteet === 10 && juoksuero >= 41) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
+			sijoitus = 1;
 		} else if (pisteet === 10 && juoksuero < 41) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 2.";
 		} else if (pisteet === 9 && juoksuero >= 22) {
