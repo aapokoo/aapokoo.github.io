@@ -31,12 +31,21 @@ let kolmoskoppariLyödyt;
 let jokeriLyödyt;
 let vMenot;
 let meno1;
-let meno2
+let meno2;
+let tulo1;
+let tulo2;
+let kTulot1;
 
 function vierasmenot() {
 	meno1 = Math.floor(Math.random() * 5) + 1;
 	meno2 = Math.floor(Math.random() * 5) + 1;
 	vMenot = (meno1 + meno2) * 1000 / 2;
+}
+
+function kotitulot1() {
+	tulo1 = Math.floor(Math.random() * 5) + 1;
+	tulo2 = Math.floor(Math.random() * 5) + 1;
+	kTulot1 = (tulo1 + tulo2) * 1000 / 2;
 }
 
 function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
@@ -50,6 +59,11 @@ function vastustaja() {
 	document.getElementById("ruutuValinta").style.display = "inline";
 	document.getElementById("ristiValinta").style.display = "inline";
 	document.getElementById("pataValinta").style.display = "inline";
+	if (pelatutPelit === 0) {
+		kotitulot1();
+		joukkueenRahat = joukkueenRahat + kTulot1;
+		document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat + " Tulot: " + kTulot1;
+	}
 	if ((pelatutPelit + 1) % 2 == 0) {
 		vierasmenot();
 		joukkueenRahat = joukkueenRahat - vMenot;
