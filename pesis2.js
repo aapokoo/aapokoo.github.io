@@ -52,7 +52,7 @@ function vastustaja() {
 	document.getElementById("pataValinta").style.display = "inline";
 	if (pelatutPelit % 2 == 0) {
 		vierasmenot();
-		joukkeenRahat = joukkueenRahat - vMenot;
+		joukkueenRahat = joukkueenRahat - vMenot;
 		document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat + " Menot: " + vMenot;
 	}
     //vierasjoukkue = getRandomInt(12);
