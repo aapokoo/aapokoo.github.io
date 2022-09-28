@@ -50,7 +50,7 @@ function vastustaja() {
 	document.getElementById("ruutuValinta").style.display = "inline";
 	document.getElementById("ristiValinta").style.display = "inline";
 	document.getElementById("pataValinta").style.display = "inline";
-	if (pelatutPelit % 2 == 0) {
+	if ((pelatutPelit + 1) % 2 == 0) {
 		vierasmenot();
 		joukkueenRahat = joukkueenRahat - vMenot;
 		document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat + " Menot: " + vMenot;
