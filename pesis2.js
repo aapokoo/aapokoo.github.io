@@ -2223,11 +2223,16 @@ function lyö10() {
 	showUp();
         if (juoksut > vierastulos) {
             document.getElementById("lopputulos").innerHTML = "Voitto!";
-		pisteet = pisteet + 2;
-		pelatutPelit = pelatutPelit + 1;
-		document.getElementById("pisteet").innerHTML = "Pisteet: " + pisteet;
 		if (number % 2 > 0) {
+			pisteet = pisteet + 2;
+			pelatutPelit = pelatutPelit + 1;
+			document.getElementById("pisteet").innerHTML = "Pisteet: " + pisteet;
     			joukkeenRahat = joukkueenRahat + 2000;
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
+		} else if {
+			pisteet = pisteet + 2;
+			pelatutPelit = pelatutPelit + 1;
+			document.getElementById("pisteet").innerHTML = "Pisteet: " + pisteet;
 		}
         } else if (juoksut === vierastulos) {
             document.getElementById("lopputulos").innerHTML = "Tasapeli!";
