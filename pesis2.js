@@ -2227,10 +2227,10 @@ function lyö10() {
 		pisteet = pisteet + 2;
 		document.getElementById("pisteet").innerHTML = "Pisteet: " + pisteet;
 		if (pelatutPelit % 2 == 0) {
-			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
+			document.getElementById("rahat").innerHTML = "Rahaa: testi " + joukkueenRahat;
 		} else {
 			joukkeenRahat = joukkueenRahat + 2000;
-			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
+			document.getElementById("rahat").innerHTML = "Rahaa: testi2 " + joukkueenRahat;
 		}
         } else if (juoksut === vierastulos) {
             document.getElementById("lopputulos").innerHTML = "Tasapeli!";
