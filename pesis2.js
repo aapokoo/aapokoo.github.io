@@ -2232,6 +2232,13 @@ function lyö10() {
 			joukkueenRahat = joukkueenRahat + 2000;
 			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		}
+		if (vastustaja === "Vimpeli" || vastustaja === "Manse") {
+			joukkueenRahat = joukkueenRahat + 4000;
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
+		} else if (vastustaja === "KPL" || vastustaja === "Sotkamo") {
+			joukkueenRahat = joukkueenRahat + 2000;
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
+		}
         } else if (juoksut === vierastulos) {
             document.getElementById("lopputulos").innerHTML = "Tasapeli!";
 		pisteet = pisteet + 1;
