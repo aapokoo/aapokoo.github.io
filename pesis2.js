@@ -2229,7 +2229,7 @@ function lyö10() {
 		if (pelatutPelit % 2 == 0) {
 			document.getElementById("rahat").innerHTML = "Rahaa: testi " + joukkueenRahat;
 		} else {
-			joukkeenRahat = joukkueenRahat + 2000;
+			joukkueenRahat = joukkueenRahat + 2000;
 			document.getElementById("rahat").innerHTML = "Rahaa: testi2 " + joukkueenRahat;
 		}
         } else if (juoksut === vierastulos) {
