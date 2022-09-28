@@ -2232,10 +2232,10 @@ function lyö10() {
 			joukkueenRahat = joukkueenRahat + 2000;
 			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		}
-		if (vastustaja === "Vimpeli" || vastustaja === "Manse") {
+		if (vastustaja_arvottu === "Vimpeli" || vastustaja_arvottu === "Manse") {
 			joukkueenRahat = joukkueenRahat + 4000;
 			document.getElementById("rahat").innerHTML = "Rahaa: testi1 " + joukkueenRahat;
-		} else if (vastustaja === "KPL" || vastustaja === "Sotkamo") {
+		} else if (vastustaja_arvottu === "KPL" || vastustaja_arvottu === "Sotkamo") {
 			joukkueenRahat = joukkueenRahat + 2000;
 			document.getElementById("rahat").innerHTML = "Rahaa: testi2 " + joukkueenRahat;
 		} else {
