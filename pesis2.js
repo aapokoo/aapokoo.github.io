@@ -2229,7 +2229,7 @@ function lyö10() {
 			document.getElementById("pisteet").innerHTML = "Pisteet: " + pisteet;
     			joukkeenRahat = joukkueenRahat + 2000;
 			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		} else if {
+		} else {
 			pisteet = pisteet + 2;
 			pelatutPelit = pelatutPelit + 1;
 			document.getElementById("pisteet").innerHTML = "Pisteet: " + pisteet;
