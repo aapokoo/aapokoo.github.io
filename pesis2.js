@@ -48,6 +48,11 @@ function vastustaja() {
 	document.getElementById("ruutuValinta").style.display = "inline";
 	document.getElementById("ristiValinta").style.display = "inline";
 	document.getElementById("pataValinta").style.display = "inline";
+	if (pelatutPelit % 2 == 0) {
+		vierasmenot();
+		joukkeenRahat = joukkueenRahat - vMenot;
+		document.getElementById("rahat").innerHTML = "Rahaa: testi1" + joukkueenRahat;
+	}
     //vierasjoukkue = getRandomInt(12);
     if (vastustaja_arvottu === "JymyJussit") { //JymyJussit
         document.getElementById("vierastulos").innerHTML = "3";
