@@ -29,12 +29,12 @@ let kolmosvahtiLyödyt;
 let kakkoskoppariLyödyt;
 let kolmoskoppariLyödyt;
 let jokeriLyödyt;
+let vMenot;
 
 function vierasmenot() {
 	var meno1 = Math.floor(Math.random() * 5) + 1;
 	var meno2 = Math.floor(Math.random() * 5) + 1;
-	var vMenot = (meno1 + meno2) * 1000 / 2;
-	return vMenot;
+	vMenot = (meno1 + meno2) * 1000 / 2;
 }
 
 function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
