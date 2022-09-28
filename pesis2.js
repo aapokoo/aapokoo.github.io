@@ -2234,12 +2234,12 @@ function lyö10() {
 		}
 		if (vastustaja_arvottu === "Vimpeli" || vastustaja_arvottu === "Manse") {
 			joukkueenRahat = joukkueenRahat + 4000;
-			document.getElementById("rahat").innerHTML = "Rahaa: testi1 " + joukkueenRahat;
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (vastustaja_arvottu === "KPL" || vastustaja_arvottu === "Sotkamo") {
 			joukkueenRahat = joukkueenRahat + 2000;
-			document.getElementById("rahat").innerHTML = "Rahaa: testi2 " + joukkueenRahat;
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else {
-			document.getElementById("rahat").innerHTML = "Rahaa: testi3 " + joukkueenRahat;
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		}
         } else if (juoksut === vierastulos) {
             document.getElementById("lopputulos").innerHTML = "Tasapeli!";
