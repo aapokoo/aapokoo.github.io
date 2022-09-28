@@ -2226,7 +2226,9 @@ function lyö10() {
 		pelatutPelit = pelatutPelit + 1;
 		pisteet = pisteet + 2;
 		document.getElementById("pisteet").innerHTML = "Pisteet: " + pisteet;
-		if (pelatutPelit % 2 > 0) {
+		if (pelatutPelit % 2 == 0) {
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
+		} else {
 			joukkeenRahat = joukkueenRahat + 2000;
 			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		}
