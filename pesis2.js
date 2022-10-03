@@ -1103,6 +1103,7 @@ function joukkueVimpeli() {
 	document.getElementById("vastustaja").style.display = "inline";
 	document.getElementById("lukkariNimi").innerHTML = "KINNUNEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 12";
+	document.getElementById("lukkariHinta").innerHTML = "7000";
 	document.getElementById("sieppariNimi").innerHTML = "RINTA-AHO";
 	document.getElementById("sieppariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
 	document.getElementById("ykkösvahtiNimi").innerHTML = "S. LASSILA";
