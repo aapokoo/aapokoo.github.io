@@ -19,6 +19,7 @@ TO DO: keskitä asiat myös pituuden osalta
     top: 8px;
     right: 16px;
     resize: none;
+    display: none;
 }
 
 #vastustaja {
