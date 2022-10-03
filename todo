@@ -23,7 +23,7 @@ VUORO:
 1. Managerit voivat myydä, ostaa ja vuokrata pelaajia.
 2. Managerit nostavat kotiottelutulonsa / maksavat vierasottelukulunsa.
 3. Pelataan kierroksen ottelut.
-4. Tilastoidaan tulokset, siirretään joukkeiden anppulat sarjataulukossa, lasketaan mahdolliset arvo-ottelunoteeraukset sekä muut rahalliset tulot / menot
+4. Tilastoidaan tulokset, siirretään joukkeiden nappulat sarjataulukossa, lasketaan mahdolliset arvo-ottelunoteeraukset sekä muut rahalliset tulot / menot
 
 Myyntihinta on aina puolet ostohinnasta.
 Voi vuokrata minkä tahansa pelaajan 1 otteluksi hintaan 5.000 mk
