@@ -609,7 +609,7 @@ function vastustaja() {
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += \n"Kotiottelun lipputulot: +4000";
+		    textarea.value += "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
