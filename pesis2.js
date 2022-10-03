@@ -59,6 +59,7 @@ function vastustaja() {
 	document.getElementById("ruutuValinta").style.display = "inline";
 	document.getElementById("ristiValinta").style.display = "inline";
 	document.getElementById("pataValinta").style.display = "inline";
+	document.getElementById("loki").style.display = "inline";
 	if (pelatutPelit === 0) {
 		kotitulot1();
 		joukkueenRahat = joukkueenRahat + kTulot1;
