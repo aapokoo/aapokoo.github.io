@@ -36,7 +36,7 @@ let tulo1;
 let tulo2;
 let kTulot1;
 
-const textarea = document.getElementById("loki").value;
+let textarea = document.getElementById("loki").value;
 
 function vierasmenot() {
 	meno1 = Math.floor(Math.random() * 5) + 1;
