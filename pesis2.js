@@ -36,7 +36,7 @@ let tulo1;
 let tulo2;
 let kTulot1;
 
-const textarea = document.getElementById("loki");
+const textarea = document.getElementById("loki").value;
 
 function vierasmenot() {
 	meno1 = Math.floor(Math.random() * 5) + 1;
@@ -80,55 +80,55 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3500";
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3500";
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3000";
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3000";
 	    }
     } else if (vastustaja_arvottu === "Sotkamo") { //Jymy
         document.getElementById("vierastulos").innerHTML = "7";
@@ -137,55 +137,55 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 7000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +7000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +7000";
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6500";
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    }
     } else if (vastustaja_arvottu === "Manse") { //Manse
 	document.getElementById("vierastulos").innerHTML = "8";
@@ -194,55 +194,55 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 9000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +9000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +9000";
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 8000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +8000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +8000";
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 7000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +7000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +7000";
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6500";
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea +"\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    dtextarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea +"\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea +"\nKotiottelun lipputulot: +4500";
 	    }
     } else if (vastustaja_arvottu === "KPL") { //KPL
 	document.getElementById("vierastulos").innerHTML = "7";
@@ -251,55 +251,55 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 8000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +8000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +8000";
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 7000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +7000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +7000";
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6500";
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    }
     } else if (vastustaja_arvottu === "Tahko") { //Tahko
 	document.getElementById("vierastulos").innerHTML = "6";
@@ -308,55 +308,55 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6500";
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +8´4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +8´4000";
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    }
     } else if (vastustaja_arvottu === "Joma") { //Joma
 	document.getElementById("vierastulos").innerHTML = "6";
@@ -365,55 +365,55 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6500";
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3500";
 	    }
     } else if (vastustaja_arvottu === "Kempele") { //Kempeleen Kiri
 	document.getElementById("vierastulos").innerHTML = "5";
@@ -422,55 +422,55 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6500";
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3500";
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3500";
 	    }
     } else if (vastustaja_arvottu === "Kipa") { //Kipa
 	document.getElementById("vierastulos").innerHTML = "4";
@@ -479,55 +479,55 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3500";
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3500";
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3000";
+		    textarea = textarea +"\nKotiottelun lipputulot: +3000";
 	    }
     } else if (vastustaja_arvottu === "IPV") { //IPV
 	document.getElementById("vierastulos").innerHTML = "3";
@@ -536,55 +536,55 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +6000";
+		    textarea = textarea +"\nKotiottelun lipputulot: +6000";
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3500";
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3000";
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3000";
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 2500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +2500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +2500";
 	    }
     } else if (vastustaja_arvottu === "PattU") { //PattU
 	document.getElementById("vierastulos").innerHTML = "3";
@@ -593,55 +593,55 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea +"\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3500";
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3000";
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3000";
+		    textarea = textarea +"\nKotiottelun lipputulot: +3000";
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 2500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +2500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +2500";
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 2500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +2500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +2500";
 	    }
     } else if (vastustaja_arvottu === "Kossu") { //Kossu
 	document.getElementById("vierastulos").innerHTML = "2";
@@ -650,55 +650,55 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5500";
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +5000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +5000";
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4500";
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +4000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +4000";
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3500";
+		   textarea = textarea + "\nKotiottelun lipputulot: +3500";
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3500";
+		   textarea = textarea + "\nKotiottelun lipputulot: +3500";
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3500";
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3000";
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +3000";
+		    textarea = textarea + "\nKotiottelun lipputulot: +3000";
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 2500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +2500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +2500";
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 2500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    textarea.value += "\nKotiottelun lipputulot: +2500";
+		    textarea = textarea + "\nKotiottelun lipputulot: +2500";
 	    }
     } else if (vastustaja_arvottu === "Kankaanpää") { //Kankaanpää
 	document.getElementById("vierastulos").innerHTML = "1";
