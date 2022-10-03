@@ -927,6 +927,7 @@ function joukkueVimpeli() {
 	document.getElementById("joukkueRaahe").style.display = "none";
 	document.getElementById("joukkueKoskenkorva").style.display = "none";
 	document.getElementById("joukkueKankaanpää").style.display = "none";
+	document.getElementById("kotiLogo").src="./ViVe-logo.png";
 	document.getElementById("vastustaja").style.display = "inline";
 	document.getElementById("lukkariNimi").innerHTML = "KINNUNEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 12";
