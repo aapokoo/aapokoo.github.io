@@ -928,6 +928,27 @@ function joukkueVimpeli() {
 	document.getElementById("joukkueKoskenkorva").style.display = "none";
 	document.getElementById("joukkueKankaanpää").style.display = "none";
 	document.getElementById("vastustaja").style.display = "inline";
+	document.getElementById("lukkariNimi").innerHTML = "KINNUNEN";
+	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 12";
+	document.getElementById("sieppariNimi").innerHTML = "RINTA-AHO";
+	document.getElementById("sieppariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("ykkösvahtiNimi").innerHTML = "S. LASSILA";
+	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kakkosvahtiNimi").innerHTML = "L. VIHRIÄLÄ";
+	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Maa 2 - 13";
+	document.getElementById("kakkospolttajaNimi").innerHTML = "J. HEIKKALA";
+	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 12";
+	document.getElementById("kolmospolttajaNimi").innerHTML = "O. HEIKKALA";
+	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Maa 2 - 12";
+	document.getElementById("kolmosvahtiNimi").innerHTML = "A. LASSILA";
+	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kakkoskoppariNimi").innerHTML = "M. VIHRIÄLÄ";
+	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 13";
+	document.getElementById("kolmoskoppariNimi").innerHTML = "ANTTILA";
+	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("jokeriNimi").innerHTML = "VAINIONPÄÄ";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("vastustaja").style.display = "inline";
 }
 
 function joukkueTampere() {
