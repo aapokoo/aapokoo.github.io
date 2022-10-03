@@ -206,42 +206,442 @@ function vastustaja() {
 	document.getElementById("vierastulos").innerHTML = "7";
         document.getElementById("vieraslogo").src="1200px-KPL_logo.png";
         vierastulos = 7;
+	    if (sijoitus === 1) {
+		    joukkueenRahat = joukkueenRahat + 8000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 2) {
+		    joukkueenRahat = joukkueenRahat + 7000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 3) {
+		    joukkueenRahat = joukkueenRahat + 6500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 4) {
+		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 5) {
+		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 6) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 7) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 8) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 9) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 10) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 11) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 12) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 13) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    }
     } else if (vastustaja_arvottu === "Tahko") { //Tahko
 	document.getElementById("vierastulos").innerHTML = "6";
         document.getElementById("vieraslogo").src="Tahko_kiille_png.png";
         vierastulos = 6;
+	    if (sijoitus === 1) {
+		    joukkueenRahat = joukkueenRahat + 6500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 2) {
+		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 3) {
+		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 4) {
+		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 5) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 6) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 7) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 8) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 9) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 10) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 11) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 12) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 13) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    }
     } else if (vastustaja_arvottu === "Joma") { //Joma
 	document.getElementById("vierastulos").innerHTML = "6";
         document.getElementById("vieraslogo").src="logoleft.png";
         vierastulos = 6;
+	    if (sijoitus === 1) {
+		    joukkueenRahat = joukkueenRahat + 6500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 2) {
+		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 3) {
+		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 4) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 5) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 6) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 7) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 8) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 9) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 10) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 11) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 12) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 13) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    }
     } else if (vastustaja_arvottu === "Kempele") { //Kempeleen Kiri
 	document.getElementById("vierastulos").innerHTML = "5";
         document.getElementById("vieraslogo").src="KeKi-logo_kulta.png";
         vierastulos = 5;
+	    if (sijoitus === 1) {
+		    joukkueenRahat = joukkueenRahat + 6500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 2) {
+		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 3) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 4) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 5) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 6) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 7) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 8) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 9) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 10) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 11) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 12) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 13) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    }
     } else if (vastustaja_arvottu === "Kipa") { //Kipa
 	document.getElementById("vierastulos").innerHTML = "4";
         document.getElementById("vieraslogo").src="logo_f5419293.png";
         vierastulos = 4;
+	    if (sijoitus === 1) {
+		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 2) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 3) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 4) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 5) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 6) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 7) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 8) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 9) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 10) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 11) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 12) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 13) {
+		    joukkueenRahat = joukkueenRahat + 3000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    }
     } else if (vastustaja_arvottu === "IPV") { //IPV
 	document.getElementById("vierastulos").innerHTML = "3";
         document.getElementById("vieraslogo").src="ipv-logo-web.png";
         vierastulos = 3;
+	    if (sijoitus === 1) {
+		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 2) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 3) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 4) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 5) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 6) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 7) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 8) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 9) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 10) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 11) {
+		    joukkueenRahat = joukkueenRahat + 3000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 12) {
+		    joukkueenRahat = joukkueenRahat + 3000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 13) {
+		    joukkueenRahat = joukkueenRahat + 2500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    }
     } else if (vastustaja_arvottu === "PattU") { //PattU
 	document.getElementById("vierastulos").innerHTML = "3";
         document.getElementById("vieraslogo").src="pattu.png";
         vierastulos = 3;
+	    if (sijoitus === 1) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 2) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 3) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 4) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 5) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 6) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 7) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 8) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 9) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 10) {
+		    joukkueenRahat = joukkueenRahat + 3000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 11) {
+		    joukkueenRahat = joukkueenRahat + 3000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 12) {
+		    joukkueenRahat = joukkueenRahat + 2500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 13) {
+		    joukkueenRahat = joukkueenRahat + 2500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    }
     } else if (vastustaja_arvottu === "Kossu") { //Kossu
 	document.getElementById("vierastulos").innerHTML = "2";
         document.getElementById("vieraslogo").src="logo.png";
         vierastulos = 2;
+	    if (sijoitus === 1) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 2) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 3) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 4) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 5) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 6) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 7) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 8) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 9) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 10) {
+		    joukkueenRahat = joukkueenRahat + 3000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 11) {
+		    joukkueenRahat = joukkueenRahat + 3000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 12) {
+		    joukkueenRahat = joukkueenRahat + 2500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 13) {
+		    joukkueenRahat = joukkueenRahat + 2500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    }
     } else if (vastustaja_arvottu === "Kankaanpää") { //Kankaanpää
 	document.getElementById("vierastulos").innerHTML = "1";
         document.getElementById("vieraslogo").src="1200px-KaMa_logo_2016.png";
         vierastulos = 1;
+	    if (sijoitus === 1) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 2) {
+		    joukkueenRahat = joukkueenRahat + 4500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 3) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 4) {
+		    joukkueenRahat = joukkueenRahat + 4000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 5) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 6) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 7) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 8) {
+		    joukkueenRahat = joukkueenRahat + 3500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 9) {
+		    joukkueenRahat = joukkueenRahat + 3000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 10) {
+		    joukkueenRahat = joukkueenRahat + 2500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 11) {
+		    joukkueenRahat = joukkueenRahat + 2500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 12) {
+		    joukkueenRahat = joukkueenRahat + 2000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 13) {
+		    joukkueenRahat = joukkueenRahat + 2000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    }
     } else if (vastustaja_arvottu === "Vimpeli") { //Vimpeli
 	document.getElementById("vierastulos").innerHTML = "8";
         document.getElementById("vieraslogo").src="ViVe-logo.png";
         vierastulos = 8;
+	    if (sijoitus === 1) {
+		    joukkueenRahat = joukkueenRahat + 10000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 2) {
+		    joukkueenRahat = joukkueenRahat + 9000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 3) {
+		    joukkueenRahat = joukkueenRahat + 8000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 4) {
+		    joukkueenRahat = joukkueenRahat + 7000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 5) {
+		    joukkueenRahat = joukkueenRahat + 6500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 6) {
+		    joukkueenRahat = joukkueenRahat + 6500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 7) {
+		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 8) {
+		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 9) {
+		    joukkueenRahat = joukkueenRahat + 6000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 10) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 11) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 12) {
+		    joukkueenRahat = joukkueenRahat + 5500;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    } else if (sijoitus === 13) {
+		    joukkueenRahat = joukkueenRahat + 5000;
+		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat
+	    }
     } else {
 	    if (pisteet >= 21) {
 		    sijoitus = "Sijoituksesi: 1.";
