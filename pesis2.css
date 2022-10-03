@@ -14,8 +14,13 @@ CSS pixels = 1024 x 768 varmaan tää? onko joku tapa tunnistaa mikä ipad?
 TO DO: keskitä asiat myös pituuden osalta
 */
 
+#loki {
+    
+
 #vastustaja {
-    display: none;
+    position: absolute;
+    top: 8px;
+    right: 16px;
 }
 
 #maanValinta {
