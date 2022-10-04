@@ -56,7 +56,7 @@ function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
   }
 
 function tulotKotiSijoitus() { 
-    				textarea.value += "\nKotiottelun lipputulot: +" + kTulotSijoitus;
+    				textarea.innerHTML += "\nKotiottelun lipputulot: +" + kTulotSijoitus;
   			}
 
 function vastustaja() {
