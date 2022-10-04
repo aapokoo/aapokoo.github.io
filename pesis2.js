@@ -72,6 +72,8 @@ function vastustaja() {
 		kotitulot1();
 		joukkueenRahat = joukkueenRahat + kTulot1;
 		document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat + " Tulot: " + kTulot1;
+		kTulotSijoitus = kTulot1;
+		tulotKotiSijoitus();
 	}
 	if ((pelatutPelit + 1) % 2 == 0) {
 		vierasmenot();
