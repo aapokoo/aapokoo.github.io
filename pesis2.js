@@ -60,6 +60,11 @@ function tulotKotiSijoitus() {
 				document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
   			}
 
+function vierasMenot() { 
+    				document.getElementById("loki").innerHTML += "\nVierasottelun menot: -" + vMenot;
+				document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
+  			}
+
 function vastustaja() {
     document.getElementById("vastustaja").style.display = "none";
 	document.getElementById("maanValinta").style.display = "inline";
@@ -79,6 +84,7 @@ function vastustaja() {
 		vierasmenot();
 		joukkueenRahat = joukkueenRahat - vMenot;
 		document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat + " Menot: " + vMenot;
+		vierasMenot();
 	}
     //vierasjoukkue = getRandomInt(12);
     if (vastustaja_arvottu === "JymyJussit") { //JymyJussit
