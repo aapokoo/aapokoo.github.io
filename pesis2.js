@@ -94,68 +94,94 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+			kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3000;
+		    	tulotKotiSijoitus();
+		    }
 	    }
     } else if (vastustaja_arvottu === "Sotkamo") { //Jymy
         document.getElementById("vierastulos").innerHTML = "7";
@@ -164,68 +190,94 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 7000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 7000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 7000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    }
     } else if (vastustaja_arvottu === "Manse") { //Manse
 	document.getElementById("vierastulos").innerHTML = "8";
@@ -234,48 +286,66 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 9000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 9000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 9000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 8000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 8000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 8000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 7000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 7000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 7000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
@@ -284,18 +354,24 @@ function vastustaja() {
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    }
     } else if (vastustaja_arvottu === "KPL") { //KPL
 	document.getElementById("vierastulos").innerHTML = "7";
@@ -304,68 +380,94 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 8000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 8000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 8000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 7000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 7000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 7000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    }
     } else if (vastustaja_arvottu === "Tahko") { //Tahko
 	document.getElementById("vierastulos").innerHTML = "6";
@@ -374,68 +476,94 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    }
     } else if (vastustaja_arvottu === "Joma") { //Joma
 	document.getElementById("vierastulos").innerHTML = "6";
@@ -444,68 +572,94 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    }
     } else if (vastustaja_arvottu === "Kempele") { //Kempeleen Kiri
 	document.getElementById("vierastulos").innerHTML = "5";
@@ -514,68 +668,94 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    }
     } else if (vastustaja_arvottu === "Kipa") { //Kipa
 	document.getElementById("vierastulos").innerHTML = "4";
@@ -584,68 +764,94 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3000;
+		    	tulotKotiSijoitus();
+		    }
 	    }
     } else if (vastustaja_arvottu === "IPV") { //IPV
 	document.getElementById("vierastulos").innerHTML = "3";
@@ -654,68 +860,94 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 2500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 2500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 2500;
+		    	tulotKotiSijoitus();
+		    }
 	    }
     } else if (vastustaja_arvottu === "PattU") { //PattU
 	document.getElementById("vierastulos").innerHTML = "3";
@@ -724,68 +956,94 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		  	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 2500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 2500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 2500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 2500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 2500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 2500;
+		    	tulotKotiSijoitus();
+		    }
 	    }
     } else if (vastustaja_arvottu === "Kossu") { //Kossu
 	document.getElementById("vierastulos").innerHTML = "2";
@@ -794,68 +1052,94 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 2500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 2500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 2500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 2500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 2500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 2500;
+		    	tulotKotiSijoitus();
+		    }
 	    }
     } else if (vastustaja_arvottu === "Kankaanpää") { //Kankaanpää
 	document.getElementById("vierastulos").innerHTML = "1";
@@ -864,68 +1148,94 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 4500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 4000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 4000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 4000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 3500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 3000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 3000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 3000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 2500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 2500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 2500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 2500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 2500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 2500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 2000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 2000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 2000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 2000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 2000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 2000;
+		    	tulotKotiSijoitus();
+		    }
 	    }
     } else if (vastustaja_arvottu === "Vimpeli") { //Vimpeli
 	document.getElementById("vierastulos").innerHTML = "8";
@@ -934,68 +1244,94 @@ function vastustaja() {
 	    if (sijoitus === 1) {
 		    joukkueenRahat = joukkueenRahat + 10000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 10000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 10000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 2) {
 		    joukkueenRahat = joukkueenRahat + 9000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 9000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 9000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 3) {
 		    joukkueenRahat = joukkueenRahat + 8000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 8000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 8000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 4) {
 		    joukkueenRahat = joukkueenRahat + 7000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 7000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 7000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 5) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 6) {
 		    joukkueenRahat = joukkueenRahat + 6500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 7) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 8) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 9) {
 		    joukkueenRahat = joukkueenRahat + 6000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 6000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 6000;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 10) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 11) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 12) {
 		    joukkueenRahat = joukkueenRahat + 5500;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5500;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5500;
+		    	tulotKotiSijoitus();
+		    }
 	    } else if (sijoitus === 13) {
 		    joukkueenRahat = joukkueenRahat + 5000;
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
-		    kTulotSijoitus = 5000;
-		    tulotKotiSijoitus();
+		    if (pelatutPelit % 2 == 0) {
+		    	kTulotSijoitus = 5000;
+		    	tulotKotiSijoitus();
+		    }
 	    }
     } else {
 	    if (pisteet >= 21) {
