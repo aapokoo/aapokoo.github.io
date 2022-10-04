@@ -57,6 +57,7 @@ function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
 
 function tulotKotiSijoitus() { 
     				document.getElementById("loki").innerHTML += "\nKotiottelun lipputulot: +" + kTulotSijoitus;
+				document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
   			}
 
 function vastustaja() {
