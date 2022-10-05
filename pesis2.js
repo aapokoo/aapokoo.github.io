@@ -2015,24 +2015,34 @@ function joukkueHyvinkää() {
 	document.getElementById("kotiLogo").src="./Tahko_kiille_png.png";
 	document.getElementById("lukkariNimi").innerHTML = "ALANEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 8";
+	document.getElementById("lukkariHinta").innerHTML = "8 000";
 	document.getElementById("sieppariNimi").innerHTML = "LEHTOLA";
 	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 11";
+	document.getElementById("sieppariHinta").innerHTML = "10 000";
 	document.getElementById("ykkösvahtiNimi").innerHTML = "VIKSTRÖM";
 	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa 2 - 11";
+	document.getElementById("ykkösvahtiHinta").innerHTML = "10 000";
 	document.getElementById("kakkosvahtiNimi").innerHTML = "KUITUNEN";
 	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Maa 2 - 12";
+	document.getElementById("kakkosvahtiHinta").innerHTML = "11 000";
 	document.getElementById("kakkospolttajaNimi").innerHTML = "HUUSKO";
 	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 12";
+	document.getElementById("kakkospolttajaHinta").innerHTML = "11 000";
 	document.getElementById("kolmospolttajaNimi").innerHTML = "IKONEN";
 	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("kolmospolttajaHinta").innerHTML = "21 000";
 	document.getElementById("kolmosvahtiNimi").innerHTML = "PATOVA";
 	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kolmosvahtiHinta").innerHTML = "14 000";
 	document.getElementById("kakkoskoppariNimi").innerHTML = "NURMIO";
 	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
+	document.getElementById("kakkoskoppariHinta").innerHTML = "9 000";
 	document.getElementById("kolmoskoppariNimi").innerHTML = "MATIKKA";
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 12";
+	document.getElementById("kolmoskoppariHinta").innerHTML = "11 000";
 	document.getElementById("jokeriNimi").innerHTML = "NIEMI";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("jokeriHinta").innerHTML = "24 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
 
