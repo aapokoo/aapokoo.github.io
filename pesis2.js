@@ -1803,25 +1803,34 @@ function joukkueVimpeli() {
 	document.getElementById("vastustaja").style.display = "inline";
 	document.getElementById("lukkariNimi").innerHTML = "KINNUNEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 12";
-	document.getElementById("lukkariHinta").innerHTML = "7000";
+	document.getElementById("lukkariHinta").innerHTML = "11 000";
 	document.getElementById("sieppariNimi").innerHTML = "RINTA-AHO";
 	document.getElementById("sieppariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("sieppariHinta").innerHTML = "23 000";
 	document.getElementById("ykkösvahtiNimi").innerHTML = "S. LASSILA";
 	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("ykkösvahtiHinta").innerHTML = "15 000";
 	document.getElementById("kakkosvahtiNimi").innerHTML = "L. VIHRIÄLÄ";
 	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Maa 2 - 13";
+	document.getElementById("kakkosvahtiHinta").innerHTML = "12 000";
 	document.getElementById("kakkospolttajaNimi").innerHTML = "J. HEIKKALA";
 	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 12";
+	document.getElementById("kakkospolttajaHinta").innerHTML = "11 000";
 	document.getElementById("kolmospolttajaNimi").innerHTML = "O. HEIKKALA";
 	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Maa 2 - 12";
+	document.getElementById("kolmospolttajaHinta").innerHTML = "11 000";
 	document.getElementById("kolmosvahtiNimi").innerHTML = "A. LASSILA";
 	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kolmosvahtiHinta").innerHTML = "15 000";
 	document.getElementById("kakkoskoppariNimi").innerHTML = "M. VIHRIÄLÄ";
 	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 13";
+	document.getElementById("kakkoskoppariHinta").innerHTML = "12 000";
 	document.getElementById("kolmoskoppariNimi").innerHTML = "ANTTILA";
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("kolmoskoppariHinta").innerHTML = "23 000";
 	document.getElementById("jokeriNimi").innerHTML = "VAINIONPÄÄ";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("jokeriHinta").innerHTML = "22 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
 
