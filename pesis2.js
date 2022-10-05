@@ -36,6 +36,7 @@ let tulo1;
 let tulo2;
 let kTulot1;
 let kTulotSijoitus;
+let kärkiTulot;
 
 let textarea = document.getElementById("loki");
 
@@ -53,17 +54,27 @@ function kotitulot1() {
 
 function getRandomInt(max) { //random numero väliltä 0 - syötetty arvo
     return Math.floor(Math.random() * max);
-  }
+}
 
 function tulotKotiSijoitus() { 
-    				document.getElementById("loki").innerHTML += "\nKotiottelun lipputulot: +" + kTulotSijoitus;
-				document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
-  			}
+	document.getElementById("loki").innerHTML += "\nKotiottelun lipputulot: +" + kTulotSijoitus;
+	document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
+}
 
 function vierasMenot() { 
-    				document.getElementById("loki").innerHTML += "\nVierasottelun menot: -" + vMenot;
-				document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
-  			}
+    	document.getElementById("loki").innerHTML += "\nVierasottelun menot: -" + vMenot;
+	document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
+}
+
+function kärkijoukkueW() {
+	document.getElementById("loki").innerHTML += "\nKärkijoukkueen voitto: +" + kärkiTulot;
+	document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
+}
+
+function kotiW() {
+	document.getElementById("loki").innerHTML += "\nKotiottelun voitto: +2000";
+	document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
+}
 
 function vastustaja() {
     document.getElementById("vastustaja").style.display = "none";
@@ -1405,6 +1416,7 @@ function vastustaja() {
 			joukkueenRahat = joukkueenRahat + 10000;
 		    	kTulotSijoitus = 10000;
 		    	tulotKotiSijoitus();
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		    }
 	    } else if (sijoitus === 2) {
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
@@ -1412,6 +1424,7 @@ function vastustaja() {
 			joukkueenRahat = joukkueenRahat + 9000;
 		    	kTulotSijoitus = 9000;
 		    	tulotKotiSijoitus();
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		    }
 	    } else if (sijoitus === 3) {
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
@@ -1419,6 +1432,7 @@ function vastustaja() {
 			joukkueenRahat = joukkueenRahat + 8000;
 		    	kTulotSijoitus = 8000;
 		    	tulotKotiSijoitus();
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		    }
 	    } else if (sijoitus === 4) {
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
@@ -1426,6 +1440,7 @@ function vastustaja() {
 			joukkueenRahat = joukkueenRahat + 7000;
 		    	kTulotSijoitus = 7000;
 		    	tulotKotiSijoitus();
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		    }
 	    } else if (sijoitus === 5) {
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
@@ -1433,6 +1448,7 @@ function vastustaja() {
 			joukkueenRahat = joukkueenRahat + 6500;
 		    	kTulotSijoitus = 6500;
 		    	tulotKotiSijoitus();
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		    }
 	    } else if (sijoitus === 6) {
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
@@ -1440,6 +1456,7 @@ function vastustaja() {
 			joukkueenRahat = joukkueenRahat + 6500;
 		    	kTulotSijoitus = 6500;
 		    	tulotKotiSijoitus();
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		    }
 	    } else if (sijoitus === 7) {
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
@@ -1447,6 +1464,7 @@ function vastustaja() {
 			joukkueenRahat = joukkueenRahat + 6000;
 		    	kTulotSijoitus = 6000;
 		    	tulotKotiSijoitus();
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		    }
 	    } else if (sijoitus === 8) {
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
@@ -1454,6 +1472,7 @@ function vastustaja() {
 			joukkueenRahat = joukkueenRahat + 6000;
 		    	kTulotSijoitus = 6000;
 		    	tulotKotiSijoitus();
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		    }
 	    } else if (sijoitus === 9) {
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
@@ -1461,6 +1480,7 @@ function vastustaja() {
 			joukkueenRahat = joukkueenRahat + 6000;
 		    	kTulotSijoitus = 6000;
 		    	tulotKotiSijoitus();
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		    }
 	    } else if (sijoitus === 10) {
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
@@ -1468,6 +1488,7 @@ function vastustaja() {
 			joukkueenRahat = joukkueenRahat + 5500;
 		    	kTulotSijoitus = 5500;
 		    	tulotKotiSijoitus();
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		    }
 	    } else if (sijoitus === 11) {
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
@@ -1475,6 +1496,7 @@ function vastustaja() {
 			 joukkueenRahat = joukkueenRahat + 5500;
 		    	kTulotSijoitus = 5500;
 		    	tulotKotiSijoitus();
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		    }
 	    } else if (sijoitus === 12) {
 		    document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
@@ -1489,6 +1511,7 @@ function vastustaja() {
 			joukkueenRahat = joukkueenRahat + 5000;
 		    	kTulotSijoitus = 5000;
 		    	tulotKotiSijoitus();
+			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		    }
 	    }
     } else {
@@ -3650,13 +3673,18 @@ function lyö10() {
 			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else {
 			joukkueenRahat = joukkueenRahat + 2000;
+			kotiW();
 			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		}
 		if (vastustaja_arvottu === "Vimpeli" || vastustaja_arvottu === "Manse") {
 			joukkueenRahat = joukkueenRahat + 4000;
+			kärkiTulot = 4000;
+			kärkijoukkueW();
 			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else if (vastustaja_arvottu === "KPL" || vastustaja_arvottu === "Sotkamo") {
 			joukkueenRahat = joukkueenRahat + 2000;
+			kärkiTulot = 2000;
+			kärkijoukkueW();
 			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
 		} else {
 			document.getElementById("rahat").innerHTML = "Rahaa: " + joukkueenRahat;
