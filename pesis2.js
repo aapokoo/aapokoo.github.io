@@ -77,7 +77,7 @@ function kotiW() {
 }
 
 function kiriTulot() {
-	document.getElementById("loki").innerHTML += "\10+ juoksua sijoilla 9.-13.: +3000";
+	document.getElementById("loki").innerHTML += "\n10+ juoksua sijoilla 9.-13.: +3000";
 	document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
 }
 
