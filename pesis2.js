@@ -2333,24 +2333,34 @@ function joukkueKankaanpää() {
 	document.getElementById("kotiLogo").src="./1200px-KaMa_logo_2016.png";
 	document.getElementById("lukkariNimi").innerHTML = "ITÄVALO";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 7";
+	document.getElementById("lukkariHinta").innerHTML = "2 000";
 	document.getElementById("sieppariNimi").innerHTML = "KORVOLA";
 	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 10";
+	document.getElementById("sieppariHinta").innerHTML = "4 000";
 	document.getElementById("ykkösvahtiNimi").innerHTML = "OLLI";
 	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa 2 - 6";
+	document.getElementById("ykkösvahtiHinta").innerHTML = "1 000";
 	document.getElementById("kakkosvahtiNimi").innerHTML = "UTUNEN";
 	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Maa 2 - 6";
+	document.getElementById("kakkosvahtiHinta").innerHTML = "1 000";
 	document.getElementById("kakkospolttajaNimi").innerHTML = "PIISPANEN";
 	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 6";
+	document.getElementById("kakkospolttajaHinta").innerHTML = "1 000";
 	document.getElementById("kolmospolttajaNimi").innerHTML = "KORTTEENPERÄ";
 	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Maa 2 - 12";
+	document.getElementById("kolmospolttajaHinta").innerHTML = "5 000";
 	document.getElementById("kolmosvahtiNimi").innerHTML = "PELTOMÄKI";
 	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa 2 - 8";
+	document.getElementById("kolmosvahtiHinta").innerHTML = "2 000";
 	document.getElementById("kakkoskoppariNimi").innerHTML = "VUORENMÄKI";
 	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 13";
+	document.getElementById("kakkoskoppariHinta").innerHTML = "6 000";
 	document.getElementById("kolmoskoppariNimi").innerHTML = "VILANDER";
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 12";
+	document.getElementById("kolmoskoppariHinta").innerHTML = "5 000";
 	document.getElementById("jokeriNimi").innerHTML = "MIKKOLANAHO";
 	document.getElementById("jokeriLyö").innerHTML = "Lyö: Maa 2 - 13, A, Jokeri";
+	document.getElementById("jokeriHinta").innerHTML = "18 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
 
