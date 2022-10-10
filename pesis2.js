@@ -84,6 +84,7 @@ function kiriTulot() {
 function tilastoTulot() {
 	document.getElementById("loki").innerHTML += "\nLyöjätilastossa menestyminen: +6000";
 	document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
+}
 
 function vastustaja() {
     document.getElementById("vastustaja").style.display = "none";
