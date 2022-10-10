@@ -2121,7 +2121,7 @@ function joukkueKitee() {
 	document.getElementById("kotiLogo").src="./logo_f5419293.png";
 	document.getElementById("lukkariNimi").innerHTML = "ESKELINEN";
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 11";
-	document.getElementById("lukkariHinta").innerHTML = 9 000";
+	document.getElementById("lukkariHinta").innerHTML = "9 000";
 	document.getElementById("sieppariNimi").innerHTML = "PURMONEN";
 	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 9";
 	document.getElementById("sieppariHinta").innerHTML = "8 000";
