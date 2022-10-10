@@ -76,6 +76,11 @@ function kotiW() {
 	document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
 }
 
+function kiriTulot() {
+	document.getElementById("loki").innerHTML += "\10+ juoksua sijoilla 9.-13.: +3000";
+	document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
+}
+
 function vastustaja() {
     document.getElementById("vastustaja").style.display = "none";
 	document.getElementById("maanValinta").style.display = "inline";
@@ -3783,6 +3788,10 @@ function lyö10() {
 		document.getElementById("uusiPeli").style.visibility = "visible";
 	}
 	showUp();
+	if (juoksut > 9 && sijoitus > 8) {
+		joukkueenRahat = joukkueenRahat + 3000;
+		kiriTulot();
+	}	
         if (juoksut > vierastulos) {
             document.getElementById("lopputulos").innerHTML = "Voitto!";
 		pelatutPelit = pelatutPelit + 1;
