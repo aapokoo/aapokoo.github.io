@@ -81,6 +81,10 @@ function kiriTulot() {
 	document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
 }
 
+function tilastoTulot() {
+	document.getElementById("loki").innerHTML += "\nLyöjätilastossa menestyminen: +6000";
+	document.getElementById("loki").scrollTop = document.getElementById("loki").scrollHeight;
+
 function vastustaja() {
     document.getElementById("vastustaja").style.display = "none";
 	document.getElementById("maanValinta").style.display = "inline";
@@ -4138,6 +4142,10 @@ function sijoitusKesken() {
 			sijoitus = 13;
 		}
 	} else if (pelatutPelit === 6) {
+		if (lukkariLyödyt > 9 || sieppariLyödyt > 9 || ykkösvahtiLyödyt > 9 || kakkosvahtiLyödyt > 9 || kakkospolttajaLyödyt > 9 || kolmospolttajaLyödyt > 9 || kolmosvahtiLyödyt > 9 || kakkoskoppariLyödyt > 9 || kolmoskoppariLyödyt > 9 || jokeriLyödyt > 9) {
+			joukkeenRahat = joukkueenRahat + 6000;
+			tilastoTulot();
+		}
 		if (pisteet >= 11) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
 			sijoitus = 1;
