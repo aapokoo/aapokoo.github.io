@@ -2436,6 +2436,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöKahdesti: false,
             lyöJokereita: false,
 		lyöÄssiä: false,
+		lyödyt: 0,
         },
         sieppari: {
             nimi: 'Rinta-aho',
@@ -2445,6 +2446,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöJokereita: false,
 		lyöVäriä: true,
 		lyöÄssiä: true,
+		lyödyt: 0,
         },
         ykkösvahti: {
             nimi: 'S. Lassila',
@@ -2454,6 +2456,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöJokereita: false,
 		lyöVäriä: false,
 		lyöÄssiä: true,
+		lyödyt: 0,
         },
         kakkosvahti: {
             nimi: 'L. Vihriälä',
@@ -2463,6 +2466,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöJokereita: false,
 		lyöVäriä: false,
 		lyöÄssiä: false,
+		lyödyt: 0,
         },
         kakkospolttaja: {
             nimi: 'J. Heikkala',
@@ -2472,6 +2476,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöJokereita: false,
 		lyöVäriä: false,
 		lyöÄssiä: false,
+		lyödyt: 0,
         },
         kolmospolttaja: {
             nimi: 'O. Heikkala',
@@ -2481,6 +2486,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöJokereita: false,
 		lyöVäriä: false,
 		lyöÄssiä: false,
+		lyödyt: 0,
         },
         kolmosvahti: {
             nimi: 'A. Lassila',
@@ -2490,6 +2496,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöJokereita: false,
 		lyöVäriä: false,
 		lyöÄssiä: true,
+		lyödyt: 0,
         },
         kakkoskoppari: {
             nimi: 'M. Vihriälä',
@@ -2499,6 +2506,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöJokereita: false,
 		lyöVäriä: false,
 		lyöÄssiä: false,
+		lyödyt: 0,
         },
         kolmoskoppari: {
             nimi: 'Anttila',
@@ -2508,6 +2516,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöJokereita: false,
 		lyöVäriä: true,
 		lyöÄssiä: true,
+		lyödyt: 0,
         },
         jokeri: {
             nimi: 'Vainionpää',
@@ -2517,6 +2526,7 @@ let vimpeli = { //joukkueen pelaajat ja statsit
             lyöJokereita: true,
 		lyöVäriä: true,
 		lyöÄssiä: true,
+		lyödyt: 0,
         }
     } 
 }
@@ -4143,10 +4153,16 @@ function sijoitusKesken() {
 			sijoitus = 13;
 		}
 	} else if (pelatutPelit === 6) {
-		if (lukkariLyödyt > 9 || sieppariLyödyt > 9 || ykkösvahtiLyödyt > 9 || kakkosvahtiLyödyt > 9 || kakkospolttajaLyödyt > 9 || kolmospolttajaLyödyt > 9 || kolmosvahtiLyödyt > 9 || kakkoskoppariLyödyt > 9 || kolmoskoppariLyödyt > 9 || jokeriLyödyt > 9) {
+		for (let i = 0; i < 10; i++) {
+			if (joukkue.pelaajat.[i].lyödyt > 5) {
+				joukkeenRahat = joukkueenRahat + 6000;
+				tilastoTulot();
+			}
+		}
+		/*if (lukkariLyödyt > 9 || sieppariLyödyt > 9 || ykkösvahtiLyödyt > 9 || kakkosvahtiLyödyt > 9 || kakkospolttajaLyödyt > 9 || kolmospolttajaLyödyt > 9 || kolmosvahtiLyödyt > 9 || kakkoskoppariLyödyt > 9 || kolmoskoppariLyödyt > 9 || jokeriLyödyt > 9) {
 			joukkeenRahat = joukkueenRahat + 6000;
 			tilastoTulot();
-		}
+		}*/
 		if (pisteet >= 11) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
 			sijoitus = 1;
