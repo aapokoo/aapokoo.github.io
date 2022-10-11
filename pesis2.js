@@ -4165,7 +4165,7 @@ function sijoitusKesken() {
 		}
 	} else if (pelatutPelit === 6) {
 		for (const lyödyt in joukkue) {
-			if (lyödyt > 5) {
+			if (joukkue.pelaajat.jokeri.lyödyt > 5) {
 				joukkeenRahat = joukkueenRahat + 6000;
 				tilastoTulot();
 				document.getElementById("loki").innerHTML += "\nTESTI 1";
