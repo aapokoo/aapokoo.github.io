@@ -3532,6 +3532,8 @@ function lyö1() {
 	lukkariLyödyt++;
 	    joukkue.pelaajat.lukkari.lyödyt = joukkue.pelaajat.lukkari.lyödyt + 1;
         document.getElementById("kotitulos").innerHTML = juoksut;
+    } else if (kortti.Maa === "Joker") {
+	    
     } else {
         function hide1() {
         document.getElementById("pakka1").style.display = "none";
@@ -3563,6 +3565,8 @@ function lyö2() {
         juoksut++;
 	    sieppariLyödyt++;
         document.getElementById("kotitulos").innerHTML = juoksut;
+    } else if (kortti.Maa === "Joker") {
+	    
     } else {
         function hide2() {
         document.getElementById("pakka2").style.display = "none";
@@ -3594,6 +3598,8 @@ function lyö3() {
         juoksut++;
 	    ykkösvahtiLyödyt++;
         document.getElementById("kotitulos").innerHTML = juoksut;
+    } else if (kortti.Maa === "Joker") {
+	    
     } else {
         function hide3() {
         document.getElementById("pakka3").style.display = "none";
@@ -3625,6 +3631,8 @@ function lyö4() {
         juoksut++;
 	    kakkosvahtiLyödyt++;
         document.getElementById("kotitulos").innerHTML = juoksut;
+    } else if (kortti.Maa === "Joker") {
+	    
     } else {
         function hide4() {
         document.getElementById("pakka4").style.display = "none";
@@ -3657,6 +3665,8 @@ function lyö5() {
         juoksut++;
 	    kakkospolttajaLyödyt++;
         document.getElementById("kotitulos").innerHTML = juoksut;
+    } else if (kortti.Maa === "Joker") {
+	    
     } else {
         function hide5() {
         document.getElementById("pakka5").style.display = "none";
@@ -3689,6 +3699,8 @@ function lyö6() {
         juoksut++;
 	    kolmospolttajaLyödyt++;
         document.getElementById("kotitulos").innerHTML = juoksut;
+    } else if (kortti.Maa === "Joker") {
+	    
     } else {
         function hide6() {
         document.getElementById("pakka6").style.display = "none";
@@ -3721,6 +3733,8 @@ function lyö7() {
         juoksut++;
 	    kolmosvahtiLyödyt++;
         document.getElementById("kotitulos").innerHTML = juoksut;
+    } else if (kortti.Maa === "Joker") {
+	    
     } else {
         function hide7() {
         document.getElementById("pakka7").style.display = "none";
@@ -3753,6 +3767,8 @@ function lyö8() {
         juoksut++;
 	    kakkoskoppariLyödyt++;
         document.getElementById("kotitulos").innerHTML = juoksut;
+    } else if (kortti.Maa === "Joker") {
+	    
     } else {
         function hide8() {
         document.getElementById("pakka8").style.display = "none";
@@ -3785,6 +3801,8 @@ function lyö9() {
         juoksut++;
 	    kolmoskoppariLyödyt++;
         document.getElementById("kotitulos").innerHTML = juoksut;
+    } else if (kortti.Maa === "Joker") {
+	    
     } else {
         function hide9() {
         document.getElementById("pakka9").style.display = "none";
