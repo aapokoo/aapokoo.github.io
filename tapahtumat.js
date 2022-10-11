@@ -1,5 +1,14 @@
 /*
 
+tilastointi
+pelaajien ostaminen/myyminen
+ottelukortit
+jokerin jälkeiset juoksut?
+
+neg: 28
+pos: 41
+-: 
+
 PALLO POLTTAA. Vastustajalle juoksu? (ao-mies torjuu) (up-nopat)
 
 Sijat 1.-5. maksa palkintomatka 5.000
