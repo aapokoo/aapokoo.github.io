@@ -4168,7 +4168,7 @@ function sijoitusKesken() {
 			if (joukkue.pelaajat.jokeri.lyödyt > 5) {
 				joukkeenRahat = joukkueenRahat + 6000;
 				tilastoTulot();
-				document.getElementById("loki").innerHTML += "\nTESTI 1";
+				document.getElementById("loki").innerHTML += "\nTESTI 1 - " + joukkue.pelaajat.jokeri.nimi;
 			}
 			document.getElementById("loki").innerHTML += "\nTESTI 2";
 		}
