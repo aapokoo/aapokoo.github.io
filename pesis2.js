@@ -4153,12 +4153,14 @@ function sijoitusKesken() {
 			sijoitus = 13;
 		}
 	} else if (pelatutPelit === 6) {
-		for (let i = 0; i < 10; i++) {
-			if (joukkue.pelaajat.[i].lyödyt > 5) {
+		for (const lyödyt in joukkue) {
+			if (lyödyt > 5) {
 				joukkeenRahat = joukkueenRahat + 6000;
 				tilastoTulot();
 			}
 		}
+			//if (joukkue.pelaajat.[i].lyödyt > 5) {
+		
 		/*if (lukkariLyödyt > 9 || sieppariLyödyt > 9 || ykkösvahtiLyödyt > 9 || kakkosvahtiLyödyt > 9 || kakkospolttajaLyödyt > 9 || kolmospolttajaLyödyt > 9 || kolmosvahtiLyödyt > 9 || kakkoskoppariLyödyt > 9 || kolmoskoppariLyödyt > 9 || jokeriLyödyt > 9) {
 			joukkeenRahat = joukkueenRahat + 6000;
 			tilastoTulot();
