@@ -3520,14 +3520,17 @@ function lyö1() {
 	if (kortti.Arvo === "1" && joukkue.pelaajat.lukkari.lyöÄssiä === true) {
 		juoksut++;
 		lukkariLyödyt++;
+		joukkue.pelaajat.lukkari.lyödyt = joukkue.pelaajat.lukkari.lyödyt + 1;
 		document.getElementById("kotitulos").innerHTML = juoksut;
     } else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax) {
         juoksut++;
 	lukkariLyödyt++;
+	    joukkue.pelaajat.lukkari.lyödyt = joukkue.pelaajat.lukkari.lyödyt + 1;
         document.getElementById("kotitulos").innerHTML = juoksut;    
     } else if (joukkue.pelaajat.lukkari.lyöVäriä === true && kortti.Arvo >= joukkue.pelaajat.lukkari.lyöMin && kortti.Arvo <= joukkue.pelaajat.lukkari.lyöMax && kortti.Maa === valittuMaa2) {
         juoksut++;
 	lukkariLyödyt++;
+	    joukkue.pelaajat.lukkari.lyödyt = joukkue.pelaajat.lukkari.lyödyt + 1;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
         function hide1() {
@@ -3803,20 +3806,24 @@ function lyö10() {
     if (kortti.Maa === "Joker") {
         juoksut++;
 	    jokeriLyödyt++;
+	    joukkue.pelaajat.jokeri.lyödyt = joukkue.pelaajat.jokeri.lyödyt + 1;
         document.getElementById("kotitulos").innerHTML = juoksut;
     }
 	else if (kortti.Arvo === "1" && joukkue.pelaajat.jokeri.lyöÄssiä === true) {
 		juoksut++;
 		jokeriLyödyt++;
+		joukkue.pelaajat.jokeri.lyödyt = joukkue.pelaajat.jokeri.lyödyt + 1;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
     else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.jokeri.lyöMin && kortti.Arvo <= joukkue.pelaajat.jokeri.lyöMax) {
         juoksut++;
 	    jokeriLyödyt++;
+	    joukkue.pelaajat.jokeri.lyödyt = joukkue.pelaajat.jokeri.lyödyt + 1;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.jokeri.lyöMin && kortti.Arvo <= joukkue.pelaajat.jokeri.lyöMax && joukkue.pelaajat.jokeri.lyöVäriä === true) {
         juoksut++;
 	    jokeriLyödyt++;
+	    joukkue.pelaajat.jokeri.lyödyt = joukkue.pelaajat.jokeri.lyödyt + 1;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
         function hide10() {
