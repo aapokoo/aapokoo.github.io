@@ -7,7 +7,8 @@ jokerin jälkeiset juoksut?
 
 neg: 28
 pos: 41
--: 
+-: 6
+= 75
 
 PALLO POLTTAA. Vastustajalle juoksu? (ao-mies torjuu) (up-nopat)
 
