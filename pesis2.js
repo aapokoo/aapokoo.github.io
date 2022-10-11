@@ -3807,23 +3807,27 @@ function lyö10() {
         juoksut++;
 	    jokeriLyödyt++;
 	    joukkue.pelaajat.jokeri.lyödyt = joukkue.pelaajat.jokeri.lyödyt + 1;
+	    document.getElementById("loki").innerHTML += "\nTESTI 3 " + joukkue.pelaajat.jokeri.lyödyt;
         document.getElementById("kotitulos").innerHTML = juoksut;
     }
 	else if (kortti.Arvo === "1" && joukkue.pelaajat.jokeri.lyöÄssiä === true) {
 		juoksut++;
 		jokeriLyödyt++;
 		joukkue.pelaajat.jokeri.lyödyt = joukkue.pelaajat.jokeri.lyödyt + 1;
+		document.getElementById("loki").innerHTML += "\nTESTI 3 " + joukkue.pelaajat.jokeri.lyödyt;
 		document.getElementById("kotitulos").innerHTML = juoksut;
 	}
     else if (kortti.Maa === valittuMaa && kortti.Arvo >= joukkue.pelaajat.jokeri.lyöMin && kortti.Arvo <= joukkue.pelaajat.jokeri.lyöMax) {
         juoksut++;
 	    jokeriLyödyt++;
 	    joukkue.pelaajat.jokeri.lyödyt = joukkue.pelaajat.jokeri.lyödyt + 1;
+	    document.getElementById("loki").innerHTML += "\nTESTI 3 " + joukkue.pelaajat.jokeri.lyödyt;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else if (kortti.Maa === valittuMaa2 && kortti.Arvo >= joukkue.pelaajat.jokeri.lyöMin && kortti.Arvo <= joukkue.pelaajat.jokeri.lyöMax && joukkue.pelaajat.jokeri.lyöVäriä === true) {
         juoksut++;
 	    jokeriLyödyt++;
 	    joukkue.pelaajat.jokeri.lyödyt = joukkue.pelaajat.jokeri.lyödyt + 1;
+	    document.getElementById("loki").innerHTML += "\nTESTI 3 " + joukkue.pelaajat.jokeri.lyödyt;
         document.getElementById("kotitulos").innerHTML = juoksut;
     } else {
         function hide10() {
