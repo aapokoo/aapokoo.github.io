@@ -1815,10 +1815,10 @@ function joukkueVimpeli() {
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 12";
 	document.getElementById("lukkariHinta").innerHTML = "11 000";
 	document.getElementById("sieppariNimi").innerHTML = "RINTA-AHO";
-	document.getElementById("sieppariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("sieppariLyö").innerHTML = "Lyö: Väri, A";
 	document.getElementById("sieppariHinta").innerHTML = "23 000";
 	document.getElementById("ykkösvahtiNimi").innerHTML = "S. LASSILA";
-	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa, A";
 	document.getElementById("ykkösvahtiHinta").innerHTML = "15 000";
 	document.getElementById("kakkosvahtiNimi").innerHTML = "L. VIHRIÄLÄ";
 	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Maa 2 - 13";
@@ -1830,16 +1830,16 @@ function joukkueVimpeli() {
 	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Maa 2 - 12";
 	document.getElementById("kolmospolttajaHinta").innerHTML = "11 000";
 	document.getElementById("kolmosvahtiNimi").innerHTML = "A. LASSILA";
-	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa, A";
 	document.getElementById("kolmosvahtiHinta").innerHTML = "15 000";
 	document.getElementById("kakkoskoppariNimi").innerHTML = "M. VIHRIÄLÄ";
 	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 13";
 	document.getElementById("kakkoskoppariHinta").innerHTML = "12 000";
 	document.getElementById("kolmoskoppariNimi").innerHTML = "ANTTILA";
-	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Väri, A";
 	document.getElementById("kolmoskoppariHinta").innerHTML = "23 000";
 	document.getElementById("jokeriNimi").innerHTML = "VAINIONPÄÄ";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri, A, Jokeri";
 	document.getElementById("jokeriHinta").innerHTML = "24 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
@@ -1865,7 +1865,7 @@ function joukkueTampere() {
 	document.getElementById("joukkueKankaanpää").style.display = "none";
 	document.getElementById("kotiLogo").src="./Manse_PP_2015_logo.png";
 	document.getElementById("lukkariNimi").innerHTML = "PUHTIMÄKI";
-	document.getElementById("lukkariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("lukkariLyö").innerHTML = "Lyö: Väri, A";
 	document.getElementById("lukkariHinta").innerHTML = "22 000";
 	document.getElementById("sieppariNimi").innerHTML = "LEHTONEN";
 	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 11";
@@ -1889,10 +1889,10 @@ function joukkueTampere() {
 	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 13";
 	document.getElementById("kakkoskoppariHinta").innerHTML = "12 000";
 	document.getElementById("kolmoskoppariNimi").innerHTML = "PUPUTTI";
-	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Väri, A";
 	document.getElementById("kolmoskoppariHinta").innerHTML = "22 000";
 	document.getElementById("jokeriNimi").innerHTML = "RUUSKA";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri, A, Jokeri";
 	document.getElementById("jokeriHinta").innerHTML = "24 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
@@ -1924,7 +1924,7 @@ function joukkueSeinäjoki() {
 	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 8";
 	document.getElementById("sieppariHinta").innerHTML = "6 000";
 	document.getElementById("ykkösvahtiNimi").innerHTML = "MARJAMÄKI";
-	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Väri, A";
 	document.getElementById("ykkösvahtiHinta").innerHTML = "20 000";
 	document.getElementById("kakkosvahtiNimi").innerHTML = "SALMELA";
 	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Maa 2 - 11";
@@ -1945,7 +1945,7 @@ function joukkueSeinäjoki() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
 	document.getElementById("kolmoskoppariHinta").innerHTML = "6 000";
 	document.getElementById("jokeriNimi").innerHTML = "HALLASUO";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri, A, Jokeri";
 	document.getElementById("jokeriHinta").innerHTML = "20 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
@@ -1971,10 +1971,10 @@ function joukkueSotkamo() {
 	document.getElementById("joukkueKankaanpää").style.display = "none";
 	document.getElementById("kotiLogo").src="./sojy_merkki_w.png";
 	document.getElementById("lukkariNimi").innerHTML = "KOMULAINEN";
-	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa, A";
 	document.getElementById("lukkariHinta").innerHTML = "15 000";
 	document.getElementById("sieppariNimi").innerHTML = "HUOTARI";
-	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa, A";
 	document.getElementById("sieppariHinta").innerHTML = "15 000";
 	document.getElementById("ykkösvahtiNimi").innerHTML = "KUOSMANEN";
 	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa 2 - 11";
@@ -1986,7 +1986,7 @@ function joukkueSotkamo() {
 	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 12";
 	document.getElementById("kakkospolttajaHinta").innerHTML = "12 000";
 	document.getElementById("kolmospolttajaNimi").innerHTML = "KEINÄNEN";
-	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Maa, A";
 	document.getElementById("kolmospolttajaHinta").innerHTML = "15 000";
 	document.getElementById("kolmosvahtiNimi").innerHTML = "KIISKINEN";
 	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa 2 - 11";
@@ -1998,7 +1998,7 @@ function joukkueSotkamo() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
 	document.getElementById("kolmoskoppariHinta").innerHTML = "10 000";
 	document.getElementById("jokeriNimi").innerHTML = "R. KORHONEN";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri, A, Jokeri";
 	document.getElementById("jokeriHinta").innerHTML = "24 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
@@ -2039,10 +2039,10 @@ function joukkueHyvinkää() {
 	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 12";
 	document.getElementById("kakkospolttajaHinta").innerHTML = "11 000";
 	document.getElementById("kolmospolttajaNimi").innerHTML = "IKONEN";
-	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Väri, A";
 	document.getElementById("kolmospolttajaHinta").innerHTML = "21 000";
 	document.getElementById("kolmosvahtiNimi").innerHTML = "PATOVA";
-	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa, A";
 	document.getElementById("kolmosvahtiHinta").innerHTML = "14 000";
 	document.getElementById("kakkoskoppariNimi").innerHTML = "NURMIO";
 	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
@@ -2051,7 +2051,7 @@ function joukkueHyvinkää() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 12";
 	document.getElementById("kolmoskoppariHinta").innerHTML = "11 000";
 	document.getElementById("jokeriNimi").innerHTML = "NIEMI";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri, A, Jokeri";
 	document.getElementById("jokeriHinta").innerHTML = "24 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
@@ -2080,13 +2080,13 @@ function joukkueKempele() {
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 13";
 	document.getElementById("lukkariHinta").innerHTML = "11 000";
 	document.getElementById("sieppariNimi").innerHTML = "A. KORHONEN";
-	document.getElementById("sieppariLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("sieppariLyö").innerHTML = "Lyö: Väri, A";
 	document.getElementById("sieppariHinta").innerHTML = "20 000";
 	document.getElementById("ykkösvahtiNimi").innerHTML = "SAASTAMOINEN";
 	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa 2 - 13";
 	document.getElementById("ykkösvahtiHinta").innerHTML = "11 000";
 	document.getElementById("kakkosvahtiNimi").innerHTML = "HAAPAKOSKI";
-	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Väri, A";
 	document.getElementById("kakkosvahtiHinta").innerHTML = "20 000";
 	document.getElementById("kakkospolttajaNimi").innerHTML = "KESKI-PITÄJÄ";
 	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 12";
@@ -2104,7 +2104,7 @@ function joukkueKempele() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
 	document.getElementById("kolmoskoppariHinta").innerHTML = "8 000";
 	document.getElementById("jokeriNimi").innerHTML = "M. KORHONEN";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri, A, Jokeri";
 	document.getElementById("jokeriHinta").innerHTML = "24 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
@@ -2142,10 +2142,10 @@ function joukkueKitee() {
 	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Maa 2 - 13";
 	document.getElementById("kakkosvahtiHinta").innerHTML = "10 000";
 	document.getElementById("kakkospolttajaNimi").innerHTML = "PEKKINEN";
-	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa, A";
 	document.getElementById("kakkospolttajaHinta").innerHTML = "12 000";
 	document.getElementById("kolmospolttajaNimi").innerHTML = "VAINIKAINEN";
-	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kolmospolttajaLyö").innerHTML = "Lyö: Maa, A";
 	document.getElementById("kolmospolttajaHinta").innerHTML = "12 000";
 	document.getElementById("kolmosvahtiNimi").innerHTML = "PARTANEN";
 	document.getElementById("kolmosvahtiLyö").innerHTML = "Lyö: Maa 2 - 10";
@@ -2154,10 +2154,10 @@ function joukkueKitee() {
 	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 13";
 	document.getElementById("kakkoskoppariHinta").innerHTML = "10 000";
 	document.getElementById("kolmoskoppariNimi").innerHTML = "VARONEN";
-	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa, A";
 	document.getElementById("kolmoskoppariHinta").innerHTML = "12 000";
 	document.getElementById("jokeriNimi").innerHTML = "PIPPOLA";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri, A, Jokeri";
 	document.getElementById("jokeriHinta").innerHTML = "22 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
@@ -2186,10 +2186,10 @@ function joukkueImatra() {
 	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 8";
 	document.getElementById("lukkariHinta").innerHTML = "6 000";
 	document.getElementById("sieppariNimi").innerHTML = "TOIKKA";
-	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa, A";
 	document.getElementById("sieppariHinta").innerHTML = "11 000";
 	document.getElementById("ykkösvahtiNimi").innerHTML = "KOHONEN";
-	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa, A";
 	document.getElementById("ykkösvahtiHinta").innerHTML = "11 000";
 	document.getElementById("kakkosvahtiNimi").innerHTML = "IIVARINEN";
 	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Maa 2 - 12";
@@ -2263,7 +2263,7 @@ function joukkueRaahe() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 9";
 	document.getElementById("kolmoskoppariHinta").innerHTML = "6 000";
 	document.getElementById("jokeriNimi").innerHTML = "KESKI-KOUKKARI";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri, A, Jokeri";
 	document.getElementById("jokeriHinta").innerHTML = "22 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
@@ -2316,7 +2316,7 @@ function joukkueKoskenkorva() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 10";
 	document.getElementById("kolmoskoppariHinta").innerHTML = "7 000";
 	document.getElementById("jokeriNimi").innerHTML = "OLLI";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri, A, Jokeri";
 	document.getElementById("jokeriHinta").innerHTML = "22 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
@@ -2369,7 +2369,7 @@ function joukkueKankaanpää() {
 	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 12";
 	document.getElementById("kolmoskoppariHinta").innerHTML = "5 000";
 	document.getElementById("jokeriNimi").innerHTML = "MIKKOLANAHO";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: Maa 2 - 13, A, Jokeri";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Maa, A, Jokeri";
 	document.getElementById("jokeriHinta").innerHTML = "18 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
@@ -2395,7 +2395,7 @@ function joukkueKouvola() {
 	document.getElementById("joukkueKankaanpää").style.display = "none";
 	document.getElementById("kotiLogo").src="./1200px-KPL_logo.png";
 	document.getElementById("lukkariNimi").innerHTML = "KIVIPELTO";
-	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("lukkariLyö").innerHTML = "Lyö: Maa, A";
 	document.getElementById("lukkariHinta").innerHTML = "14 000";
 	document.getElementById("sieppariNimi").innerHTML = "RUUSKA";
 	document.getElementById("sieppariLyö").innerHTML = "Lyö: Maa 2 - 13";
@@ -2404,7 +2404,7 @@ function joukkueKouvola() {
 	document.getElementById("ykkösvahtiLyö").innerHTML = "Lyö: Maa 2 - 13";
 	document.getElementById("ykkösvahtiHinta").innerHTML = "12 000";
 	document.getElementById("kakkosvahtiNimi").innerHTML = "LATVALA";
-	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Väri 2 - 13, A";
+	document.getElementById("kakkosvahtiLyö").innerHTML = "Lyö: Väri, A";
 	document.getElementById("kakkosvahtiHinta").innerHTML = "22 000";
 	document.getElementById("kakkospolttajaNimi").innerHTML = "VARTAMA";
 	document.getElementById("kakkospolttajaLyö").innerHTML = "Lyö: Maa 2 - 9";
@@ -2419,10 +2419,10 @@ function joukkueKouvola() {
 	document.getElementById("kakkoskoppariLyö").innerHTML = "Lyö: Maa 2 - 10";
 	document.getElementById("kakkoskoppariHinta").innerHTML = "10 000";
 	document.getElementById("kolmoskoppariNimi").innerHTML = "NIKKANEN";
-	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa 2 - 13, A";
+	document.getElementById("kolmoskoppariLyö").innerHTML = "Lyö: Maa, A";
 	document.getElementById("kolmoskoppariHinta").innerHTML = "14 000";
 	document.getElementById("jokeriNimi").innerHTML = "MERILÄINEN";
-	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri 2 - 13, A, Jokeri";
+	document.getElementById("jokeriLyö").innerHTML = "Lyö: Väri, A, Jokeri";
 	document.getElementById("jokeriHinta").innerHTML = "24 000";
 	document.getElementById("vastustaja").style.display = "inline";
 }
