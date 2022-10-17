@@ -2221,6 +2221,7 @@ function joukkueRaahe() {
 	if (index !== -1) {
     		vastustajat.splice(index, 1);
 	}
+	document.getElementById("loki").innerHTML += vastustajat;
 	document.getElementById("joukkueenValinta").style.display = "none";
 	document.getElementById("joukkueVimpeli").style.display = "none";
 	document.getElementById("joukkueSeinäjoki").style.display = "none";
