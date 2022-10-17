@@ -1709,6 +1709,7 @@ function nostaKortti(pakka) //nostaa päällimmäisen kortin
 
 function nostaVastustaja(vastustajat) //nostaa päällimmäisen vastustajan
 {
+	document.getElementById("loki").innerHTML += vastustajat;
 	vastustaja_arvottu = vastustajat.pop();
 } 
 
