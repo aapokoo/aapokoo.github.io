@@ -38,6 +38,8 @@ let kTulot1;
 let kTulotSijoitus;
 let kärkiTulot;
 
+// https://stackoverflow.com/questions/11922383/how-can-i-access-and-process-nested-objects-arrays-or-json
+
 let textarea = document.getElementById("loki");
 
 function vierasmenot() {
