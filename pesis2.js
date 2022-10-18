@@ -4184,13 +4184,14 @@ function sijoitusKesken() {
 			sijoitus = 13;
 		}
 	} else if (pelatutPelit === 6) {
+		document.getElementById("loki").innerHTML += joukkue.children[0].children[0].children[0];
 		for (const lyödyt in joukkue) {
 			if (joukkue.pelaajat.jokeri.lyödyt > 5) {
 				joukkeenRahat = joukkueenRahat + 6000;
 				tilastoTulot();
 				document.getElementById("loki").innerHTML += "\nTESTI 1 - " + joukkue.pelaajat.jokeri.nimi;
 			}
-			document.getElementById("loki").innerHTML += joukkue.children[0].children[0].children[0];
+			//document.getElementById("loki").innerHTML += joukkue.children[0].children[0].children[0];
 		}
 			//if (joukkue.pelaajat.[i].lyödyt > 5) {
 		
