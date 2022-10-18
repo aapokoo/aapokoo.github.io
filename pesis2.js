@@ -38,8 +38,6 @@ let kTulot1;
 let kTulotSijoitus;
 let kärkiTulot;
 
-// https://stackoverflow.com/questions/11922383/how-can-i-access-and-process-nested-objects-arrays-or-json
-
 let textarea = document.getElementById("loki");
 
 function vierasmenot() {
@@ -4186,21 +4184,16 @@ function sijoitusKesken() {
 			sijoitus = 13;
 		}
 	} else if (pelatutPelit === 6) {
-		document.getElementById("loki").innerHTML += joukkue.children[0].children[0].children[0];
 		for (const lyödyt in joukkue) {
 			if (joukkue.pelaajat.jokeri.lyödyt > 5) {
 				joukkeenRahat = joukkueenRahat + 6000;
 				tilastoTulot();
 				document.getElementById("loki").innerHTML += "\nTESTI 1 - " + joukkue.pelaajat.jokeri.nimi;
 			}
-			//document.getElementById("loki").innerHTML += joukkue.children[0].children[0].children[0];
 		}
-			//if (joukkue.pelaajat.[i].lyödyt > 5) {
+		// iffinä tai objectista lista että voi indexillä
+		// https://stackoverflow.com/questions/11922383/how-can-i-access-and-process-nested-objects-arrays-or-json
 		
-		/*if (lukkariLyödyt > 9 || sieppariLyödyt > 9 || ykkösvahtiLyödyt > 9 || kakkosvahtiLyödyt > 9 || kakkospolttajaLyödyt > 9 || kolmospolttajaLyödyt > 9 || kolmosvahtiLyödyt > 9 || kakkoskoppariLyödyt > 9 || kolmoskoppariLyödyt > 9 || jokeriLyödyt > 9) {
-			joukkeenRahat = joukkueenRahat + 6000;
-			tilastoTulot();
-		}*/
 		if (pisteet >= 11) {
 			document.getElementById("sijoitusKausi").innerHTML = "Sijoitus: 1.";
 			sijoitus = 1;
