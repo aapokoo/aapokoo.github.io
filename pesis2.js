@@ -4190,7 +4190,7 @@ function sijoitusKesken() {
 				tilastoTulot();
 				document.getElementById("loki").innerHTML += "\nTESTI 1 - " + joukkue.pelaajat.jokeri.nimi;
 			}
-			document.getElementById("loki").innerHTML += "\nTESTI 2";
+			document.getElementById("loki").innerHTML += joukkue.children[0].children[0].children[0];
 		}
 			//if (joukkue.pelaajat.[i].lyödyt > 5) {
 		
